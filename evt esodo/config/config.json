@@ -1,21 +1,18 @@
 {
-    "indexTitle": "Exodus Summaries in Tours Bibles",
+    "indexTitle": "Capitula Exodi in Tours Bibles",
     "webSite": "",
     "logoUrl": "data/icons/LOGO_PRIN.jpg",
-    
     "dataUrl": "data/text/exodus.xml",
     "sourcesUrl": "",
     "analoguesUrl": "",
     "sourcesTextsUrl": "",
     "singleImagesUrl": "data/images/single/",
     "enableXMLdownload": true,
-    
     "visCollTextUrl": "",
     "visCollStyleUrl": "",
     "visCollSvg": "",
     "visCollImageList": "",
     "visCollDataModel": "",
-
     "defaultViewMode": "readingTxt",
     "availableViewModes": [
         {
@@ -55,13 +52,12 @@
             "visible": false
         },
         {
-            "label"    : "3DHOP",
-            "icon"     : "mode-tdhop",
-            "viewMode" : "tdhop",
-            "visible"  : false
+            "label": "3DHOP",
+            "icon": "mode-tdhop",
+            "viewMode": "tdhop",
+            "visible": false
         }
     ],
-
     "defaultEdition": "critical",
     "showEditionLevelSelector": false,
     "availableEditionLevel": [
@@ -84,16 +80,13 @@
             "visible": false
         }
     ],
-    
     "showDocumentSelector": false,
     "enableNavBar": true,
     "initNavBarOpened": true,
     "thumbnailsButton": true,
     "viscollButton": false,
-
     "toolPinAppEntries": true,
     "toolImageTextLinking": false,
-
     "namedEntitiesSelector": false,
     "namedEntitiesToHandle": [
         {
@@ -126,22 +119,17 @@
             "color": "#ffecb3"
         }
     ],
-
     "preferredWitness": "",
     "skipWitnesses": "",
     "maxWitsLoadTogether": 5,
-
     "witnessesGroups": [],
-
     "showInlineCriticalApparatus": false,
     "showInlineSources": false,
     "showInlineAnalogues": false,
     "showReadingExponent": true,
-
     "toolHeatMap": true,
-
     "versions": [],
-
+    
     "listDef": "<listWit>, <listChange>",
     "versionDef": "<witness>, <change>, <subst>, <del>, <add>, [varSeq]",
     "fragmentMilestone": "<witStart>, <witEnd>",
@@ -149,29 +137,27 @@
     "notSignificantVariant": "<orig>, <sic>, [type=orthographic]",
     "quoteDef": "<quote>",
     "analogueDef": "<seg>,<ref[type=parallelPassage]>",
-
-    "possibleVariantFilters": "type, varSeq",
-    "possibleLemmaFilters": "type, varSeq",
-
+    "possibleVariantFilters": "varSeq",
+    "possibleLemmaFilters": "cause",
     "variantColorLight": "rgb(224, 224, 224)",
     "variantColorDark": "rgb(192, 192, 192)",
     "heatmapColor": "rgb(255, 51, 53)",
+    
     "variantColors": {
         "type": {
-            "omission": "rgb(51, 51, 255)",
-            "addition": "rgb(255, 102, 255)",
-            "transposition": "rgb(178, 255, 102)",
-            "minor": "rgb(255, 178, 102)",
-            "medium": "rgb(255, 178, 102)",
-            "substantive": "rgb(255, 128, 0)"            
+            "omission": "rgb(108,145,207)",
+            "addition": "rgb(250,200,200)",
+            "transposition": "rgb(241,102,255)",
+            "minor": "rgb(25,255,15)",
+            "medium": "rgb(255,255,51)",
+            "substantive": "rgb(255,51,51)",
+            "lem": "rgb(224,224,224)"
         },
         "varSeq": {
-            "1": "rgb(255, 0, 0)"
-            
-                        
+            "1": "rgb(204,0,0)",
+            "2": "rgb(204,0,0)"
         }
     },
-
     "defaultBibliographicStyle": "Chicago",
     "allowedBibliographicStyles": {
         "Chicago": {
@@ -187,9 +173,7 @@
             "enabled": true
         }
     },
-
     "virtualKeyboardKeys": [],
-
     "imageViewerOptions": {
         "prefixUrl": "images/osd-images/",
         "showRotationControl": true,
@@ -203,58 +187,51 @@
         "wrapVertical": false
     },
     "imageNormalizationCoefficient": 1265,
-
     "languages": [
         "en",
         "it"
     ],
-    
     "showObjectSelector": false,
-
     "tdhopViewerOptions": {
-
-      "toolHome": false,
-      "toolZoomin": false,
-      "toolZoomout": false,
-      "toolLighting": false,
-      "toolLightControl": false,
-      "toolMeasure": false,
-      "toolPickPoint": false,
-      "toolPlaneSections": false,
-      "toolSolidColor": false,
-      "toolCamera": false,
-      "toolHotspot": false,
-      "toolFullScreen": false,
-      "toolSwitchModel": false,
-      "toolArrows": false,
-      "toolLightController": false,
-
-      "Model_1": {
-         "name": "",
-         "path": "data/models/multires/",
-         "mesh": ""
-      },
-
-      "Model_2": {
-         "name": "",
-         "path": "data/models/singleres/",
-         "mesh": ""
-      },
-
-      "Hotspots": {
-         "type": "",
-         "path": "data/models/singleres/",
-         "model": "",
-         "hotspotsdata": [
-            {
-               "name": "",
-               "type": "",
-               "position": [],
-               "radius": "",
-               "view": []
-            }
-         ],
-         "nextID": ""
-      }
-   }
+        "toolHome": false,
+        "toolZoomin": false,
+        "toolZoomout": false,
+        "toolLighting": false,
+        "toolLightControl": false,
+        "toolMeasure": false,
+        "toolPickPoint": false,
+        "toolPlaneSections": false,
+        "toolSolidColor": false,
+        "toolCamera": false,
+        "toolHotspot": false,
+        "toolFullScreen": false,
+        "toolSwitchModel": false,
+        "toolArrows": false,
+        "toolLightController": false,
+        "Model_1": {
+            "name": "",
+            "path": "data/models/multires/",
+            "mesh": ""
+        },
+        "Model_2": {
+            "name": "",
+            "path": "data/models/singleres/",
+            "mesh": ""
+        },
+        "Hotspots": {
+            "type": "",
+            "path": "data/models/singleres/",
+            "model": "",
+            "hotspotsdata": [
+                {
+                    "name": "",
+                    "type": "",
+                    "position": [],
+                    "radius": "",
+                    "view": []
+                }
+            ],
+            "nextID": ""
+        }
+    }
 }
