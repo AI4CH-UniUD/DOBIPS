@@ -18,7 +18,7 @@
 			</editionStmt>
 			<publicationStmt>
 				<p><hi rend="bold">Welcome to the digital critical edition project of the Capitula
-					to the Octateuch in the Tours Bibles!</hi>
+						to the Octateuch in the Tours Bibles!</hi>
 					<lb/><lb/>The editions are part of the PRIN 2022 PNRR project <hi rend="italic"
 						>DOBiPS – Data Oriented Biblical Paratext Studies</hi>, awarded for the
 					2023–2025 period to the research units at the Universities of Udine (P.I. E.
@@ -33,8 +33,8 @@
 					reflections have been presented in the working paper: E. Colombi, M. Filippozzi,
 					S. Franzoni, <hi rend="italic">The Digital Critical Edition of the Capitula to
 						the Octateuch in the Tours Bibles</hi>, <ref
-							target="https://zenodo.org/records/16761174">DOI:
-							10.5281/zenodo.16761173</ref>. <lb/>Information on the individual editions
+						target="https://zenodo.org/records/16761174">DOI:
+						10.5281/zenodo.16761173</ref>. <lb/>Information on the individual editions
 					is available by clicking the 'info' button at the top of the left-hand pane.</p>
 			</publicationStmt>
 			<sourceDesc>
@@ -159,6 +159,20 @@
 		</profileDesc>
 	</teiHeader>
 	<text>
+		<front>
+			<p>This series of <hi rend="italic">capitula</hi> to Iosue, although is peculiar to Tu,
+				is generally close to de Bruyne's A series (p. <ref
+					target="https://gallica.bnf.fr/ark:/12148/bpt6k8537228/f56">42</ref>; edited
+				from Tours Bibles <ref
+					target="https://ai4ch-uniud.github.io/Tours_capitula/evt_Iosue/">here</ref>),
+				with which most of the <hi rend="italic">capitula</hi> coincide without variation
+				(see, e.g., cap. 7-22). By contrast with the A series, Tu's one occasionally has
+				some more details (cap. 2, 3, 6, 23, 24), and includes two further <hi rend="italic"
+					>capitula</hi> at the end (34, 35). Since the capitula are generally laconic and
+				more elaborate summaries appear only sporadically in Tu, the direction of the
+				transformation is probably from the A series to Tu's one (which adds details in a
+				somewhat inconsistent manner), rather than the other way round.</p>
+		</front>
 		<body>
 			<head>
 				<pb facs="data/images/single/Tu_271r.jpeg" n="Tu_271r"/>
@@ -471,7 +485,10 @@
 					<ref type="parallelPassage"><bibl><title>Iosue</title><citedRange>This capitulum
 								has no corresponding chapter number throughout the text of Iosue in
 								Tu; it should probably have fallen around Ios
-							24.22.</citedRange></bibl><num>XXXIIII</num></ref>
+							24.22.</citedRange></bibl><app>
+							<lem><num>XXXIIII</num></lem>
+							<rdg wit="#A" type="omission" cause="seriesA"/>
+						</app></ref>
 					<title><app>
 							<lem>Congregatum israhel iosue sub pacto obtestationis adloquitur et
 								scribens uerba sua in uolumine tulit lapidem grandem et posuit eum
@@ -481,7 +498,10 @@
 				</item>
 				<item n="35">
 					<ref type="parallelPassage"><bibl><title>Iosue</title><citedRange>24.29 et post
-								haec mortuus est Iosue</citedRange></bibl><num>XXXV</num></ref>
+								haec mortuus est Iosue</citedRange></bibl><app>
+							<lem><num>XXXV</num></lem>
+							<rdg wit="#A" type="omission" cause="seriesA"/>
+						</app></ref>
 					<title><app>
 							<lem>Mortuus est iosue centum decem annorum et sepultus est in
 								possessione sua in monte ephraim ossa quoque ioseph quae tulerant
