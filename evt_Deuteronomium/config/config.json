@@ -1,5 +1,5 @@
 {
-    "indexTitle": "Deuteronomium Summaries in Tours Bibles",
+    "indexTitle": "Capitula Deuteronomii in Tours Bibles",
     "webSite": "",
     "logoUrl": "data/icons/LOGO_PRIN.jpg",
     
@@ -150,22 +150,18 @@
     "quoteDef": "<quote>",
     "analogueDef": "<seg>,<ref[type=parallelPassage]>",
 
-    "possibleLemmaFilters": "type, varSeq",
-    "possibleVariantFilters": "type, varSeq",
+    "possibleLemmaFilters": "cause",
+    "possibleVariantFilters": "varSeq",
 
     "variantColorLight": "rgb(224,224,224)",
     "variantColorDark": "rgb(164,164,164)",
     "heatmapColor": "rgb(255,51,53)",
     "variantColors": {
-        "type": {
-            "omission": "rgb(108,145,207)",
-			"addition": "rgb(250,200,200)",
-			"transposition": "rgb(241,102,255)",
-			"minor": "rgb(25,255,15)",
-			"medium": "rgb(255,255,51)",
-			"substantive": "rgb(255,51,51)",
-			"lem": "rgb(224,224,224)",
-            "unclear": "rgb(100, 230, 121)"
+        "cause": {
+            "grammatical": "rgb(213,127,202)",
+			"orthographic": "rgb(70,116,194)",
+			"slip": "rgb(255,215,0)",
+			"Vulgate": "rgb(116,194,70)"
         },
         "varSeq": {
             "1": "rgb(92,10,10)",
