@@ -190,7 +190,6 @@
 				text of the A series as transmitted by Tours Bibles (siglum Φ; <ref
 					target="https://ai4ch-uniud.github.io/Tours_capitula/evt_Iosue/">here</ref>) –
 				are marked as follows: <list>
-					<item><hi rend="bold">bold type</hi> indicates adiaphoric readings;</item>
 					<item><hi rend="italic">italic type</hi> indicates readings that are
 						grammatically incorrect;</item>
 					<item>pink color indicates a grammatical cause for the reading;</item>
@@ -456,7 +455,7 @@
 					<ref type="parallelPassage"><bibl><title>Iosue 17.14 locutique sunt
 								filii</title></bibl><num>XXV</num></ref>
 					<title>Filii ioseph <app>
-							<lem cause="grammatical">petent</lem>
+							<lem cause="grammatical"><hi rend="italic">petent</hi></lem>
 							<rdg wit="#A" type="minor" cause="grammatical">petunt</rdg>
 							<note>Note that the erroneous <q>petent</q> also occurs in Am2, thus
 								suggesting a possible relationship between the two witnesses, or at
