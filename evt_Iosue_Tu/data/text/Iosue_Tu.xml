@@ -168,9 +168,12 @@
 	</teiHeader>
 	<text>
 		<front>
-			<p>This series of <hi rend="italic">capitula</hi> to Iosue (siglum <hi rend="bold"
-					>Λ(c)</hi> in the <ref target="#BenIos">Benedictine edition</ref> of the
-				Vulgate), although peculiar to Tu, is generally close to <ref target="#de_Bruyne">de
+			<p>This digital edition presents the reconstruction of the capitula of series <hi
+					rend="bold">Λ(c)</hi> (according to the classification adopted in the <ref
+					target="#BenIos">Benedictine edition</ref> of the Vulgate; <ref
+					target="#de_Bruyne">de Bruyne's repertory</ref> does not include it) that
+				precede the Book of Iosue in the so-called Tours' Octateuch (Tours, BM, 10).
+				<lb/><lb/> This series is generally close to <ref target="#de_Bruyne">de
 					Bruyne</ref>'s A series (p. <ref
 					target="https://gallica.bnf.fr/ark:/12148/bpt6k8537228/f56">42</ref>; edited
 				from Tours Bibles <ref
@@ -198,8 +201,8 @@
 							<hi rend="italic">capitula</hi> followed by Tu and Φ.</item>
 				</list>Note that, for technical reasons, the <hi rend="bold">filter tool</hi>
 				("Filtri" button below the text) cannot be customized by the reader, but it is
-				permanently active to display the features mentioned above.<lb/>The point in
-				the text of Iosue where Tu places the chapter number corresponding to each <hi
+				permanently active to display the features mentioned above.<lb/>The point in the
+				text of Iosue where Tu places the chapter number corresponding to each <hi
 					rend="italic">capitulum</hi> can be accessed either by clicking on the two-page
 				icon next to each <hi rend="italic">capitulum</hi> number, or by clicking on the
 				"Passi paralleli" thumbnail (in the right-hand panel of the "Testo di lettura"
