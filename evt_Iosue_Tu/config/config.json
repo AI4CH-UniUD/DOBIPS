@@ -150,25 +150,22 @@
     "quoteDef": "<quote>",
     "analogueDef": "<seg>,<ref[type=parallelPassage]>",
 
-    "possibleLemmaFilters": "type, subtype, varSeq",
-    "possibleVariantFilters": "type, subtype, varSeq",
+    "possibleLemmaFilters": "cause",
+    "possibleVariantFilters": "varSeq",
 
     "variantColorLight": "rgb(224,224,224)",
     "variantColorDark": "rgb(164,164,164)",
     "heatmapColor": "rgb(255,51,53)",
     "variantColors": {
-        "type": {
-            "omission": "rgb(108,145,207)",
-			"addition": "rgb(250,200,200)",
-			"transposition": "rgb(241,102,255)",
-			"minor": "rgb(25,255,15)",
-			"medium": "rgb(255,255,51)",
-			"substantive": "rgb(255,51,51)",
-			"lem": "rgb(224,224,224)"
+        "cause": {
+            "grammatical": "rgb(213,127,202)",
+			"orthographic": "rgb(70,116,194)",
+			"version": "rgb(252,234,136)",
+			"Vulgate": "rgb(116,194,70)"
         },
-        "subtype": {
-            "error": "rgb(0,0,204)",
-			"adiaphoric": "rgb(204,255,204)"
+        "varSeq": {
+            "1": "rgb(92,10,10)",
+            "2": "rgb(92,10,10)"
         }
     },
 

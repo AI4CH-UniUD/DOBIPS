@@ -57,6 +57,14 @@
 						<pubPlace>Wiesbaden</pubPlace>
 						<date>1998-2017</date>
 					</bibl>
+					<bibl xml:id="BenIos">
+						<editor>Monachi abbatiae pontificiae Sancti Hieronymi in Urbe</editor>
+						<title>Biblia Sacra iuxta Latinam vulgatam versionem ad codicum fidem...
+							Libri Iosue Iudicum Ruth ex interpretatione sancti Hieronymi cum
+							praefatione et variis capitulorum seriebus</title>
+						<pubPlace>Romae</pubPlace>
+						<date>1939</date>
+					</bibl>
 				</listBibl>
 				<listWit>
 					<witness xml:id="Tu">
@@ -132,9 +140,9 @@
 							</additional>
 						</msDesc>
 					</witness>
-					<witness xml:id="A">Text of series A as printed by D. de Bruyne, Sommaires...,
-							<ref target="https://gallica.bnf.fr/ark:/12148/bpt6k8537228/f56">p.
-							42</ref></witness>
+					<witness xml:id="A">Text of the A series as edited in the DOBiPS project (<ref
+							target="https://ai4ch-uniud.github.io/Tours_capitula/evt_Iosue/"
+							>here</ref>)</witness>
 				</listWit>
 			</sourceDesc>
 		</fileDesc>
@@ -160,18 +168,40 @@
 	</teiHeader>
 	<text>
 		<front>
-			<p>This series of <hi rend="italic">capitula</hi> to Iosue, although is peculiar to Tu,
-				is generally close to de Bruyne's A series (p. <ref
+			<p>This series of <hi rend="italic">capitula</hi> to Iosue (siglum <hi rend="bold"
+					>Λ(c)</hi> in the <ref target="#BenIos">Benedictine edition</ref> of the
+				Vulgate), although peculiar to Tu, is generally close to <ref target="#de_Bruyne">de
+					Bruyne</ref>'s A series (p. <ref
 					target="https://gallica.bnf.fr/ark:/12148/bpt6k8537228/f56">42</ref>; edited
 				from Tours Bibles <ref
 					target="https://ai4ch-uniud.github.io/Tours_capitula/evt_Iosue/">here</ref>),
 				with which most of the <hi rend="italic">capitula</hi> coincide without variation
 				(see, e.g., cap. 7-22). By contrast with the A series, Tu's one occasionally has
 				some more details (cap. 2, 3, 6, 23, 24), and includes two further <hi rend="italic"
-					>capitula</hi> at the end (34, 35). Since the capitula are generally laconic and
-				more elaborate summaries appear only sporadically in Tu, the direction of the
-				transformation is probably from the A series to Tu's one (which adds details in a
-				somewhat inconsistent manner), rather than the other way round.</p>
+					>capitula</hi> at the end (34, 35). Since the <hi rend="italic">capitula</hi>
+				are generally laconic and more elaborate summaries appear only sporadically in Tu,
+				the direction of the transformation is probably from the A series to Tu's one (which
+				adds details in a somewhat inconsistent manner), rather than the other way round. <lb/>
+				<!-- 1) errori comuni con Am2 o con Φ? o comunque osservazioni testuali?
+						Qualcosina con Am2 forse c'è!
+					2) con la sigla A, indicare il testo di de Bruyne (come avevo fatto per ora) o il mio testo
+				(che sarebbe probabilmente più sensato)? -->
+				<lb/>Throughout the text, remarkable readings – especially discrepancies against the
+				text of the A series as transmitted by Tours Bibles (siglum Φ; <ref
+					target="https://ai4ch-uniud.github.io/Tours_capitula/evt_Iosue/">here</ref>) –
+				are marked as follows: <list>
+					<item><hi rend="bold">bold type</hi> indicates adiaphoric readings;</item>
+					<item><hi rend="italic">italic type</hi> indicates readings that are
+						grammatically incorrect;</item>
+					<item>pink color indicates a grammatical cause for the reading;</item>
+					<item>blue color indicates an orthographic cause for the reading;</item>
+					<item>yellow color indicates a discrepancy due to the different version of the
+							<hi rend="italic">capitula</hi> followed by Tu and Φ.</item>
+				</list><lb/>The point in the text of Iosue where Tu places the chapter number
+				corresponding to each <hi rend="italic">capitulum</hi> can be accessed either by
+				clicking on the two-page icon next to each <hi rend="italic">capitulum</hi> number,
+				or by clicking on the "Passi paralleli" thumbnail (in the right-hand panel of the
+				"Testo di lettura" screen).</p>
 		</front>
 		<body>
 			<head>
@@ -180,34 +210,37 @@
 				<lb/>
 				<app>
 					<lem wit="#Tu" rendition="#CU #red">INCiPiunt CAPituLa</lem>
-					<rdg wit="#A" type="omission" cause="unknown"/>
 				</app>
 			</head>
-
 			<list>
 				<item n="1">
-					<ref type="parallelPassage"><bibl><title>Iosue</title><citedRange>1.1 et factum
-								est</citedRange></bibl><num>I</num></ref>
+					<ref type="parallelPassage"><bibl><title>Iosue 1.1 et factum
+							est</title></bibl><num>I</num></ref>
 					<title>Promittit deus iosue dicens <q type="spoken">sicut fui cum <app>
-								<lem>moysen</lem>
+								<lem cause="grammatical"><hi rend="italic">moysen</hi></lem>
 								<rdg wit="#A" type="minor" cause="grammatical">moyse</rdg>
 							</app> ero et tecum</q></title></item>
 				<item n="2">
-					<ref type="parallelPassage"><bibl><title>Iosue</title><citedRange>1.10
-								praecepitque Iosue</citedRange></bibl><num>II</num></ref>
-					<title> Iubet iosue <app>
-							<lem>populo</lem>
-							<rdg wit="#Tu" varSeq="1" type="minor" cause="grammatical"
-								rend="erasure" cert="low">populum</rdg>
-							<rdg wit="#Tu" varSeq="2" type="lem" cause="correction"
-								rend="overstrike" hand="#m">populo</rdg>
-						</app> ut praeparet sibi cibaria<app>
-							<lem>et</lem>
+					<ref type="parallelPassage"><bibl><title>Iosue 1.10 praecepitque
+							Iosue</title></bibl><num>II</num></ref>
+					<title>
+						<app>
+							<lem cause="version">Iubet iosue <app>
+									<lem>populo</lem>
+									<rdg wit="#Tu" varSeq="1" type="minor" cause="grammatical"
+										rend="erasure" cert="low">populum</rdg>
+									<rdg wit="#Tu" varSeq="2" type="lem" cause="correction"
+										rend="overstrike" hand="#m">populo</rdg>
+								</app> ut praeparet sibi cibaria</lem>
+							<rdg wit="#A" type="susbstantive" subtype="adiaphoric" cause="version"
+								>praeparare cibaria iubetur populo</rdg>
+						</app><app>
+							<lem cause="grammatical"><hi rend="italic">et</hi></lem>
 							<rdg wit="#A" type="maior" subtype="adiaphoric" cause="grammatical"
 								>ut</rdg>
 						</app> transeant iordanem <app>
-							<lem>ammonens etiam rubenetas et gadditas et dimidiam tribum manasse ut
-								conlocantes familias suas in terram quam <app>
+							<lem cause="version">ammonens etiam rubenetas et gadditas et dimidiam
+								tribum manasse ut conlocantes familias suas in terram quam <app>
 									<lem wit="#Tu">tradiderat</lem>
 									<rdg wit="#Tu" varSeq="1" type="minor" cause="grammatical"
 										rend="subpunctuated">tradiderit</rdg>
@@ -215,147 +248,156 @@
 										hand="#m" rend="above">tradiderat</rdg>
 								</app> eis moyses et praecederent armati sicut moyse
 								promiserant</lem>
-							<rdg wit="#A" type="omission" cause="seriesA"/>
+							<rdg wit="#A" type="omission" cause="version"/>
 						</app></title>
 				</item>
 				<item n="3">
-					<ref type="parallelPassage"><bibl><title>Iosue</title><citedRange>2.1 misit
-								igitur Iosue</citedRange></bibl><num>III</num></ref>
+					<ref type="parallelPassage"><bibl><title>Iosue 2.1 misit igitur
+							Iosue</title></bibl><num>III</num></ref>
 					<title><app>
-							<lem>Mittuntur a iosue de sethim duo uiri exploratores </lem>
-							<rdg wit="#A" type="substantive" subtype="adiaphoric" cause="seriesA"
+							<lem cause="version">Mittuntur a iosue de sethim duo uiri exploratores </lem>
+							<rdg wit="#A" type="substantive" subtype="adiaphoric" cause="version"
 								>Destinantur exploratores a iosue</rdg>
 						</app> in hiericho <app>
-							<lem>quos recipiens domo raab meretrix celabit</lem>
-							<rdg wit="#A" type="omssion" cause="seriesA"/>
+							<lem cause="version">quos recipiens domo raab meretrix celabit</lem>
+							<rdg wit="#A" type="omssion" cause="version"/>
 						</app></title>
 				</item>
 				<item n="4">
-					<ref type="parallelPassage"><bibl><title>Iosue</title><citedRange>3.7 dixitque
-								Dominus ad Iosue</citedRange></bibl><num>IIII</num></ref>
+					<ref type="parallelPassage"><bibl><title>Iosue 3.7 dixitque Dominus ad
+								Iosue</title></bibl><num>IIII</num></ref>
 					<title><app>
-							<lem>Dixit</lem>
-							<rdg wit="#A" type="substantive" subtype="adiaphoric" cause="seriesA"
+							<lem cause="version">Dixit</lem>
+							<rdg wit="#A" type="substantive" subtype="adiaphoric" cause="version"
 								>promittit</rdg>
 						</app> dominus <app>
-							<lem>ad</lem>
-							<rdg wit="#A" type="omission" cause="seriesA"/>
+							<lem cause="version">ad</lem>
+							<rdg wit="#A" type="omission" cause="version"/>
 						</app> iosue <app>
-							<lem/>
-							<rdg wit="#A" type="addition" cause="seriesA">dicens</rdg>
+							<lem cause="version"/>
+							<rdg wit="#A" type="addition" cause="version">dicens</rdg>
 						</app>
-						<q type="spoken">hodie incipiam exaltare te coram omni israhel ut sciant
-							quia sicut fui cum moyse <app>
+						<q type="spoken">hodie incipiam exaltare te coram omni israhel <lb/>ut
+							sciant <app>
+								<lem cause="grammatical">quia</lem>
+								<note>The Vulgate (Ios 3.7) reads here <q>quod</q> instead of
+										<q>quia</q> (no variant is recorded in Weber-Gryson's
+									apparatus).</note>
+							</app> sicut fui cum moyse <app>
 								<lem/>
 								<rdg wit="#Tu" varSeq="1" type="addition" cause="unknown"
 									rend="erasure">s</rdg>
 								<rdg wit="#Tu" varSeq="2" type="lem" cause="correction" hand="#u"/>
-							</app>ita et tecum sum</q></title>
+							</app>ita et tecum <app>
+								<lem cause="grammatical">sum</lem>
+								<note>Cf. app. Weber-Gryson ad Ios 3.7 (<q>ita et tecum sim</q>):
+									sim] sum CΣT (C = Cava, Badia, 1 (14), 9th c. 2/2, Spain; Σ =
+									Madrid, BN, Vitr. 13-1, 10th c., Spain; T = our Tu).</note>
+							</app></q></title>
 				</item>
 				<item n="5">
-					<ref type="parallelPassage"><bibl><title>Iosue</title><citedRange>3.14 igitur
-								egressus est populus</citedRange></bibl><num>V</num></ref>
+					<ref type="parallelPassage"><bibl><title>Iosue 3.14 igitur egressus est
+								populus</title></bibl><num>V</num></ref>
 					<title>Iubente domino siccauit alueus iordanis <app>
-							<lem>transeunte</lem>
-							<rdg wit="#A" type="substantive" subtype="adiaphoric" cause="seriesA"
+							<lem cause="grammatical">transeunte</lem>
+							<rdg wit="#A" type="substantive" subtype="adiaphoric" cause="version"
 								>euntis</rdg>
+							<note>See the note ad loc. in the edition of the A series.</note>
 						</app> israhel</title>
 				</item>
 				<item n="6">
-					<ref type="parallelPassage"><bibl><title>Iosue</title><citedRange>4.1 quibus
-								transgressis</citedRange></bibl><num>VI</num></ref>
+					<ref type="parallelPassage"><bibl><title>Iosue 4.1 quibus
+							transgressis</title></bibl><num>VI</num></ref>
 					<title>Duodecim <app>
-							<lem>electi lapides</lem>
-							<rdg wit="#A" type="transposition" cause="seriesA">lapides electi</rdg>
+							<lem cause="version">electi lapides</lem>
+							<rdg wit="#A" type="transposition" cause="version">lapides electi</rdg>
+							<note>Since the difference consists only in the transposition of two
+								contiguous words, it may be an accidental error rather than the
+								result of a conscious reworking.</note>
 						</app>
 						<app>
-							<lem>leuati sunt</lem>
-							<rdg wit="#A" type="omssion" cause="seriesA"/>
+							<lem cause="version">leuati sunt</lem>
+							<rdg wit="#A" type="omssion" cause="version"/>
 						</app> de iordanis alueo <app>
-							<lem>a duodecim uiris de duodecim tribubus quos posuit iosue in
-								galgalis</lem>
-							<rdg wit="#A" type="omission" cause="seriesA"/>
+							<lem cause="version">a duodecim uiris de duodecim tribubus quos posuit
+								iosue in galgalis</lem>
+							<rdg wit="#A" type="omission" cause="version"/>
 						</app><app>
-							<lem>pro commemoratione</lem>
-							<rdg wit="#A" type="maior" subtype="adiaphoric" cause="seriesA">ob
+							<lem cause="version">pro commemoratione</lem>
+							<rdg wit="#A" type="maior" subtype="adiaphoric" cause="version">ob
 								commemorationem</rdg>
-						</app> futuri temporis <app>
-							<lem>reuersusque est fluuius ad cursum suum et ascendit populus de
-								iordanne decimo mensis prima die</lem>
-							<rdg wit="#A" type="omission" cause="seriesA"/>
+						</app> futuri <lb/>temporis <app>
+							<lem cause="version">reuersusque est fluuius ad cursum suum et ascendit
+								populus de iordanne decimo mensis prima die</lem>
+							<rdg wit="#A" type="omission" cause="version"/>
 						</app></title>
 				</item>
 				<item n="7">
-					<ref type="parallelPassage"><bibl><title>Iosue</title><citedRange>5.1 postquam
-								ergo audierunt</citedRange></bibl><num>VII</num></ref>
+					<ref type="parallelPassage"><bibl><title>Iosue 5.1 postquam ergo
+								audierunt</title></bibl><num>VII</num></ref>
 					<title>Introeunte israhel terram chanaan territi sunt cuncti reges</title>
 				</item>
 				<item n="8">
-					<ref type="parallelPassage"><bibl><title>Iosue</title><citedRange>5.2 eo tempore
-								ait Dominus</citedRange></bibl><num>VIII</num></ref>
+					<ref type="parallelPassage"><bibl><title>Iosue 5.2 eo tempore ait
+								Dominus</title></bibl><num>VIII</num></ref>
 					<title>Haec autem causa est secundae circumcisionis</title>
 				</item>
 				<item n="9">
-					<ref type="parallelPassage"><bibl><title>Iosue</title><citedRange>5.9 dixitque
-								Dominus ad Iosue</citedRange></bibl><num>VIIII</num></ref>
+					<ref type="parallelPassage"><bibl><title>Iosue 5.9 dixitque Dominus ad Iosue
+								(series A: 5.12 defecitque
+						manna)</title></bibl><num>VIIII</num></ref>
 					<title>Hucusque comederunt manna</title>
 				</item>
 				<item n="10">
-					<ref type="parallelPassage"><bibl><title>Iosue</title><citedRange>5.13 cum autem
-								esset Iosue</citedRange></bibl><num>X</num></ref>
+					<ref type="parallelPassage"><bibl><title>Iosue 5.13 cum autem esset
+								Iosue</title></bibl><num>X</num></ref>
 					<title>Ostendit se angelus domini iosue qui dixit <q type="spoken">princeps
 							exercitus domini sum</q></title>
 				</item>
 				<item n="11">
-					<ref type="parallelPassage"><bibl><title>Iosue</title><citedRange>6.1 Iericho
-								autem clausa</citedRange></bibl><num>XI</num></ref>
+					<ref type="parallelPassage"><bibl><title>Iosue 6.1 Iericho autem
+							clausa</title></bibl><num>XI</num></ref>
 					<title>De obsidione uel subuersione muri hiericho</title>
 				</item>
 				<item n="12">
-					<ref type="parallelPassage"><bibl><title>Iosue</title><citedRange>6.25 in
-								tempore illo imprecatus</citedRange></bibl><num>XII</num></ref>
-					<title><app>
-							<lem>Inpraecatio</lem>
-							<rdg wit="#A" type="minor" cause="orthographic">imprecatio</rdg>
-						</app> iosue</title>
+					<ref type="parallelPassage"><bibl><title>Iosue 6.25 in tempore illo
+								imprecatus</title></bibl><num>XII</num></ref>
+					<title> Inpraecatio iosue</title>
 				</item>
 				<item n="13">
-					<ref type="parallelPassage"><bibl><title>Iosue</title><citedRange>7.1 filii
-								autem Israel praevaricati</citedRange></bibl><num>XIII</num></ref>
+					<ref type="parallelPassage"><bibl><title>Iosue 7.1 filii autem Israel
+								praevaricati</title></bibl><num>XIII</num></ref>
 					<title>Praeuaricatio populi</title>
 				</item>
 				<item n="14">
-					<ref type="parallelPassage"><bibl><title>Iosue</title><citedRange>8.1 dixit
-								autem Dominus</citedRange></bibl><num>XIIII</num></ref>
-					<title>Confortat dominus iosue ad <app>
-							<lem>proeliandum</lem>
-							<rdg wit="#A" type="minor" cause="orthographic">praeliandum</rdg>
-						</app></title>
+					<ref type="parallelPassage"><bibl><title>Iosue 8.1 dixit autem
+							Dominus</title></bibl><num>XIIII</num></ref>
+					<title>Confortat dominus iosue ad proeliandum </title>
 				</item>
 				<item n="15">
-					<ref type="parallelPassage"><bibl><title>Iosue</title><citedRange>9.1 quibus
-								auditis cuncti reges</citedRange></bibl><num>XV</num></ref>
+					<ref type="parallelPassage"><bibl><title>Iosue 9.1 quibus auditis cuncti
+								reges</title></bibl><num>XV</num></ref>
 					<title>Perturbatio regum</title>
 				</item>
 				<item n="16">
-					<ref type="parallelPassage"><bibl><title>Iosue</title><citedRange>9.3 at hi qui
-								habitabant</citedRange></bibl><num>XVI</num></ref>
+					<ref type="parallelPassage"><bibl><title>Iosue 9.3 at hi qui
+							habitabant</title></bibl><num>XVI</num></ref>
 					<title>Simulatio gabaonitarum</title>
 				</item>
 				<item n="17">
-					<ref type="parallelPassage"><bibl><title>Iosue</title><citedRange>10.1 quae cum
-								audisset</citedRange></bibl><num>XVII</num></ref>
+					<ref type="parallelPassage"><bibl><title>Iosue 10.1 quae cum
+							audisset</title></bibl><num>XVII</num></ref>
 					<title>Conglobati quinque reges contra iosue ascenderunt tunc imperauit soli et
 						stetit spatium diei unius </title>
 				</item>
 				<item n="18">
-					<ref type="parallelPassage"><bibl><title>Iosue</title><citedRange>10.8 dixitque
-								Dominus</citedRange></bibl><num>XVIII</num></ref>
+					<ref type="parallelPassage"><bibl><title>Iosue 10.8 dixitque
+							Dominus</title></bibl><num>XVIII</num></ref>
 					<title>Iuuante domino extincti sunt reges cum exercitu suo</title>
 				</item>
 				<item n="19">
-					<ref type="parallelPassage"><bibl><title>Iosue</title><citedRange>12.6 Moyses
-								famulus Domini</citedRange></bibl><num>XVIIII</num></ref>
+					<ref type="parallelPassage"><bibl><title>Iosue 12.6 Moyses famulus
+								Domini</title></bibl><num>XVIIII</num></ref>
 					<title>Ruben gad et dimidiae <app>
 							<lem>tribui</lem>
 							<rdg wit="#Tu" varSeq="1" type="minor" cause="grammatical" cert="low"
@@ -367,67 +409,70 @@
 				<pb facs="data/images/single/Tu_271v.jpeg" n="Tu_271v"/>
 				<lb n="[Tu_271v]"/>
 				<item n="20">
-					<ref type="parallelPassage"><bibl><title>Iosue</title><citedRange>12.7 hi sunt
-								reges</citedRange></bibl><num>XX</num></ref>
+					<ref type="parallelPassage"><bibl><title>Iosue 12.7 hi sunt
+							reges</title></bibl><num>XX</num></ref>
 					<title><app>
-							<lem>Hii</lem>
+							<lem cause="orthographic">Hii</lem>
 							<rdg wit="#A" type="minor" cause="orthographic">hi</rdg>
 						</app> sunt reges terrae quos percussit iosue et filii israhel</title>
 				</item>
 				<item n="21">
-					<ref type="parallelPassage"><bibl><title>Iosue</title><citedRange>13.1 Iosue
-								senex provectaeque</citedRange></bibl><num>XXI</num></ref>
+					<ref type="parallelPassage"><bibl><title>Iosue 13.1 Iosue senex provectaeque
+								(series A: 13.6 ego sum qui)</title></bibl><num>XXI</num></ref>
 					<title>Diuidere terras populis hortatur dominus iosue</title>
 				</item>
 				<item n="22">
-					<ref type="parallelPassage"><bibl><title>Iosue</title><citedRange>14.6
-								accesserunt itaque filii</citedRange></bibl><num>XXII</num></ref>
+					<ref type="parallelPassage"><bibl><title>Iosue 14.6 accesserunt itaque
+								filii</title></bibl><num>XXII</num></ref>
 					<title>Promissum repetit chaleb montem in quo hebron hic legis adam
 						situm</title>
 				</item>
 				<item n="23">
-					<ref type="parallelPassage"><bibl><title>Iosue</title><citedRange>15.1 igitur
-								sors filiorum</citedRange></bibl><num>XXIII</num></ref>
+					<ref type="parallelPassage"><bibl><title>Iosue 15.1 igitur sors
+							filiorum</title></bibl><num>XXIII</num></ref>
 					<title><app>
-							<lem>Possessio filiorum iudae per sortem et quia gebuseum habitatorem
-								hierusalem non potuerunt filii iuda delere sed habitauit cum eis
-								usque in presentem diem</lem>
-							<rdg wit="#A" type="substantive" subtype="adiaphoric" cause="seriesA"
+							<lem cause="version">Possessio filiorum iudae per sortem et quia
+								gebuseum habitatorem hierusalem non potuerunt filii iuda delere sed
+								habitauit cum eis usque in presentem diem</lem>
+							<rdg wit="#A" type="substantive" subtype="adiaphoric" cause="version"
 								>sors iudae</rdg>
 						</app>
 					</title>
 				</item>
 				<item n="24">
-					<ref type="parallelPassage"><bibl><title>Iosue</title><citedRange>16.1 cecidit
-								quoque sors</citedRange></bibl><num>XXIIII</num></ref>
+					<ref type="parallelPassage"><bibl><title>Iosue 16.1 cecidit quoque
+							sors</title></bibl><num>XXIIII</num></ref>
 					<title><app>
-							<lem>Possessio filiorum ioseph efraim et manasse per sortem et quia
-								chananeum qui habitabat in gazer non potuerunt filii ephraim delere
-								sed habitauit cum eis usque in presentem diem tributarius et quia
-								filiabus salphaad dedit iosue possessionem iuxta imperium domini in
-								medio fratrum patris earum</lem>
-							<rdg wit="#A" type="substantive" subtype="adiaphoric" cause="seriesA"
+							<lem cause="version">Possessio filiorum ioseph efraim et manasse per
+								sortem et quia chananeum qui habitabat in gazer non potuerunt filii
+								ephraim delere sed habitauit cum eis usque in presentem diem
+								tributarius et quia filiabus salphaad dedit iosue possessionem iuxta
+								imperium domini in medio fratrum patris earum</lem>
+							<rdg wit="#A" type="substantive" subtype="adiaphoric" cause="version"
 								>sors filiorum ioseph ephraim et manasse</rdg>
 						</app></title>
 				</item>
 				<item n="25">
-					<ref type="parallelPassage"><bibl><title>Iosue</title><citedRange>17.14
-								locutique sunt filii</citedRange></bibl><num>XXV</num></ref>
+					<ref type="parallelPassage"><bibl><title>Iosue 17.14 locutique sunt
+								filii</title></bibl><num>XXV</num></ref>
 					<title>Filii ioseph <app>
-							<lem>petent</lem>
+							<lem cause="grammatical">petent</lem>
 							<rdg wit="#A" type="minor" cause="grammatical">petunt</rdg>
+							<note>Note that the erroneous <q>petent</q> also occurs in Am2, thus
+								suggesting a possible relationship between the two witnesses, or at
+								least indicating that it is an ancient error.</note>
 						</app> sibi augmentari funiculum a iosue quibus ait <q type="spoken"
 							>ascendite in montem et succidite siluam et mundate uobis ad habitandum
 							spatia </q></title>
 				</item>
 				<item n="26">
-					<ref type="parallelPassage"><bibl><title>Iosue</title><citedRange>18.1
-								congregatique sunt omnes</citedRange></bibl><num>XXVI</num></ref>
+					<ref type="parallelPassage"><bibl><title>Iosue 18.1 congregatique sunt
+								omnes</title></bibl><num>XXVI</num></ref>
 					<title>Congregatique sunt omnes filii israhel in silo</title>
 				</item>
 				<item n="27">
-					<ref type="parallelPassage"><bibl><title>Iosue</title><citedRange>18.8 cumque
-								surrexissent viri</citedRange></bibl><num>XXVII</num></ref>
+					<ref type="parallelPassage"><bibl><title>Iosue 18.8 cumque surrexissent
+								viri</title></bibl><num>XXVII</num></ref>
 					<title>Destinantur <app>
 							<lem>uiri</lem>
 							<rdg wit="#Tu" varSeq="1" type="lem" rend="erasure" cert="low"
@@ -435,88 +480,85 @@
 							<rdg wit="#Tu" varSeq="2" type="minor"
 								cause="grammatical_falseEmendation" hand="#u" cert="low">uir</rdg>
 						</app> ad <app>
-							<lem>discribendam</lem>
+							<lem cause="orthographic">discribendam</lem>
 							<rdg wit="#A" type="minor" cause="orthographic">describendam</rdg>
 						</app> terram reuersique <app>
-							<lem>discriptionem</lem>
+							<lem cause="orthographic">discriptionem</lem>
 							<rdg wit="#A" type="minor" cause="orthographic">descriptionem</rdg>
 						</app> tradunt iosue qui misit sortes coram domino in silo diuisitque terram
-						filiis israhel in septem partes</title>
+						filiis israhel in <lb/>septem partes</title>
 				</item>
 				<item n="28">
-					<ref type="parallelPassage"><bibl><title>Iosue</title><citedRange>20.1 et
-								locutus est dominus</citedRange></bibl><num>XXVIII</num></ref>
+					<ref type="parallelPassage"><bibl><title>Iosue 20.1 et locutus est dominus
+								(series A: 20.1 loquere
+						filiis)</title></bibl><num>XXVIII</num></ref>
 					<title>Urbes fugitiuorum</title>
 				</item>
 				<item n="29">
-					<ref type="parallelPassage"><bibl><title>Iosue</title><citedRange>21.1
-								accesseruntque principes</citedRange></bibl><num>XXVIIII</num></ref>
+					<ref type="parallelPassage"><bibl><title>Iosue 21.1 accesseruntque principes
+								(series A: 21.2 locutique sunt ad
+							eos)</title></bibl><num>XXVIIII</num></ref>
 					<title>Urbes leuitarum</title>
 				</item>
 				<item n="30">
-					<ref type="parallelPassage"><bibl><title>Iosue</title><citedRange>21.42 dataque
-								est ab eo</citedRange></bibl><num>XXX</num></ref>
+					<ref type="parallelPassage"><bibl><title>Iosue 21.42 dataque est ab
+							eo</title></bibl><num>XXX</num></ref>
 					<title>Post bellorum turbines data est et requies a domino</title>
 				</item>
 				<item n="31">
-					<ref type="parallelPassage"><bibl><title>Iosue</title><citedRange>22.10 cumque
-								venissent</citedRange></bibl><num>XXXI</num></ref>
+					<ref type="parallelPassage"><bibl><title>Iosue 22.10 cumque
+							venissent</title></bibl><num>XXXI</num></ref>
 					<title>Inconsulta re facta a tribu ruben altare <app>
-							<lem>inmense</lem>
+							<lem cause="orthographic">inmense</lem>
 							<rdg wit="#A" type="minor" cause="orthographic">inmensae</rdg>
 						</app> magnitudinis</title>
 				</item>
 				<item n="32">
-					<ref type="parallelPassage"><bibl><title>Iosue</title><citedRange>23.1 evoluto
-								autem</citedRange></bibl><num>XXXII</num></ref>
+					<ref type="parallelPassage"><bibl><title>Iosue 23.1 evoluto
+							autem</title></bibl><num>XXXII</num></ref>
 					<title>Replicat a principio iosue cuncta israheli cum obtestatione ne discedant
-						a praeceptis domini <app>
-							<lem>adpropinquante</lem>
-							<rdg wit="#A" type="minor" cause="orthographic">appropinquante</rdg>
-						</app>die obitus sui</title>
+						a praeceptis domini adpropinquante die obitus sui</title>
 				</item>
 				<item n="33">
-					<ref type="parallelPassage"><bibl><title>Iosue</title><citedRange>24.1
-								congregavitque Iosue</citedRange></bibl><num>XXXIII</num></ref>
+					<ref type="parallelPassage"><bibl><title>Iosue 24.1 congregavitque
+							Iosue</title></bibl><num>XXXIII</num></ref>
 					<title>Unde natus sit abraham uel ubi perductus item congregatis cum pacto
 						obtestationis adloquitur eos iosue</title>
 				</item>
 				<item n="34">
-					<ref type="parallelPassage"><bibl><title>Iosue</title><citedRange>This capitulum
-								has no corresponding chapter number throughout the text of Iosue in
-								Tu; it should probably have fallen around Ios
-							24.22.</citedRange></bibl><app>
-							<lem><num>XXXIIII</num></lem>
-							<rdg wit="#A" type="omission" cause="seriesA"/>
+					<ref type="parallelPassage"><bibl><title>Iosue ? (this capitulum has no
+								corresponding chapter number throughout the text of Iosue in Tu; it
+								should probably have fallen around Ios 24.22)</title></bibl><app>
+							<lem cause="version"><num>XXXIIII</num></lem>
+							<rdg wit="#A" type="omission" cause="version"/>
 						</app></ref>
 					<title><app>
-							<lem>Congregatum israhel iosue sub pacto obtestationis adloquitur et
-								scribens uerba sua in uolumine tulit lapidem grandem et posuit eum
-								supter quercum in testimonio</lem>
-							<rdg wit="#A" type="omission" cause="seriesA"/>
+							<lem cause="version">Congregatum israhel iosue sub pacto obtestationis
+								adloquitur et scribens uerba sua in uolumine tulit lapidem grandem
+								et posuit eum supter quercum in testimonio</lem>
+							<rdg wit="#A" type="omission" cause="version"/>
 						</app></title>
 				</item>
 				<item n="35">
-					<ref type="parallelPassage"><bibl><title>Iosue</title><citedRange>24.29 et post
-								haec mortuus est Iosue</citedRange></bibl><app>
-							<lem><num>XXXV</num></lem>
-							<rdg wit="#A" type="omission" cause="seriesA"/>
+					<ref type="parallelPassage"><bibl><title>Iosue 24.29 et post haec mortuus est
+								Iosue</title></bibl><app>
+							<lem cause="version"><num>XXXV</num></lem>
+							<rdg wit="#A" type="omission" cause="version"/>
 						</app></ref>
 					<title><app>
-							<lem>Mortuus est iosue centum decem annorum et sepultus est in
-								possessione sua in monte ephraim ossa quoque ioseph quae tulerant
-								filii israhel de aegypto sepelierunt in sichem in partem agri quem
-								emerat iacob a filiis emmor centum nouellis ouibus nam et eleazar
-								filius aaron mortuus est et sepelierunt eum in gabaath in monte
-								efraim</lem>
-							<rdg wit="#A" type="omission" cause="seriesA"/>
+							<lem cause="version">Mortuus est iosue centum decem annorum et sepultus
+								est in possessione sua in monte ephraim ossa quoque ioseph quae
+								tulerant filii israhel de aegypto sepelierunt in sichem in partem
+								agri quem emerat iacob a filiis emmor centum nouellis ouibus nam et
+								eleazar filius aaron mortuus est et sepelierunt eum in gabaath in
+								monte efraim</lem>
+							<rdg wit="#A" type="omission" cause="version"/>
 						</app></title>
 				</item>
 			</list>
 			<trailer>
 				<app>
 					<lem wit="#Tu" rendition="#Ca #red">EXPLiciunt CAPituLa</lem>
-					<rdg wit="#A" type="omission" cause="unknown"/>
 				</app>
 			</trailer>
 		</body>
