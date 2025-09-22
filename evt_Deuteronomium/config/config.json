@@ -160,7 +160,7 @@
         "cause": {
             "grammatical": "rgb(213,127,202)",
 			"orthographic": "rgb(70,116,194)",
-			"slip": "rgb(255,215,0)",
+			"slip": "rgb(255,5,5)",
 			"Vulgate": "rgb(116,194,70)"
         },
         "varSeq": {

@@ -1484,7 +1484,7 @@
 				indicate the reason (the @cause attribute) for specific readings, as follows:<list>
 					<item>grammatical: pink;</item>
 					<item>orthographic: blue;</item>
-					<item>slip: yellow;</item>
+					<item>slip: red;</item>
 					<item>Vulgate: green.</item>
 				</list>In each witness's text (view mode "Collazione"), the filters highlight (in
 				brown) the points where a correction was made. <lb/>Occasional commentary on the
