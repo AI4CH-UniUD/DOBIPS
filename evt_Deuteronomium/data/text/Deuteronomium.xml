@@ -1566,7 +1566,7 @@
 			<list>
 				<item n="1">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 1.1 haec sunt
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 1:1 haec sunt
 										verba</title></bibl><num>I</num></ref></lem>
 						<rdg wit="#Br1" type="unclear" cause="digitisation">?</rdg>
 						<witDetail wit="#Br1">Due to the tight binding, the number is not visible in
@@ -1609,7 +1609,7 @@
 				</item>
 				<item n="2">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 1.9 dixique
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 1:9 dixique
 										vobis illo in
 							tempore</title></bibl><num>II</num></ref></lem>
 						<rdg wit="#Br1" type="unclear" cause="digitisation">?</rdg>
@@ -1647,7 +1647,7 @@
 				</item>
 				<item n="3">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 1.19 profecti
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 1:19 profecti
 										autem de Horeb</title></bibl><num>III</num></ref></lem>
 						<rdg wit="#Br1" type="unclear" cause="digitisation">?</rdg>
 						<witDetail wit="#Br1">Due to the tight binding, the number is not visible in
@@ -1682,7 +1682,7 @@
 				</item>
 				<item n="4">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 1.22 et
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 1:22 et
 										accessistis ad me</title></bibl><num>IIII</num></ref></lem>
 						<rdg wit="#Br1" type="unclear" cause="digitisation">?</rdg>
 						<witDetail wit="#Br1">Due to the tight binding, the number is not visible in
@@ -1713,7 +1713,7 @@
 				<lb n="[Sg1_124]"/>
 				<item n="5">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 1.26 et
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 1:26 et
 										noluistis ascendere</title></bibl><num>V</num></ref></lem>
 						<rdg wit="#Tr #Br1" type="unclear" cause="digitisation">?</rdg>
 						<witDetail wit="#Tr">Due to the poor quality of the digitisation, the number
@@ -1731,7 +1731,7 @@
 				</item>
 				<item n="6">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 1.30 dominus
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 1:30 dominus
 										deus qui ductor</title></bibl><num>VI</num></ref></lem>
 						<rdg wit="#Tr #Br1" type="unclear" cause="digitisation">?</rdg>
 						<witDetail wit="#Tr">Due to the poor quality of the digitisation, the number
@@ -1769,7 +1769,7 @@
 				</item>
 				<item n="7">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 1.34 cumque
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 1:34 cumque
 										audisset dominus</title></bibl><num>VII</num></ref></lem>
 						<rdg wit="#Tu" varSeq="1" type="minor" cause="numbering" cert="low">VI</rdg>
 						<rdg wit="#Tu" varSeq="2" type="lem" cause="correction" hand="#m"
@@ -1815,7 +1815,7 @@
 				</item>
 				<item n="8">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 1.37 nec miranda
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 1:37 nec miranda
 										indignatio</title></bibl><num>VIII</num></ref></lem>
 						<rdg wit="#Br1" type="unclear" cause="digitisation">?</rdg>
 						<witDetail wit="#Br1">Due to the tight binding, the number is not visible in
@@ -1847,8 +1847,8 @@
 				</item>
 				<item n="9">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 1.41 ascendemus
-										atque pugnabimus (Am1: 1.41 cumque
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 1:41 ascendemus
+										atque pugnabimus (Am1: 1:41 cumque
 									instructi)</title></bibl><num>VIIII</num></ref></lem>
 						<rdg wit="#Br1" type="unclear" cause="digitisation">?</rdg>
 						<witDetail wit="#Br1">Due to the tight binding, the number is not visible in
@@ -1868,7 +1868,7 @@
 								Tu's <q>interdictum</q>, by contrast, can likely be explained as a
 								temptative emendation of a corrupt and ungrammatical form such as
 								Am1's, and it also brings the capitulum, from a certain point of
-								view, closer to the corresponding biblical passage (Dt 1.41-43). If
+								view, closer to the corresponding biblical passage (Dt 1:41-43). If
 								this is correct, Tu may descend either from Am1 or from an ancestor
 								of Am1 that already exhibited the error <q>andictum</q>. Φ, by
 								contrast, cannot depend on this same ancestor, since it preserves
@@ -1886,7 +1886,7 @@
 				</item>
 				<item n="10">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 2.1 profectique
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 2:1 profectique
 										inde uenimus</title></bibl><num>X</num></ref></lem>
 						<rdg wit="#Br1" type="unclear" cause="digitisation">?</rdg>
 						<witDetail wit="#Br1">Due to the tight binding, the number is not visible in
@@ -1935,7 +1935,7 @@
 				</item>
 				<item n="11">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 3.23 precatusque
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 3:23 precatusque
 										sum dominum</title></bibl><num>XI</num></ref></lem>
 						<rdg wit="#Br1" type="unclear" cause="digitisation">?</rdg>
 						<witDetail wit="#Br1">Due to the tight binding, the number is not visible in
@@ -1966,7 +1966,7 @@
 				</item>
 				<item n="12">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 4.1 et nunc
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 4:1 et nunc
 										israhel audi</title></bibl><num>XII</num></ref></lem>
 						<rdg wit="#Br1" type="unclear" cause="digitisation">?</rdg>
 						<witDetail wit="#Br1">Due to the tight binding, the number is not visible in
@@ -1990,8 +1990,8 @@
 				</item>
 				<item n="13">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 4.15 non
-										vidistis aliquam (rectius: 4.16 ne forte
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 4:15 non
+										vidistis aliquam (rectius: 4:16 ne forte
 									decepti)</title></bibl><num>XIII</num></ref></lem>
 						<rdg wit="#Br1" type="unclear" cause="digitisation">?</rdg>
 						<witDetail wit="#Br1">Due to the tight binding, the number is not visible in
@@ -2004,7 +2004,7 @@
 							<note><q>Sculptile</q> is to be understood as an adjective used
 								substantively and can therefore be regarded as the correct reading.
 								It reflects a Vetus Latina text, as suggested by the reading
-									<q>sculptilem</q> in VL 100 (Dt 4.16: <q>uidete ne execraueritis
+									<q>sculptilem</q> in VL 100 (Dt 4:16: <q>uidete ne execraueritis
 									et faciatis ipsi uobis sculptilem similitudinem</q>); the
 								Vulgate instead reads <q>sculptam</q> (ibid.: <q>ne forte decepti
 									faciatis vobis sculptam similitudinem</q>).</note>
@@ -2024,7 +2024,7 @@
 				<lb n="[P2_56r] [L1_66v]"/>
 				<item n="14">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 4.21 iratusque
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 4:21 iratusque
 										est dominus</title></bibl><num>XIIII</num></ref></lem>
 						<rdg wit="#Br1" type="unclear" cause="digitisation">?</rdg>
 						<witDetail wit="#Br1">Due to the tight binding, the number is not visible in
@@ -2066,7 +2066,7 @@
 				</item>
 				<item n="15">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title> Deuteronomium 4.32 interroga
+						<lem><ref type="parallelPassage"><bibl><title> Deuteronomium 4:32 interroga
 										de diebus antiquis</title></bibl><num>XV</num></ref></lem>
 						<rdg wit="#Br1" type="unclear" cause="digitisation">?</rdg>
 						<witDetail wit="#Br1">Due to the tight binding, the number is not visible in
@@ -2103,7 +2103,7 @@
 				</item>
 				<item n="16">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 4.41 tunc
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 4:41 tunc
 										separavit moyses</title></bibl><num>XVI</num></ref></lem>
 						<rdg wit="#Br1" type="unclear" cause="digitisation">?</rdg>
 						<witDetail wit="#Br1">Due to the tight binding, the number is not visible in
@@ -2119,7 +2119,7 @@
 				</item>
 				<item n="17">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 4.44 ista est
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 4:44 ista est
 										lex quam proposuit</title></bibl><num>XVII</num></ref></lem>
 						<rdg wit="#Br1" type="unclear" cause="digitisation">?</rdg>
 						<witDetail wit="#Br1">Due to the tight binding, the number is not visible in
@@ -2145,7 +2145,7 @@
 				</item>
 				<item n="18">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 5.22 haec verba
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 5:22 haec verba
 										locutus est</title></bibl><num>XVIII</num></ref></lem>
 						<rdg wit="#Br1" type="unclear" cause="digitisation">?</rdg>
 						<witDetail wit="#Br1">Due to the tight binding, the number is not visible in
@@ -2201,7 +2201,7 @@
 							<note>The manuscript tradition is almost equally divided between the
 								perfect <q>praecepit</q> and the present <q>praecipit</q>.
 								Preference has been given to the former, which coincides to the
-								Vetus Latina version of the underlying passage (Dt 5.32) in the
+								Vetus Latina version of the underlying passage (Dt 5:32) in the
 								Codex Lugdunensis (VL 100): <q>Et obseruabitis ita facere sicut
 									praecepit tibi Dominus Deus tuus</q>. For a similar error see
 								below, cap. 22.</note>
@@ -2229,7 +2229,7 @@
 				<lb n="[Am1_206r] [Tu_220v]"/>
 				<item n="19">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 6.4 audi israhel
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 6:4 audi israhel
 										dominus deus
 							noster</title></bibl><num>XVIIII</num></ref></lem>
 						<rdg wit="#Br1" type="unclear" cause="digitisation">?</rdg>
@@ -2251,7 +2251,7 @@
 								>diliges</rdg>
 							<note>The present tense found in Am1 is clearly inferior to the future,
 								which is not only better suited to the context, but also matches the
-								verb tense of the corresponding biblical passage (Dt 6.4-5). It is
+								verb tense of the corresponding biblical passage (Dt 6:4-5). It is
 								worth noting that <q>diliges</q> is the translation of the Vulgate,
 								whereas the Vetus Latina (VL100) reads <q>amabis</q>.</note>
 						</app><note>Φ, Tu, de Bruyne vs Am1 (error)</note> dominum deum tuum ex toto
@@ -2262,7 +2262,7 @@
 				</item>
 				<item n="20">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 6.13 dominum
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 6:13 dominum
 										deum tuum timebis</title></bibl><num>XX</num></ref></lem>
 						<rdg wit="#Br1" type="unclear" cause="digitisation">?</rdg>
 						<witDetail wit="#Br1">Due to the tight binding, the number is not visible in
@@ -2272,7 +2272,7 @@
 				</item>
 				<item n="21">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 6.14 non ibitis
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 6:14 non ibitis
 										post deos</title></bibl><num>XXI</num></ref></lem>
 						<rdg wit="#Br1" type="unclear" cause="digitisation">?</rdg>
 						<witDetail wit="#Br1">Due to the tight binding, the number is not visible in
@@ -2289,7 +2289,7 @@
 				</item>
 				<item n="22">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 6.16 non
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 6:16 non
 										temptabis dominum
 							deum</title></bibl><num>XXII</num></ref></lem>
 						<rdg wit="#Br1" type="unclear" cause="digitisation">?</rdg>
@@ -2316,7 +2316,7 @@
 								cause="grammatical_falseEmendation" hand="#l" rend="overstrike"
 								>praecipit</rdg>
 							<note>The perfect <q>praecepit</q> matches the text of the corresponding
-								biblical passage (Dt 6.17), both in the Vetus Latina (<q>seruando
+								biblical passage (Dt 6:17), both in the Vetus Latina (<q>seruando
 									seruabis praecepta Domini Dei vestri, et testimonia, et
 									iustitias quascumque praecepit tibi</q>) and the Vulgate
 									(<q>custodi praecepta Domini Dei tui ac testimonia et
@@ -2332,7 +2332,7 @@
 								Vulgate), both for reasons of internal consistency (since the second
 								part of the capitulum is already introduced by an <q>et</q>, there
 								is no need of a <q>-que</q>) and because it aligns with the Vetus
-								Latina version of the corresponding passage (Dt 6.21, in VL100:
+								Latina version of the corresponding passage (Dt 6:21, in VL100:
 									<q>et dices filio tuo...</q>). The <q>-que</q> (which, however,
 								is shared by all our witnesses) may have arisen from an erroneous
 								word segmentation of the sequence <q>dicesquemadmodum</q>, as may be
@@ -2357,7 +2357,7 @@
 				</item>
 				<item n="23">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 7.1 cum
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 7:1 cum
 										introduxerit te</title></bibl><num>XXIII</num></ref></lem>
 						<rdg wit="#Br1" type="unclear" cause="digitisation">?</rdg>
 						<witDetail wit="#Br1">Due to the tight binding, the number is not visible in
@@ -2392,7 +2392,7 @@
 				</item>
 				<item n="24">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 7.11 custodi
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 7:11 custodi
 										ergo praecepta</title></bibl><num>XXIIII</num></ref></lem>
 						<rdg wit="#Br1" type="unclear" cause="digitisation">?</rdg>
 						<witDetail wit="#Br1">Due to the tight binding, the number is not visible in
@@ -2417,7 +2417,7 @@
 				<lb n="[Z_58v]"/>
 				<item n="25">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 7.16 devorabis
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 7:16 devorabis
 										omnes populos</title></bibl><num>XXV</num></ref></lem>
 						<rdg wit="#Br1" type="unclear" cause="digitisation">?</rdg>
 						<witDetail wit="#Br1">Due to the tight binding, the number is not visible in
@@ -2434,7 +2434,7 @@
 							<rdg wit="#Am1" type="minor" cause="grammatical">subiciat</rdg>
 							<note>Although not impossible, Am1's subjunctive is clearly inferior to
 								the future found in all the other witnesses, which also matches the
-								text of the biblical passage in question (Dt 7.16, <q>daturus est
+								text of the biblical passage in question (Dt 7:16, <q>daturus est
 									tibi</q>, in both VL 100 and the Vulgate).</note>
 						</app><note>Φ, Tu, de Bruyne vs Am1 (error)</note><app>
 							<lem/>
@@ -2483,7 +2483,7 @@
 						</app></title>
 				</item>
 				<item n="26">
-					<ref type="parallelPassage"><bibl><title>Deuteronomium 8.1 omne mandatum quod
+					<ref type="parallelPassage"><bibl><title>Deuteronomium 8:1 omne mandatum quod
 								ego</title></bibl><num>XXVI</num></ref>
 					<title>Omnia mandata<app>
 							<lem>quae</lem>
@@ -2530,7 +2530,7 @@
 				</item>
 				<item n="27">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 8.11 observa et
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 8:11 observa et
 										cave ne quando</title></bibl><num>XXVII</num></ref></lem>
 						<rdg wit="#Am1" varSeq="1" type="minor" cause="numbering">XXVI</rdg>
 						<rdg wit="#Am1" varSeq="2" type="lem" cause="correction" hand="#l"
@@ -2543,7 +2543,7 @@
 						</app> tibi ne obliuiscaris beneficia domini dei tui</title>
 				</item>
 				<item n="28">
-					<ref type="parallelPassage"><bibl><title>Deuteronomium 8.17 ne diceres in corde
+					<ref type="parallelPassage"><bibl><title>Deuteronomium 8:17 ne diceres in corde
 								tuo</title></bibl><num>XXVIII</num></ref>
 					<title><app>
 							<lem>Non</lem>
@@ -2555,7 +2555,7 @@
 						</app> omnia</title>
 				</item>
 				<item n="29">
-					<ref type="parallelPassage"><bibl><title>Deuteronomium 9.1 audi israhel tu
+					<ref type="parallelPassage"><bibl><title>Deuteronomium 9:1 audi israhel tu
 								transgredieris</title></bibl><num>XXVIIII</num></ref>
 					<title>Audi israhel tu transies hodie <app>
 							<lem>iordanen</lem>
@@ -2573,7 +2573,7 @@
 						</app> praecedet te</title>
 				</item>
 				<item n="30">
-					<ref type="parallelPassage"><bibl><title>Deuteronomium 9.4 ne dicas in corde
+					<ref type="parallelPassage"><bibl><title>Deuteronomium 9:4 ne dicas in corde
 								tuo</title></bibl><num>XXX</num></ref>
 					<title>Non dicas in corde tuo propter<app>
 							<lem>iustitias</lem>
@@ -2585,7 +2585,7 @@
 						</app> meas introduxit me dominus in terram istam</title>
 				</item>
 				<item n="31">
-					<ref type="parallelPassage"><bibl><title>Deuteronomium 9.7 memento et ne
+					<ref type="parallelPassage"><bibl><title>Deuteronomium 9:7 memento et ne
 								obliviscaris</title></bibl><num>XXXI</num></ref>
 					<title>In mente habete <app>
 							<lem>quotiens</lem>
@@ -2630,7 +2630,7 @@
 							<rdg wit="#Am1 #P4" type="substantive" subtype="adiaphoric"
 								cause="unknown">deficientes</rdg>
 							<note>The reading <q>diffidentes</q> reproduces the Vetus Latina version
-								of the passage in question (Dt 9.7, in VL100: <q>diffidentes
+								of the passage in question (Dt 9:7, in VL100: <q>diffidentes
 									consummabitis quae ad Dominum</q>). <q>Deficientes</q> is more
 								likely a slip (perhaps with a palaeographic basis) than the remnant
 								of an older, unattested Latin translation. Its presence in P4 is not
@@ -2641,7 +2641,7 @@
 				</item>
 				<item n="32">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 9.8 nam et in
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 9:8 nam et in
 										horeb provocasti</title></bibl><num>XXXII</num></ref></lem>
 						<rdg wit="#B2" type="minor" cause="numbering">XXXIII</rdg>
 					</app>
@@ -2652,8 +2652,8 @@
 						</app> dominum quando fecistis conflatile</title>
 				</item>
 				<item n="33">
-					<ref type="parallelPassage"><bibl><title>Deuteronomium 9.12 dixitque mihi surge
-								(rectius 9.13 rursumque ait)</title></bibl><num>XXXIII</num></ref>
+					<ref type="parallelPassage"><bibl><title>Deuteronomium 9:12 dixitque mihi surge
+								(rectius 9:13 rursumque ait)</title></bibl><num>XXXIII</num></ref>
 					<title>Et dixit dominus ad me sine me et deleam <app>
 							<lem>illos</lem>
 							<rdg wit="#Am1" type="substantive" subtype="error"
@@ -2663,7 +2663,7 @@
 						</app><note>Φ, Tu, de Bruyne vs Am1 (error)</note></title>
 				</item>
 				<item n="34">
-					<ref type="parallelPassage"><bibl><title>Deuteronomium 9.15 cumque de monte
+					<ref type="parallelPassage"><bibl><title>Deuteronomium 9:15 cumque de monte
 								ardente</title></bibl><num>XXXIIII</num></ref>
 					<title>Et descendi de monte et uidi quia peccastis et <app>
 							<lem>proieci</lem>
@@ -2671,7 +2671,7 @@
 						</app> tabulas de manibus meis et confregi illas</title>
 				</item>
 				<item n="35">
-					<ref type="parallelPassage"><bibl><title>Deuteronomium 9.18 et procidi ante
+					<ref type="parallelPassage"><bibl><title>Deuteronomium 9:18 et procidi ante
 								dominum</title></bibl><num>XXXV</num></ref>
 					<title>Et deprecatus sum <app>
 							<lem>dominum</lem>
@@ -2698,7 +2698,7 @@
 				<pb facs="data/images/single/K_54v.jpeg" n="K_54v"/>
 				<lb n="[K_54v]"/>
 				<item n="36">
-					<ref type="parallelPassage"><bibl><title>Deuteronomium 9.20 adversum aaron
+					<ref type="parallelPassage"><bibl><title>Deuteronomium 9:20 adversum aaron
 								quoque</title></bibl><num>XXXVI</num></ref>
 					<title>Et in aaron iratus est <app>
 							<lem>ualde dominus</lem>
@@ -2712,7 +2712,7 @@
 						</app> uitulum</title>
 				</item>
 				<item n="37">
-					<ref type="parallelPassage"><bibl><title>Deuteronomium 9.21 peccatum autem
+					<ref type="parallelPassage"><bibl><title>Deuteronomium 9:21 peccatum autem
 								vestrum</title></bibl><num>XXXVII</num></ref>
 					<app>
 						<lem><title xml:id="XXXVII">Et <app>
@@ -2739,7 +2739,7 @@
 					</app>
 				</item>
 				<item n="38">
-					<ref type="parallelPassage"><bibl><title>Deuteronomium 9.22 in incendio
+					<ref type="parallelPassage"><bibl><title>Deuteronomium 9:22 in incendio
 								quoque</title></bibl><num>XXXVIII</num></ref>
 					<app>
 						<lem><title xml:id="XXXVIII">Et in temptatione <app>
@@ -2758,7 +2758,7 @@
 				</item>
 				<item n="39">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 9.23 et quando
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 9:23 et quando
 										misit vos</title></bibl><num>XXXVIIII</num></ref></lem>
 						<rdg wit="#Sg1" varSeq="1" type="minor" cause="numbering">XXXVIII</rdg>
 						<rdg wit="#Sg1" varSeq="2" type="lem" cause="correction" hand="#l"
@@ -2772,7 +2772,7 @@
 							<note>Despite the widespread presence of the reading <q>demisit</q> in
 								the manuscript tradition, since the error is trivial, I have
 								preferred to retain <q>dimisit</q>, which aligns with the Vetus
-								Latina text of the passage in question (Dt 9.23: <q>Et cum dimisit
+								Latina text of the passage in question (Dt 9:23: <q>Et cum dimisit
 									uos Dominus...</q>). </note>
 						</app>
 						<app>
@@ -2792,8 +2792,8 @@
 				</item>
 				<item n="40">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 9.24 a die qua
-										nosse vos (Am1, rectius: 9.25 et iacui coram
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 9:24 a die qua
+										nosse vos (Am1, rectius: 9:25 et iacui coram
 									domino)</title></bibl><num>XL</num></ref></lem>
 						<rdg wit="#Sg1" varSeq="1" type="substantive" subtype="adiaphoric"
 							cause="numbering">XXXVIIIII</rdg>
@@ -2827,17 +2827,17 @@
 						</app> noctibus</title>
 				</item>
 				<item n="41">
-					<ref type="parallelPassage"><bibl><title>Deuteronomium 10.1 in tempore illo
+					<ref type="parallelPassage"><bibl><title>Deuteronomium 10:1 in tempore illo
 								dixit dominus</title></bibl><num>XLI</num></ref>
 					<title>In illo tempore dixit mihi dominus<app>
 							<lem cause="Vulgate"><hi rend="bold">praecide</hi></lem>
 							<rdg wit="#Am1 #Tu #deBruyne" type="medium" cause="VetusLatina"
 								>decide</rdg>
 							<note>According to the Vetus Latina text of the passage in question (Dt
-								10.1), the expected reading is <q>decide</q>, which appears in Am1,
+								10:1), the expected reading is <q>decide</q>, which appears in Am1,
 								Tu and de Bruyne's edition; the Vulgate has <q>dola</q>. The reading
 									<q>praecide</q> of the Tours Bibles probably derives from the
-								Vulgate version of the parallel passage of Exodus, 34.1, which
+								Vulgate version of the parallel passage of Exodus, 34:1, which
 								reads: <q>Praecide, ait, tibi duas tabulas...</q></note>
 						</app><note>Φ (adiaph.) vs Am1 Tu</note>
 						<app>
@@ -2855,13 +2855,13 @@
 						</app> me in montem</title>
 				</item>
 				<item n="42">
-					<ref type="parallelPassage"><bibl><title>Deuteronomium 10.3 feci igitur arcam
-								(Am1: 10.3 cumque dolassem)</title></bibl><num>XLII</num></ref>
+					<ref type="parallelPassage"><bibl><title>Deuteronomium 10:3 feci igitur arcam
+								(Am1: 10:3 cumque dolassem)</title></bibl><num>XLII</num></ref>
 					<title>Et feci arcam et ascendi in montem</title>
 				</item>
 				<item n="43">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 10.5 reversusque
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 10:5 reversusque
 										de monte</title></bibl><num>XLIII</num></ref></lem>
 						<rdg wit="#P2" varSeq="1" type="minor" cause="numbering" rend="erasure"
 							>XLIIII</rdg>
@@ -2875,7 +2875,7 @@
 				</item>
 				<item n="44">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 10.8 eo tempore
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 10:8 eo tempore
 										separavit</title></bibl><num>XLIIII</num></ref></lem>
 						<rdg wit="#Am1" type="minor" cause="numbering" cert="low">XLIII</rdg>
 						<rdg wit="#P2" varSeq="1" type="substantive" cause="numbering"
@@ -2899,7 +2899,7 @@
 						</app> leui ut portarent arcam</title>
 				</item>
 				<item n="45">
-					<ref type="parallelPassage"><bibl><title>Deuteronomium 10.12 et nunc israhel
+					<ref type="parallelPassage"><bibl><title>Deuteronomium 10:12 et nunc israhel
 								quid dominus</title></bibl><num>XLV</num></ref>
 					<title>Et nunc israhel quid dominus postulat <app>
 							<lem>a</lem>
@@ -2916,7 +2916,7 @@
 				</item>
 				<item n="46">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 10.20 dominum
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 10:20 dominum
 										deum tuum timebis</title></bibl><num>XLVI</num></ref></lem>
 						<rdg wit="#P2" varSeq="1" type="minor" cause="numbering" rend="erasure"
 							>XLVII</rdg>
@@ -2934,7 +2934,7 @@
 				<pb facs="data/images/single/Am1_206v.jpeg" n="Am1_206v"/>
 				<lb n="[Am1_206v]"/>
 				<item n="47">
-					<ref type="parallelPassage"><bibl><title>Deuteronomium 10.22 in septuaginta
+					<ref type="parallelPassage"><bibl><title>Deuteronomium 10:22 in septuaginta
 								animabus</title></bibl><num>XLVII</num></ref>
 					<title>Cum <app>
 							<lem>septuaginta quinque</lem>
@@ -2975,11 +2975,11 @@
 								preference can be given to the form with the accusative. Note,
 								however, that neither has a perfect match in the text of VL 100,
 								which reads <q>nunc autem fecit te dominus deus tuus tamquam stelas
-									caeli plenitudine</q> (Dt 10.22).</note>
+									caeli plenitudine</q> (Dt 10:22).</note>
 						</app><note>Φ (praeter L1), Am1, Tu vs de Bruyne, L1</note></title>
 				</item>
 				<item n="48">
-					<ref type="parallelPassage"><bibl><title>Deuteronomium 11.1 ama itaque dominum
+					<ref type="parallelPassage"><bibl><title>Deuteronomium 11:1 ama itaque dominum
 								deum tuum</title></bibl><num>XLVIII</num></ref>
 					<title>Et amabis dominum et scies quomodo te eduxit dominus de<app>
 							<lem>aegypto</lem>
@@ -3009,7 +3009,7 @@
 						</app></title>
 				</item>
 				<item n="49">
-					<ref type="parallelPassage"><bibl><title>Deuteronomium 11.13 si ergo
+					<ref type="parallelPassage"><bibl><title>Deuteronomium 11:13 si ergo
 								oboedieritis</title></bibl><num>XLVIIII</num></ref>
 					<title>Quod si audieritis praecepta illius dabit pluuiam<app>
 							<lem>terrae</lem>
@@ -3031,7 +3031,7 @@
 				</item>
 				<item n="50">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 11.22 si enim
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 11:22 si enim
 										custodieritis</title></bibl><num>L</num></ref></lem>
 						<rdg wit="#L2" varSeq="1" type="minor" cause="orthographic" cert="low"
 							rend="erasure">XLVIIIII</rdg>
@@ -3048,7 +3048,7 @@
 							<lem>omnes gentes</lem>
 							<rdg wit="#Am1" type="minor" cause="grammatical">omnem gentem</rdg>
 							<note>The plural corresponds to the text of both the Vetus Latina and
-								the Vulgate (Dt 11.23).</note>
+								the Vulgate (Dt 11:23).</note>
 						</app><note>Φ, Tu, de Bruyne vs Am1 (error)</note>
 						<lb/>a<app>
 							<lem>facie</lem>
@@ -3056,7 +3056,7 @@
 						</app> uestra</title>
 				</item>
 				<item n="51">
-					<ref type="parallelPassage"><bibl><title>Deuteronomium 11.26 en
+					<ref type="parallelPassage"><bibl><title>Deuteronomium 11:26 en
 							propono</title></bibl><num>LI</num></ref>
 					<title><app>
 							<lem>Ecce</lem>
@@ -3074,7 +3074,7 @@
 						</app> uobis hodie benedictiones et maledictiones</title>
 				</item>
 				<item n="52">
-					<ref type="parallelPassage"><bibl><title>Deuteronomium 12.1 haec sunt
+					<ref type="parallelPassage"><bibl><title>Deuteronomium 12:1 haec sunt
 								praecepta</title></bibl><num>LII</num></ref>
 					<title>Ista sunt<app>
 							<lem>praecepta et iudicia</lem>
@@ -3085,12 +3085,12 @@
 						</app> quae obseruabitis</title>
 				</item>
 				<item n="53">
-					<ref type="parallelPassage"><bibl><title>Deuteronomium 12.4 non facietis
+					<ref type="parallelPassage"><bibl><title>Deuteronomium 12:4 non facietis
 								ita</title></bibl><num>LIII</num></ref>
 					<title>Non facietis uoluntatem uestram</title>
 				</item>
 				<item n="54">
-					<ref type="parallelPassage"><bibl><title>Deuteronomium 12.5 sed ad
+					<ref type="parallelPassage"><bibl><title>Deuteronomium 12:5 sed ad
 							locum</title></bibl><num>LIIII</num></ref>
 					<title>In loco quem elegerit dominus<app>
 							<lem>adferetis</lem>
@@ -3120,7 +3120,7 @@
 				</item>
 				<item n="55">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 12.6 decimas et
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 12:6 decimas et
 										primitias</title></bibl><num>LV</num></ref></lem>
 						<rdg wit="#L2" type="minor" cause="numbering">LIIII</rdg>
 					</app>
@@ -3143,7 +3143,7 @@
 						</app> tui manducabis</title>
 				</item>
 				<item n="56">
-					<ref type="parallelPassage"><bibl><title>Deuteronomium 12.15 sin autem
+					<ref type="parallelPassage"><bibl><title>Deuteronomium 12:15 sin autem
 								comedere</title></bibl><num>LVI</num></ref>
 					<title><app>
 							<lem>Adtendite</lem>
@@ -3152,7 +3152,7 @@
 						</app> ne manducetis sanguinem</title>
 				</item>
 				<item n="57">
-					<ref type="parallelPassage"><bibl><title>Deuteronomium 12.28 observa et
+					<ref type="parallelPassage"><bibl><title>Deuteronomium 12:28 observa et
 								audi</title></bibl><num>LVII</num></ref>
 					<title>Custodi et fac omnia<app>
 							<lem>uerba</lem>
@@ -3166,7 +3166,7 @@
 						</app> ego mando tibi</title>
 				</item>
 				<item n="58">
-					<ref type="parallelPassage"><bibl><title>Deuteronomium 12.32 quod
+					<ref type="parallelPassage"><bibl><title>Deuteronomium 12:32 quod
 								praecipio</title></bibl><num>LVIII</num></ref>
 					<title>Omne <app>
 							<lem>uerbum</lem>
@@ -3216,7 +3216,7 @@
 				<pb facs="data/images/single/Bm_63v.jpeg" n="Bm_63v"/>
 				<lb n="[L2_62r] [Bm_63v]"/>
 				<item n="59">
-					<ref type="parallelPassage"><bibl><title>Deuteronomium 13.4 dominum deum vestrum
+					<ref type="parallelPassage"><bibl><title>Deuteronomium 13:4 dominum deum vestrum
 								sequimini</title></bibl><num>LVIIII</num></ref>
 					<title>Post dominum deum <app>
 							<lem/>
@@ -3228,7 +3228,7 @@
 				<pb facs="data/images/single/Tr_60r.jpeg" n="Tr_60r"/>
 				<lb n="[Tr_60r]"/>
 				<item n="60">
-					<ref type="parallelPassage"><bibl><title>Deuteronomium 13.6 si tibi
+					<ref type="parallelPassage"><bibl><title>Deuteronomium 13:6 si tibi
 								voluerit</title></bibl><num>LX</num></ref>
 					<title><app>
 							<lem>Si</lem>
@@ -3247,7 +3247,7 @@
 							<rdg wit="#Mb2" type="minor" cause="grammatical">eis sed</rdg>
 							<note>The singular is recommended by the context (cf. below <q>eum</q>)
 								and is closer to the biblical text of the passage in question (Dt
-								13.8), both in the Vetus Latina (VL100: <q>Non consenties ei neque
+								13:8), both in the Vetus Latina (VL100: <q>Non consenties ei neque
 									exaudies eum, et non parcet oculus tuus super eum</q>) and in
 								the Vulgate (<q>Non acquiescas ei, nec audias, neque parcat ei
 									oculus tuus</q>).</note>
@@ -3265,7 +3265,7 @@
 				<lb n="[P8_62r] [Br1_46v]"/>
 				<item n="61">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 13.12 si
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 13:12 si
 										audieris in una </title></bibl><num>LXI</num></ref></lem>
 						<witDetail wit="#Am1">The fading of the red ink has rendered the letters
 							"LX" hardly visible; the reading "LXI", however, remains
@@ -3308,7 +3308,7 @@
 				<pb facs="data/images/single/P1_62r.jpeg" n="P1_62r"/>
 				<lb n="[Tu_221r] [B2_62r] [P1_62r]"/>
 				<item n="62">
-					<ref type="parallelPassage"><bibl><title>Deuteronomium 14.1 filii estote
+					<ref type="parallelPassage"><bibl><title>Deuteronomium 14:1 filii estote
 								Domini</title></bibl><num>LXII</num></ref>
 					<title>Non facietis <app>
 							<lem>decaluationem</lem>
@@ -3323,7 +3323,7 @@
 				<pb facs="data/images/single/Sg1_125.jpeg" n="Sg1_125"/>
 				<lb n="[Sg1_125]"/>
 				<item n="63">
-					<ref type="parallelPassage"><bibl><title>Deuteronomium 14.3 ne
+					<ref type="parallelPassage"><bibl><title>Deuteronomium 14:3 ne
 							comedatis</title></bibl><num>LXIII</num></ref>
 					<title>Haec pecora<app>
 							<lem>quae</lem>
@@ -3335,7 +3335,7 @@
 						</app><note>Φ, Tu, de Bruyne vs Am1 (error)</note></title>
 				</item>
 				<item n="64">
-					<ref type="parallelPassage"><bibl><title>Deuteronomium 14.9 haec
+					<ref type="parallelPassage"><bibl><title>Deuteronomium 14:9 haec
 								comedetis</title></bibl><num>LXIIII</num></ref>
 					<title><app>
 							<lem>Haec</lem>
@@ -3344,7 +3344,7 @@
 				</item>
 				<item n="65">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 14.11 omnes aves
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 14:11 omnes aves
 										mundas</title></bibl><num>LXV</num></ref></lem>
 						<rdg wit="#Tu" varSeq="1" type="minor" cause="numbering">LXIIII</rdg>
 						<rdg wit="#Tu" varSeq="2" type="lem" cause="correction" hand="#m"
@@ -3362,7 +3362,7 @@
 						</app> manducabitis</title>
 				</item>
 				<item n="66">
-					<ref type="parallelPassage"><bibl><title>Deuteronomium 14.22 decimam partem
+					<ref type="parallelPassage"><bibl><title>Deuteronomium 14:22 decimam partem
 								separabis</title></bibl><num>LXVI</num></ref>
 					<title>Decimas agri<app>
 							<lem>tui</lem>
@@ -3381,7 +3381,7 @@
 				<pb facs="data/images/single/Mb2_54v.jpeg" n="Mb2_54v"/>
 				<lb n="[Mb2_54v]"/>
 				<item n="67">
-					<ref type="parallelPassage"><bibl><title>Deuteronomium 14.24 cum autem
+					<ref type="parallelPassage"><bibl><title>Deuteronomium 14:24 cum autem
 								longior</title></bibl><num>LXVII</num></ref>
 					<title>Cum autem longe fuerit a te <app>
 							<lem>uendes</lem>
@@ -3399,7 +3399,7 @@
 				</item>
 				<item n="68">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 15.1 septimo
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 15:1 septimo
 										anno facies</title></bibl><num>LXVIII</num></ref></lem>
 						<witDetail wit="#Tr" cert="low">Due to the poor quality of the digitisation,
 							the reading is uncertain.</witDetail>
@@ -3410,12 +3410,12 @@
 						</app> annos facies remissionem</title>
 				</item>
 				<item n="69">
-					<ref type="parallelPassage"><bibl><title>Deuteronomium 15.5 si tamen
+					<ref type="parallelPassage"><bibl><title>Deuteronomium 15:5 si tamen
 								audieris</title></bibl><num>LXVIIII</num></ref>
 					<title>Si audieris uocem domini dei tui princeps eris gentium multarum</title>
 				</item>
 				<item n="70">
-					<ref type="parallelPassage"><bibl><title>Deuteronomium 15.7 si unus de
+					<ref type="parallelPassage"><bibl><title>Deuteronomium 15:7 si unus de
 								fratribus</title></bibl><num>LXX</num></ref>
 					<title>Si<app>
 							<lem/>
@@ -3427,7 +3427,7 @@
 				</item>
 				<item n="71">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 15.12 cum tibi
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 15:12 cum tibi
 										venditus</title></bibl><num>LXXI</num></ref></lem>
 						<rdg wit="#B2" type="unclear" cause="digitisation">?</rdg>
 						<witDetail wit="#B2">Due to the tight binding, the number is not visible in
@@ -3463,7 +3463,7 @@
 				</item>
 				<item n="72">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 15.19 de
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 15:19 de
 										primogenitis</title></bibl><num>LXXII</num></ref></lem>
 						<rdg wit="#B2" type="unclear" cause="digitisation">?</rdg>
 						<witDetail wit="#B2">Due to the tight binding, the number is not visible in
@@ -3480,7 +3480,7 @@
 				</item>
 				<item n="73">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 16.1 observa
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 16:1 observa
 										mensem novarum</title></bibl><num>LXXIII</num></ref></lem>
 						<rdg wit="#B2" type="unclear" cause="digitisation">?</rdg>
 						<witDetail wit="#B2">Due to the tight binding, the number is not visible in
@@ -3502,7 +3502,7 @@
 				</item>
 				<item n="74">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 16.18 iudices et
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 16:18 iudices et
 										magistros</title></bibl><num>LXXIIII</num></ref></lem>
 						<rdg wit="#B2" type="unclear" cause="digitisation">?</rdg>
 						<witDetail wit="#B2">Due to the tight binding, the number is not visible in
@@ -3532,7 +3532,7 @@
 				</item>
 				<item n="75">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 16.21 non
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 16:21 non
 										plantabis lucum</title></bibl><num>LXXV</num></ref></lem>
 						<rdg wit="#B2" type="unclear" cause="digitisation">?</rdg>
 						<witDetail wit="#B2">Due to the tight binding, the number is not visible in
@@ -3554,7 +3554,7 @@
 				</item>
 				<item n="76">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 17.2 cum
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 17:2 cum
 										repperti fuerint</title></bibl><num>LXXVI</num></ref></lem>
 						<rdg wit="#B2" type="unclear" cause="digitisation">?</rdg>
 						<witDetail wit="#B2">Due to the tight binding, the number is not visible in
@@ -3583,7 +3583,7 @@
 						</app></title>
 				</item>
 				<item n="77">
-					<ref type="parallelPassage"><bibl><title>Deuteronomium 17.8 si difficile et
+					<ref type="parallelPassage"><bibl><title>Deuteronomium 17:8 si difficile et
 								ambiguum</title></bibl><num>LXXVII</num></ref>
 					<title>Si latuerit te uerbum <app>
 							<lem>uade</lem>
@@ -3595,14 +3595,14 @@
 				</item>
 				<item n="78">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 17.12 qui autem
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 17:12 qui autem
 										superbierit</title></bibl><num>LXXVIII</num></ref></lem>
 						<rdg wit="#P8" type="minor" cause="numbering">LXVIII</rdg>
 					</app>
 					<title>Qui non audierit sacerdotem moriatur</title>
 				</item>
 				<item n="79">
-					<ref type="parallelPassage"><bibl><title>Deuteronomium 17.14 cum ingressus
+					<ref type="parallelPassage"><bibl><title>Deuteronomium 17:14 cum ingressus
 								fueris</title></bibl><num>LXXVIIII</num></ref>
 					<title><app>
 							<lem cause="grammatical"><hi rend="italic">Alienigena</hi></lem>
@@ -3630,14 +3630,14 @@
 								>facietis</rdg>
 							<note>The plural form is inconsistent both with the context (cf. below
 									<q>te</q>) and with the corresponding biblical passage (Dt
-								17.14-15).</note>
+								17:14-15).</note>
 						</app><note>Φ, Tu, de Bruyne vs Am1 (error)</note> principem super
 						te</title>
 				</item>
 				<pb facs="data/images/single/L1_67r.jpeg" n="L1_67r"/>
 				<lb n="[L1_67r]"/>
 				<item n="80">
-					<ref type="parallelPassage"><bibl><title>Deuteronomium 18.3 hoc erit
+					<ref type="parallelPassage"><bibl><title>Deuteronomium 18:3 hoc erit
 								iudicium</title></bibl><num>LXXX</num></ref>
 					<title>Hoc iudicium<app>
 							<lem>sacerdotum</lem>
@@ -3650,8 +3650,8 @@
 					</title>
 				</item>
 				<item n="81">
-					<ref type="parallelPassage"><bibl><title>Deuteronomium 18.9 quando ingressus
-								fueris (rectius: 18.10 nec
+					<ref type="parallelPassage"><bibl><title>Deuteronomium 18:9 quando ingressus
+								fueris (rectius: 18:10 nec
 							inveniatur)</title></bibl><num>LXXXI</num></ref>
 					<title><app>
 							<lem>Non</lem>
@@ -3674,7 +3674,7 @@
 				</item>
 				<item n="82">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 18.15 prophetam
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 18:15 prophetam
 										de gente</title></bibl><num>LXXXII</num></ref></lem>
 						<rdg wit="#Sg1" varSeq="1" type="omission" subtype="error" cause="numbering"/>
 						<rdg wit="#Sg1" varSeq="2" type="lem" cause="correction" hand="#l"
@@ -3701,7 +3701,7 @@
 				</item>
 				<item n="83">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 18.20 propheta
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 18:20 propheta
 										autem qui</title></bibl><num>LXXXIII</num></ref></lem>
 						<rdg wit="#Sg1" varSeq="1" type="minor" cause="numbering">LXXXII</rdg>
 						<rdg wit="#Sg1" varSeq="2" type="lem" cause="correction" hand="#l"
@@ -3720,8 +3720,8 @@
 				</item>
 				<item n="84">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 19.3 et in tres
-										(Am1, rectius: 19.4 haec erit lex
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 19:3 et in tres
+										(Am1, rectius: 19:4 haec erit lex
 									homicidae)</title></bibl><num>LXXXIIII</num></ref></lem>
 						<rdg wit="#Sg1" varSeq="1" type="minor" cause="numbering">LXXXIII</rdg>
 						<rdg wit="#Sg1" varSeq="2" type="lem" cause="correction" hand="#l"
@@ -3739,7 +3739,7 @@
 				</item>
 				<item n="85">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 19.14 non
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 19:14 non
 										adsumes</title></bibl><num>LXXXV</num></ref></lem>
 						<rdg wit="#Sg1" varSeq="1" type="minor" cause="numbering"
 							rend="strikethrough">LXXXIIII</rdg>
@@ -3761,12 +3761,12 @@
 								cause="grammatical">posuerunt</rdg>
 							<note>Although shared by all our witnesses, the pluperfect is
 								inconsistent with the text of the corresponding biblical passage (Dt
-								19.14), both in the Vetus Latina (VL 100: <q>non transmouebis
+								19:14), both in the Vetus Latina (VL 100: <q>non transmouebis
 									terminos proximi tui quos statuerunt priores tui in possessione
 									tua</q>) and in the Vulgate (<q>non adsumes et transferes
 									terminos proximi tui quos fixerunt priores in possessione
 									tua</q>). The use of the verb <q>pono</q> in the capitulum may
-								reflect interference from a very close parallel in Proverbs 22.28
+								reflect interference from a very close parallel in Proverbs 22:28
 								(Vulgate), <q>Ne transgrediaris terminos antiquos, quos posuerunt
 									patres tui</q>. Notably, some patristic citations attest, for
 								this verse, the existence of variants implying the verb
@@ -3778,7 +3778,7 @@
 				<lb n="[Am1_207r]"/>
 				<item n="86">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 19.15 non stabit
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 19:15 non stabit
 										testis</title></bibl><num>LXXXVI</num></ref></lem>
 						<rdg wit="#Sg1" varSeq="1" type="minor" cause="numbering">LXXXV</rdg>
 						<rdg wit="#Sg1" varSeq="2" type="lem" cause="correction" hand="#l"
@@ -3799,7 +3799,7 @@
 				</item>
 				<item n="87">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 19.21 non
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 19:21 non
 										misereberis
 							eius</title></bibl><num>LXXXVII</num></ref></lem>
 						<rdg wit="#Tu" varSeq="1" type="minor" cause="numbering" rend="erasure"
@@ -3820,7 +3820,7 @@
 				</item>
 				<item n="88">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 20.1 si exieris
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 20:1 si exieris
 										ad bellum</title></bibl><num>LXXXVIII</num></ref></lem>
 						<rdg wit="#Sg1" varSeq="1" type="minor" cause="numbering">LXXXVII</rdg>
 						<rdg wit="#Sg1" varSeq="2" type="lem" cause="correction" hand="#l"
@@ -3836,7 +3836,7 @@
 				</item>
 				<item n="89">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 20.10 si quando
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 20:10 si quando
 										accesseris</title></bibl><num>LXXXVIIII</num></ref></lem>
 						<rdg wit="#Sg1" varSeq="1" type="minor" cause="numbering">LXXXVIII</rdg>
 						<rdg wit="#Sg1" varSeq="2" type="lem" cause="correction" hand="#l"
@@ -3852,7 +3852,7 @@
 				</item>
 				<item n="90">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 20.19 quando
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 20:19 quando
 										obsederis civitatem</title></bibl><num>XC</num></ref></lem>
 						<rdg wit="#Sg1" varSeq="1" type="substantive" subtype="error"
 							cause="numbering" rend="strikethrough">LXXXVIIII</rdg>
@@ -3881,7 +3881,7 @@
 				</item>
 				<item n="91">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 21.1 quando
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 21:1 quando
 										inventum fuerit</title></bibl><num>XCI</num></ref></lem>
 						<rdg wit="#Sg1" varSeq="1" type="minor" cause="numbering">XC</rdg>
 						<rdg wit="#Sg1" varSeq="2" type="lem" cause="correction" hand="#l"
@@ -3900,7 +3900,7 @@
 				</item>
 				<item n="92">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 21.10 si
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 21:10 si
 										egressus fueris</title></bibl><num>XCII</num></ref></lem>
 						<rdg wit="#Sg1" varSeq="1" type="minor" cause="numbering">XCI</rdg>
 						<rdg wit="#Sg1" varSeq="2" type="lem" cause="correction" hand="#l"
@@ -3917,7 +3917,7 @@
 				</item>
 				<item n="93">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 21.15 si
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 21:15 si
 										habuerit homo</title></bibl><num>XCIII</num></ref></lem>
 						<rdg wit="#Sg1" varSeq="1" type="minor" cause="numbering">XCII</rdg>
 						<rdg wit="#Sg1" varSeq="2" type="lem" cause="correction" hand="#l"
@@ -3933,7 +3933,7 @@
 				</item>
 				<item n="94">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 21.18 si
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 21:18 si
 										genuerit homo</title></bibl><num>XCIIII</num></ref></lem>
 						<rdg wit="#Sg1" varSeq="1" type="minor" cause="numbering">XCIII</rdg>
 						<rdg wit="#Sg1" varSeq="2" type="lem" cause="correction" hand="#l"
@@ -3959,7 +3959,7 @@
 				</item>
 				<item n="95">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 21.22 quando
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 21:22 quando
 										peccaverit homo</title></bibl><num>XCV</num></ref></lem>
 						<rdg wit="#Sg1" varSeq="1" type="minor" cause="numbering"
 							rend="strikethrough">XCIIII</rdg>
@@ -3976,7 +3976,7 @@
 				</item>
 				<item n="96">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 22.1 non videbis
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 22:1 non videbis
 										bovem</title></bibl><num>XCVI</num></ref></lem>
 						<rdg wit="#Sg1" varSeq="1" type="minor" cause="numbering">XCV</rdg>
 						<rdg wit="#Sg1" varSeq="2" type="lem" cause="correction" hand="#l"
@@ -3986,7 +3986,7 @@
 				</item>
 				<item n="97">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 22.5 non
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 22:5 non
 										induetur mulier</title></bibl><num>XCVII</num></ref></lem>
 						<rdg wit="#Sg1" varSeq="1" type="minor" cause="numbering">XCVI</rdg>
 						<rdg wit="#Sg1" varSeq="2" type="lem" cause="correction" hand="#l"
@@ -4009,7 +4009,7 @@
 				</item>
 				<item n="98">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 22.6 si ambulans
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 22:6 si ambulans
 										per viam</title></bibl><num>XCVIII</num></ref></lem>
 						<rdg wit="#Sg1" varSeq="1" type="minor" cause="numbering">XCVII</rdg>
 						<rdg wit="#Sg1" varSeq="2" type="lem" cause="correction" hand="#l"
@@ -4028,7 +4028,7 @@
 				</item>
 				<item n="99">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 22.8 cum
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 22:8 cum
 										aedificaveris
 							domum</title></bibl><num>XCVIIII</num></ref></lem>
 						<rdg wit="#Sg1" varSeq="1" type="minor" cause="numbering">XCVIII</rdg>
@@ -4048,7 +4048,7 @@
 				<lb n="[P2_56v]"/>
 				<item n="100">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 22.10 non arabis
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 22:10 non arabis
 										in bove</title></bibl><num>C</num></ref></lem>
 						<rdg wit="#Sg1" varSeq="1" type="substantive" subtype="error"
 							cause="numbering" rend="strikethrough">XCVIIII</rdg>
@@ -4062,7 +4062,7 @@
 				</item>
 				<item n="101">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 22.13 si duxerit
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 22:13 si duxerit
 										vir uxorem</title></bibl><num>CI</num></ref></lem>
 						<rdg wit="#Sg1" varSeq="1" type="minor" cause="numbering">C</rdg>
 						<rdg wit="#Sg1" varSeq="2" type="lem" cause="correction" hand="#l"
@@ -4092,7 +4092,7 @@
 								majority of them) exhibit a reading that is morphologically or
 								syntactically incorrect (cf. also chapters 11, 25, 79, 90, 118, 129,
 								130, 152). Notably, however, only here the same irregularity is
-								found in the text of the corresponding biblical passage (Dt 22.13)
+								found in the text of the corresponding biblical passage (Dt 22:13)
 								in the Vetus Latina (VL100: <q>Si autem quis acceperit uxorem et
 									inhabitauerit cum ea et odierit eam</q>); the Vulgate reads:
 									<q>Si duxerit vir uxorem, et postea odio habuerit eam</q>. In
@@ -4102,7 +4102,7 @@
 				</item>
 				<item n="102">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 22.22 si
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 22:22 si
 										dormierit vir</title></bibl><num>CII</num></ref></lem>
 						<rdg wit="#Sg1" varSeq="1" type="minor" cause="numbering">CI</rdg>
 						<rdg wit="#Sg1" varSeq="2" type="lem" cause="correction" hand="#l"
@@ -4122,7 +4122,7 @@
 				</item>
 				<item n="103">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 22.23 si puellam
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 22:23 si puellam
 										virginem</title></bibl><num>CIII</num></ref></lem>
 						<rdg wit="#Sg1" varSeq="1" type="minor" cause="numbering">CII</rdg>
 						<rdg wit="#Sg1" varSeq="2" type="lem" cause="correction" hand="#l"
@@ -4146,7 +4146,7 @@
 				</item>
 				<item n="104">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 22.25 sin autem
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 22:25 sin autem
 										in agro</title></bibl><num>CIIII</num></ref></lem>
 						<rdg wit="#Sg1" varSeq="1" type="minor" cause="numbering">CIII</rdg>
 						<rdg wit="#Sg1" varSeq="2" type="lem" cause="correction" hand="#l"
@@ -4174,7 +4174,7 @@
 				<lb n="[Z_59r]"/>
 				<item n="105">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 22.28 si
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 22:28 si
 										invenerit vir</title></bibl><num>CV</num></ref></lem>
 						<rdg wit="#Sg1" varSeq="1" type="medium" cause="numbering"
 							rend="strikethrough">CIIII</rdg>
@@ -4188,7 +4188,7 @@
 				</item>
 				<item n="106">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 22.30 non
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 22:30 non
 										accipiet homo</title></bibl><num>CVI</num></ref></lem>
 						<rdg wit="#Sg1" varSeq="1" type="minor" cause="numbering">CV</rdg>
 						<rdg wit="#Sg1" varSeq="2" type="lem" cause="correction" hand="#l"
@@ -4203,14 +4203,14 @@
 								hand="#l" rend="above">patris</rdg>
 							<note>The correct reading should be <q>patris</q>, in agreement with
 								both the Vetus Latina and the Vulgate text of the passage in
-								question (Dt 22.30: <q>non accipiet homo uxorem patris sui</q>). The
+								question (Dt 22:30: <q>non accipiet homo uxorem patris sui</q>). The
 								reading <q>fratris</q> of the Turonian Bibles may be the result of a
 								polar error.</note>
 						</app><note>Φ (error) vs Am1, Tu, deBruyne</note> sui</title>
 				</item>
 				<item n="107">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 23.1 non
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 23:1 non
 										intrabit eunuchus</title></bibl><num>CVII</num></ref></lem>
 						<rdg wit="#Sg1" varSeq="1" type="minor" cause="numbering">CVI</rdg>
 						<rdg wit="#Sg1" varSeq="2" type="lem" cause="correction" hand="#l"
@@ -4239,7 +4239,7 @@
 				</item>
 				<item n="108">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 23.2 non
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 23:2 non
 										ingredietur
 							mamzer</title></bibl><num>CVIII</num></ref></lem>
 						<rdg wit="#Sg1" varSeq="1" type="minor" cause="numbering">CVII</rdg>
@@ -4286,7 +4286,7 @@
 				</item>
 				<item n="109">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 23.7 non
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 23:7 non
 										abominaberis</title></bibl><num>CVIIII</num></ref></lem>
 						<rdg wit="#Sg1" varSeq="1" type="minor" cause="numbering">CVIII</rdg>
 						<rdg wit="#Sg1" varSeq="2" type="lem" cause="correction" hand="#l"
@@ -4321,7 +4321,7 @@
 				</item>
 				<item n="110">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 23.10 si fuerit
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 23:10 si fuerit
 										inter vos</title></bibl><num>CX</num></ref></lem>
 						<rdg wit="#Sg1" varSeq="1" type="minor" cause="numbering"
 							rend="strikethrough">CVIIII</rdg>
@@ -4350,7 +4350,7 @@
 				</item>
 				<item n="111">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 23.15 non trades
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 23:15 non trades
 										servum</title></bibl><num>CXI</num></ref></lem>
 						<rdg wit="#Am1" type="omission" cause="numbering"/>
 						<rdg wit="#Sg1" varSeq="1" type="minor" cause="numbering">CX</rdg>
@@ -4376,7 +4376,7 @@
 				</item>
 				<item n="112">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 23.17 non erit
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 23:17 non erit
 										meretrix</title></bibl><num>CXII</num></ref></lem>
 						<rdg wit="#Sg1" varSeq="1" type="minor" cause="numbering">CXI</rdg>
 						<rdg wit="#Sg1" varSeq="2" type="lem" cause="correction" hand="#l"
@@ -4402,7 +4402,7 @@
 				</item>
 				<item n="113">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 23.18 non
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 23:18 non
 										offeres mercedem</title></bibl><num>CXIII</num></ref></lem>
 						<rdg wit="#Sg1" varSeq="1" type="minor" cause="numbering">CXII</rdg>
 						<rdg wit="#Sg1" varSeq="2" type="lem" cause="correction" hand="#l"
@@ -4415,7 +4415,7 @@
 				</item>
 				<item n="114">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 23.19 non
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 23:19 non
 										fenerabis fratri</title></bibl><num>CXIIII</num></ref></lem>
 						<rdg wit="#Sg1" varSeq="1" type="minor" cause="numbering">CXIII</rdg>
 						<rdg wit="#Sg1" varSeq="2" type="lem" cause="correction" hand="#l"
@@ -4436,7 +4436,7 @@
 				</item>
 				<item n="115">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 23.21 cum
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 23:21 cum
 										voveris votum</title></bibl><num>CXV</num></ref></lem>
 						<rdg wit="#Sg1" varSeq="1" type="minor" cause="numbering"
 							rend="strikethrough">CXIIII</rdg>
@@ -4453,7 +4453,7 @@
 				</item>
 				<item n="116">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 23.24 ingressus
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 23:24 ingressus
 										vineam</title></bibl><num>CXVI</num></ref></lem>
 						<rdg wit="#Sg1" varSeq="1" type="minor" cause="numbering">CXV</rdg>
 						<rdg wit="#Sg1" varSeq="2" type="lem" cause="correction" hand="#l"
@@ -4471,7 +4471,7 @@
 				</item>
 				<item n="117">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 23.25 si
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 23:25 si
 										intraveris in
 							segetem</title></bibl><num>CXVII</num></ref></lem>
 						<rdg wit="#deBruyne" type="omission" cause="slip"/>
@@ -4488,7 +4488,7 @@
 				</item>
 				<item n="118">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 24.1 si
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 24:1 si
 										acceperit homo
 							uxorem</title></bibl><num>CXVIII</num></ref></lem>
 						<rdg wit="#Sg1" varSeq="1" type="minor" cause="numbering">CXVII</rdg>
@@ -4532,7 +4532,7 @@
 				</item>
 				<item n="119">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 24.5 cum
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 24:5 cum
 										acceperit homo</title></bibl><num>CXVIIII</num></ref></lem>
 						<rdg wit="#Sg1" varSeq="1" type="minor" cause="numbering">CXVIII</rdg>
 						<rdg wit="#Sg1" varSeq="2" type="lem" cause="correction" hand="#l"
@@ -4548,7 +4548,7 @@
 				</item>
 				<item n="120">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 24.6 non
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 24:6 non
 										accipies loco</title></bibl><num>CXX</num></ref></lem>
 						<rdg wit="#Sg1" varSeq="1" type="minor" cause="numbering"
 							rend="strikethrough">CXVIIII</rdg>
@@ -4559,13 +4559,13 @@
 							<lem cause="orthographic"><hi rend="bold">pignorabis</hi></lem>
 							<rdg wit="#Am1 #Tu #deBruyne" type="minor" cause="orthographic"
 								>pignerabis</rdg>
-							<note>VL100 (Dt 24.6) reads <q>pignerabis</q> as Am1 and Tu (see also
+							<note>VL100 (Dt 24:6) reads <q>pignerabis</q> as Am1 and Tu (see also
 								below, cap. 123).</note>
 						</app><note>Φ vs Am1, Tu, de Bruyne (adiaph.)</note> molam</title>
 				</item>
 				<item n="121">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 24.7 si
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 24:7 si
 										deprehensus fuerit
 							homo</title></bibl><num>CXXI</num></ref></lem>
 						<rdg wit="#Sg1" varSeq="1" type="minor" cause="numbering">CXX</rdg>
@@ -4576,7 +4576,7 @@
 				</item>
 				<item n="122">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 24.9 mementote
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 24:9 mementote
 										quae fecerit</title></bibl><num>CXXII</num></ref></lem>
 						<rdg wit="#Sg1" varSeq="1" type="minor" cause="numbering">CXXI</rdg>
 						<rdg wit="#Sg1" varSeq="2" type="lem" cause="correction" hand="#l"
@@ -4592,7 +4592,7 @@
 				</item>
 				<item n="123">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 24.10 cum
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 24:10 cum
 										repetes</title></bibl><num>CXXIII</num></ref></lem>
 						<rdg wit="#Sg1" varSeq="1" type="minor" cause="numbering">CXXII</rdg>
 						<rdg wit="#Sg1" varSeq="2" type="lem" cause="correction" hand="#l"
@@ -4603,13 +4603,13 @@
 							<rdg wit="#Am1 #Tu #deBruyne" type="minor" cause="orthographic"
 								>pignerabis</rdg>
 							<note><q>Pignerabis</q> is closer to VL 100's text of the corresponding
-								passage (Dt 24.10: <q>non intrabis in domum ipsius pignerare
+								passage (Dt 24:10: <q>non intrabis in domum ipsius pignerare
 									pignus</q>). See also above, cap. 120.</note>
 						</app><note>Φ vs Am1, Tu, de Bruyne (adiaph.)</note> per uim</title>
 				</item>
 				<item n="124">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 24.12 sin autem
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 24:12 sin autem
 										pauper</title></bibl><num>CXXIIII</num></ref></lem>
 						<rdg type="minor" cause="orthographic" wit="#deBruyne">CXXIV</rdg>
 						<rdg wit="#Sg1" varSeq="1" type="minor" cause="numbering">CXXIII</rdg>
@@ -4633,7 +4633,7 @@
 				</item>
 				<item n="125">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 24.16 non
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 24:16 non
 										occidentur patres</title></bibl><num>CXXV</num></ref></lem>
 						<rdg wit="#Sg1" varSeq="1" type="minor" cause="numbering"
 							rend="strikethrough">CXXIIII</rdg>
@@ -4644,7 +4644,7 @@
 				</item>
 				<item n="126">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 24.17 non
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 24:17 non
 										pervertes</title></bibl><num>CXXVI</num></ref></lem>
 						<rdg wit="#Sg1" varSeq="1" type="minor" cause="numbering">CXXV</rdg>
 						<rdg wit="#Sg1" varSeq="2" type="lem" cause="correction" hand="#l"
@@ -4669,7 +4669,7 @@
 				</item>
 				<item n="127">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 24.17 nec
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 24:17 nec
 										auferes pignoris
 							loco</title></bibl><num>CXXVII</num></ref></lem>
 						<rdg wit="#Sg1" varSeq="1" type="minor" cause="numbering">CXXVI</rdg>
@@ -4682,7 +4682,7 @@
 				<lb n="[Tu_221v]"/>
 				<item n="128">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 24.18 idcirco
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 24:18 idcirco
 										praecipio</title></bibl><num>CXXVIII</num></ref></lem>
 						<rdg wit="#Sg1" varSeq="1" type="minor" cause="numbering">CXXVII</rdg>
 						<rdg wit="#Sg1" varSeq="2" type="lem" cause="correction" hand="#l"
@@ -4695,7 +4695,7 @@
 				</item>
 				<item n="129">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 24.20 si fruges
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 24:20 si fruges
 										colliges</title></bibl><num>CXXVIIII</num></ref></lem>
 						<rdg wit="#Am1" type="minor" cause="numbering">CXXVIIIII</rdg>
 						<rdg wit="#Sg1" varSeq="1" type="minor" cause="numbering">CXXVIII</rdg>
@@ -4723,7 +4723,7 @@
 				</item>
 				<item n="130">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 24.21 si
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 24:21 si
 										vindemiaveris
 							vineam</title></bibl><num>CXXX</num></ref></lem>
 						<rdg wit="#Sg1" varSeq="1" type="minor" cause="numbering"
@@ -4762,8 +4762,8 @@
 				</item>
 				<item n="131">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 24.22 et idcirco
-										praecipio (Am1: 25.1 si fuerit
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 24:22 et idcirco
+										praecipio (Am1: 25:1 si fuerit
 									causa)</title></bibl><num>CXXXI</num></ref></lem>
 						<rdg wit="#Sg1" varSeq="1" type="minor" cause="numbering">CXXX</rdg>
 						<rdg wit="#Sg1" varSeq="2" type="lem" cause="correction" hand="#l"
@@ -4777,7 +4777,7 @@
 				</item>
 				<item n="132">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 25.4 non ligabis
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 25:4 non ligabis
 										os</title></bibl><num>CXXXII</num></ref></lem>
 						<rdg wit="#Sg1" varSeq="1" type="minor" cause="numbering">CXXXI</rdg>
 						<rdg wit="#Sg1" varSeq="2" type="lem" cause="correction" hand="#l"
@@ -4790,7 +4790,7 @@
 				</item>
 				<item n="133">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 25.5 quando
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 25:5 quando
 										habitaverint</title></bibl><num>CXXXIII</num></ref></lem>
 						<rdg wit="#Sg1" varSeq="1" type="minor" cause="numbering">CXXXII</rdg>
 						<rdg wit="#Sg1" varSeq="2" type="lem" cause="correction" hand="#l"
@@ -4804,7 +4804,7 @@
 								relationship between these two pre-Turonian exemplars. The presence
 								of the detail <q>sine filiis</q> is certainly to be considered the
 								correct text, as it is required by the context and aligns with the
-								corresponding biblical passage (Dt 25.5). In terms of phrasing,
+								corresponding biblical passage (Dt 25:5). In terms of phrasing,
 								however, the text of the capitulum is closer to the Vulgate (<q>unus
 									ex eis absque liberis mortuus fuerit</q>) than to the Vetus
 								Latina (VL100: <q>mortuus fuerit unus eorum, semen autem non fuerit
@@ -4814,7 +4814,7 @@
 				</item>
 				<item n="134">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 25.7 sin autem
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 25:7 sin autem
 										noluerit</title></bibl><num>CXXXIIII</num></ref></lem>
 						<rdg wit="#Sg1" varSeq="1" type="minor" cause="numbering">CXXXIII</rdg>
 						<rdg wit="#Sg1" varSeq="2" type="lem" cause="correction" hand="#l"
@@ -4824,7 +4824,7 @@
 				</item>
 				<item n="135">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 25.11 si
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 25:11 si
 										habuerint inter
 							se</title></bibl><num>CXXXV</num></ref></lem>
 						<rdg wit="#Sg1" varSeq="1" type="minor" cause="numbering">CXXXIIII</rdg>
@@ -4855,7 +4855,7 @@
 				<lb n="[Am1_207v]"/>
 				<item n="136">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 25.13 non
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 25:13 non
 										habebis in
 							sacculo</title></bibl><num>CXXXVI</num></ref></lem>
 						<rdg wit="#Sg1" varSeq="1" type="minor" cause="numbering">CXXXV</rdg>
@@ -4881,7 +4881,7 @@
 				</item>
 				<item n="137">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 25.17 memento
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 25:17 memento
 										quae fecerit</title></bibl><num>CXXXVII</num></ref></lem>
 						<rdg wit="#Sg1" varSeq="1" type="minor" cause="numbering">CXXXVI</rdg>
 						<rdg wit="#Sg1" varSeq="2" type="lem" cause="correction" hand="#l"
@@ -4895,7 +4895,7 @@
 				</item>
 				<item n="138">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 26.1 cumque
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 26:1 cumque
 										intraveris</title></bibl><num>CXXXVIII</num></ref></lem>
 						<rdg wit="#Sg1" varSeq="1" type="minor" cause="numbering">CXXXVII</rdg>
 						<rdg wit="#Sg1" varSeq="2" type="lem" cause="correction" hand="#l"
@@ -4938,7 +4938,7 @@
 				</item>
 				<item n="139">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 27.9 dixeruntque
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 27:9 dixeruntque
 										moses</title></bibl><num>CXXXVIIII</num></ref></lem>
 						<rdg wit="#Sg1" varSeq="1" type="minor" cause="numbering">CXXXVIII</rdg>
 						<rdg wit="#Sg1" varSeq="2" type="lem" cause="correction" hand="#l"
@@ -4948,7 +4948,7 @@
 				</item>
 				<item n="140">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 27.11
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 27:11
 										praecepitque moses</title></bibl><num>CXL</num></ref></lem>
 						<rdg wit="#Sg1" varSeq="1" type="minor" cause="numbering"
 							rend="strikethrough">CXXXVIIII</rdg>
@@ -4983,7 +4983,7 @@
 				</item>
 				<item n="141">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 27.14 et
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 27:14 et
 										pronuntiabunt</title></bibl><num>CXLI</num></ref></lem>
 						<rdg wit="#Sg1" varSeq="1" type="minor" cause="numbering">CXL</rdg>
 						<rdg wit="#Sg1" varSeq="2" type="lem" cause="correction" hand="#l"
@@ -4993,7 +4993,7 @@
 				</item>
 				<item n="142">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 28.1 sin autem
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 28:1 sin autem
 										audieris</title></bibl><num>CXLII</num></ref></lem>
 						<rdg wit="#Sg1" varSeq="1" type="minor" cause="numbering">CXLI</rdg>
 						<rdg wit="#Sg1" varSeq="2" type="lem" cause="correction" hand="#l"
@@ -5015,7 +5015,7 @@
 							<rdg wit="#deBruyne" type="omission" cause="slip"/>
 							<note>The omission in de Bruyne's edition is likely a typographic error,
 								as <q>super uos</q> is required by the context and aligns with the
-								corresponding biblical passage (Dt 28.2), both in the Vetus Latina
+								corresponding biblical passage (Dt 28:2), both in the Vetus Latina
 								(VL 100: <q>Et uenient super te omnes benedictiones istae</q>) and
 								the Vulgate (<q>Venientque super te uniuersae benedictiones
 									istae</q>).</note>
@@ -5026,7 +5026,7 @@
 				</item>
 				<item n="143">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 28.15 quod si
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 28:15 quod si
 										audire</title></bibl><num>CXLIII</num></ref></lem>
 						<rdg wit="#Sg1" varSeq="1" type="minor" cause="numbering">CXLII</rdg>
 						<rdg wit="#Sg1" varSeq="2" type="minor" cause="correction" hand="#l"
@@ -5050,7 +5050,7 @@
 				</item>
 				<item n="144">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 29.2 vocavitque
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 29:2 vocavitque
 										moses</title></bibl><num>CXLIIII</num></ref></lem>
 						<rdg wit="#Sg1" varSeq="1" type="minor" cause="numbering">CXLIII</rdg>
 						<rdg wit="#Sg1" varSeq="2" type="lem" cause="correction" hand="#l"
@@ -5078,8 +5078,8 @@
 				</item>
 				<item n="145">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 29.28
-										proiecitque in terram (rectius 29.29 abscondita
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 29:28
+										proiecitque in terram (rectius 29:29 abscondita
 										Domino)</title></bibl><num>CXLV</num></ref></lem>
 						<rdg wit="#Z" varSeq="1" type="minor" cause="numbering" rend="erasure"
 							cert="low">CXLVI</rdg>
@@ -5105,7 +5105,7 @@
 				</item>
 				<item n="146">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 30.14 sed iuxta
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 30:14 sed iuxta
 										te</title></bibl><num>CXLVI</num></ref></lem>
 						<rdg wit="#Z" varSeq="1" type="minor" cause="numbering" rend="erasure"
 							cert="low">CXLVII</rdg>
@@ -5116,7 +5116,7 @@
 				</item>
 				<item n="147">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 30.15 considera
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 30:15 considera
 										quod hodie</title></bibl><num>CXLVII</num></ref></lem>
 						<rdg wit="#Z" varSeq="1" type="minor" cause="numbering" rend="erasure"
 							cert="low">CXLVIII</rdg>
@@ -5130,12 +5130,12 @@
 						</app> mortem</title>
 				</item>
 				<item n="148">
-					<ref type="parallelPassage"><bibl><title>Deuteronomium 31.1 abiit itaque
+					<ref type="parallelPassage"><bibl><title>Deuteronomium 31:1 abiit itaque
 								moses</title></bibl><num>CXLVIII</num></ref>
 					<title>Et consummauit moyses omnia uerba ista</title>
 				</item>
 				<item n="149">
-					<ref type="parallelPassage"><bibl><title>Deuteronomium 31.7 vocavitque
+					<ref type="parallelPassage"><bibl><title>Deuteronomium 31:7 vocavitque
 								moses</title></bibl><num>CXLVIIII</num></ref>
 					<title>Et uocauit moyses iesum et dixit ei <q type="spoken">uiriliter age <app>
 								<lem>et</lem>
@@ -5148,7 +5148,7 @@
 				</item>
 				<item n="150">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 31.16 dixitque
+						<lem><ref type="parallelPassage"><bibl><title>Deuteronomium 31:16 dixitque
 										dominus</title></bibl><num>CL</num></ref></lem>
 						<rdg wit="#Sg1" varSeq="1" type="minor" cause="numbering" rend="erasure"
 							cert="low">C????</rdg>
@@ -5177,7 +5177,7 @@
 							</app> post deos alienos</q></title>
 				</item>
 				<item n="151">
-					<ref type="parallelPassage"><bibl><title>Deuteronomium 31.22 scripsit ergo
+					<ref type="parallelPassage"><bibl><title>Deuteronomium 31:22 scripsit ergo
 								moses</title></bibl><num>CLI</num></ref>
 					<title><app>
 							<lem>Scripsit</lem>
@@ -5185,7 +5185,7 @@
 						</app> moyses canticum hoc</title>
 				</item>
 				<item n="152">
-					<ref type="parallelPassage"><bibl><title>Deuteronomium 32.48 locutusque est
+					<ref type="parallelPassage"><bibl><title>Deuteronomium 32:48 locutusque est
 								dominus</title></bibl><num>CLII</num></ref>
 					<title>Dixit dominus ad moysen <q type="spoken">ascende in montem abarim et<app>
 								<lem cause="grammatical"><hi rend="italic">morire</hi></lem>
@@ -5207,12 +5207,12 @@
 							</app><note>Φ (error) vs Am1, Tu, de Bruyne</note> ibi</q></title>
 				</item>
 				<item n="153">
-					<ref type="parallelPassage"><bibl><title>Deuteronomium 33.1 haec est
+					<ref type="parallelPassage"><bibl><title>Deuteronomium 33:1 haec est
 								benedictio</title></bibl><num>CLIII</num></ref>
 					<title>Benedixit moyses homo dei filios israhel</title>
 				</item>
 				<item n="154">
-					<ref type="parallelPassage"><bibl><title>Deuteronomium 34.5 mortuusque est
+					<ref type="parallelPassage"><bibl><title>Deuteronomium 34:5 mortuusque est
 								ibi</title></bibl><num>CLIIII</num></ref>
 					<title>Mortuus<app>
 							<lem>est</lem>
@@ -5225,7 +5225,7 @@
 						</app> moab</title>
 				</item>
 				<item n="155">
-					<ref type="parallelPassage"><bibl><title>Deuteronomium 34.10 et non
+					<ref type="parallelPassage"><bibl><title>Deuteronomium 34:10 et non
 								surrexit</title></bibl><num>CLV</num></ref>
 					<title>Et non fuit <app>
 							<lem/>

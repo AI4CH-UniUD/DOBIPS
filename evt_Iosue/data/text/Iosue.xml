@@ -1432,7 +1432,7 @@
 			<list>
 				<item n="1">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Iosue 1.1 et factum
+						<lem><ref type="parallelPassage"><bibl><title>Iosue 1:1 et factum
 										est</title></bibl><num>I</num></ref></lem>
 						<rdg wit="#Tr" type="unclear" cause="digitisation">?</rdg>
 						<witDetail wit="#Tr">Due to the tight binding of the manuscript and the poor
@@ -1449,7 +1449,7 @@
 							</app> tecum</q></title></item>
 				<item n="2">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Iosue 1.10 praecepitque
+						<lem><ref type="parallelPassage"><bibl><title>Iosue 1:10 praecepitque
 										Iosue</title></bibl><num>II</num></ref></lem>
 						<rdg wit="#Tr" type="unclear" cause="digitisation">?</rdg>
 						<witDetail wit="#Tr">Due to the tight binding of the manuscript and the poor
@@ -1480,7 +1480,7 @@
 				</item>
 				<item n="3">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Iosue 2.1 misit igitur
+						<lem><ref type="parallelPassage"><bibl><title>Iosue 2:1 misit igitur
 										Iosue</title></bibl><num>III</num></ref></lem>
 						<rdg wit="#Tr" type="unclear" cause="digitisation">?</rdg>
 						<witDetail wit="#Tr">Due to the tight binding of the manuscript and the poor
@@ -1493,7 +1493,7 @@
 				</item>
 				<item n="4">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Iosue 3.7 dixitque Dominus ad
+						<lem><ref type="parallelPassage"><bibl><title>Iosue 3:7 dixitque Dominus ad
 										Iosue</title></bibl><num>IIII</num></ref></lem>
 						<rdg wit="#Tr" type="unclear" cause="digitisation">?</rdg>
 						<witDetail wit="#Tr">Due to the tight binding of the manuscript and the poor
@@ -1514,7 +1514,7 @@
 									rend="overstrike">exaltare</rdg>
 							</app> te coram omni israhel ut sciant <app>
 								<lem cause="grammatical">quia</lem>
-								<note>The Vulgate (Ios 3.7) reads here <q>quod</q> instead of
+								<note>The Vulgate (Ios 3:7) reads here <q>quod</q> instead of
 										<q>quia</q> (no variant is recorded in Weber-Gryson's
 									apparatus).</note>
 							</app><note>Φ, Am2, de Bruyne vs Vulg. (adiaph.)</note> sicut <app>
@@ -1522,7 +1522,7 @@
 								<rdg wit="#deBruyne" type="omission" cause="unknown"/>
 								<note>Besides being attested in all our witnesses, the verb
 										<q>fui</q> appears in the corresponding passage of the
-									Vulgate (Ios 3.7: <q>ut sciant quod sicut cum Mosi fui ita et
+									Vulgate (Ios 3:7: <q>ut sciant quod sicut cum Mosi fui ita et
 										tecum sim</q>) and is certainly the original reading of the
 									A series. Its absence in de Bruyne's edition may be due to a
 									typographical slip.</note>
@@ -1536,14 +1536,14 @@
 									rend="overstrike">moyse</rdg>
 							</app> ita et tecum <app>
 								<lem cause="grammatical">sum</lem>
-								<note>Cf. app. Weber-Gryson ad Ios 3.7 (<q>ita et tecum sim</q>):
+								<note>Cf. app. Weber-Gryson ad Ios 3:7 (<q>ita et tecum sim</q>):
 									sim] sum CΣT (C = Cava, Badia, 1 (14), 9th c. 2/2, Spain; Σ =
 									Madrid, BN, Vitr. 13-1, 10th c., Spain; T = our Tu).</note>
 							</app></q></title>
 				</item>
 				<item n="5">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Iosue 3.14 igitur egressus est
+						<lem><ref type="parallelPassage"><bibl><title>Iosue 3:14 igitur egressus est
 										populus</title></bibl><num>V</num></ref></lem>
 						<rdg wit="#Tr" type="unclear" cause="digitisation">?</rdg>
 						<witDetail wit="#Tr">Due to the tight binding of the manuscript and the poor
@@ -1556,13 +1556,13 @@
 								series, as shown by the apparatus of the <ref target="#BenIos"
 									>Benedictine edition</ref> (p. 20). Despite being clearly
 								erroneous, <q>euntis</q> is widespread: in addition to the Tours
-								Bibles and in Am2, it also occurs in some later witnesses (cf.
+								Bibles and Am2, it also occurs in some later witnesses (cf.
 								ibid.). Tu's version reads <q>transeunte</q>.</note>
 						</app> israhel</title>
 				</item>
 				<item n="6">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Iosue 4.1 quibus
+						<lem><ref type="parallelPassage"><bibl><title>Iosue 4:1 quibus
 										transgressis</title></bibl><num>VI</num></ref></lem>
 						<rdg wit="#Tr" type="unclear" cause="digitisation">?</rdg>
 						<witDetail wit="#Tr">Due to the tight binding of the manuscript and the poor
@@ -1578,7 +1578,7 @@
 				</item>
 				<item n="7">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Iosue 5.1 postquam ergo
+						<lem><ref type="parallelPassage"><bibl><title>Iosue 5:1 postquam ergo
 										audierunt</title></bibl><num>VII</num></ref></lem>
 						<rdg wit="#Tr" type="unclear" cause="digitisation">?</rdg>
 						<witDetail wit="#Tr">Due to the tight binding of the manuscript and the poor
@@ -1591,7 +1591,7 @@
 				</item>
 				<item n="8">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Iosue 5.2 eo tempore ait
+						<lem><ref type="parallelPassage"><bibl><title>Iosue 5:2 eo tempore ait
 										Dominus</title></bibl><num>VIII</num></ref></lem>
 						<rdg wit="#Tr" type="unclear" cause="digitisation">?</rdg>
 						<witDetail wit="#Tr">Due to the tight binding of the manuscript and the poor
@@ -1608,8 +1608,8 @@
 				</item>
 				<item n="9">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Iosue 5.12 defecitque manna
-										(Tu: 5.9 dixitque Dominus ad
+						<lem><ref type="parallelPassage"><bibl><title>Iosue 5:12 defecitque manna
+										(Tu: 5:9 dixitque Dominus ad
 									Iosue)</title></bibl><num>VIIII</num></ref></lem>
 						<rdg wit="#Tr" type="unclear" cause="digitisation">?</rdg>
 						<witDetail wit="#Tr">Due to the tight binding of the manuscript and the poor
@@ -1624,7 +1624,7 @@
 				</item>
 				<item n="10">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Iosue 5.13 cum autem esset
+						<lem><ref type="parallelPassage"><bibl><title>Iosue 5:13 cum autem esset
 										Iosue</title></bibl><num>X</num></ref></lem>
 						<rdg wit="#Tr" type="unclear" cause="digitisation">?</rdg>
 						<witDetail wit="#Tr">Due to the tight binding of the manuscript and the poor
@@ -1652,7 +1652,7 @@
 				</item>
 				<item n="11">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Iosue 6.1 Iericho autem
+						<lem><ref type="parallelPassage"><bibl><title>Iosue 6:1 Iericho autem
 										clausa</title></bibl><num>XI</num></ref></lem>
 						<rdg wit="#Tr" type="unclear" cause="digitisation">?</rdg>
 						<witDetail wit="#Tr">Due to the tight binding of the manuscript and the poor
@@ -1662,7 +1662,7 @@
 				</item>
 				<item n="12">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Iosue 6.25 in tempore illo
+						<lem><ref type="parallelPassage"><bibl><title>Iosue 6:25 in tempore illo
 										imprecatus</title></bibl><num>XII</num></ref></lem>
 						<rdg wit="#Tr" type="unclear" cause="digitisation">?</rdg>
 						<witDetail wit="#Tr">Due to the tight binding of the manuscript and the poor
@@ -1677,7 +1677,7 @@
 						</app> iosue</title>
 				</item>
 				<item n="13">
-					<ref type="parallelPassage"><bibl><title>Iosue 7.1 filii autem Israel
+					<ref type="parallelPassage"><bibl><title>Iosue 7:1 filii autem Israel
 								praevaricati</title></bibl><num>XIII</num></ref>
 					<title><app>
 							<lem>Praeuaricatio</lem>
@@ -1689,7 +1689,7 @@
 				</item>
 				<item n="14">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Iosue 8.1 dixit autem
+						<lem><ref type="parallelPassage"><bibl><title>Iosue 8:1 dixit autem
 										Dominus</title></bibl><num>XIIII</num></ref></lem>
 						<rdg wit="#Tr" type="unclear" cause="digitisation">?</rdg>
 						<witDetail wit="#Tr">Due to the tight binding of the manuscript and the poor
@@ -1704,7 +1704,7 @@
 				</item>
 				<item n="15">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Iosue 9.1 quibus auditis
+						<lem><ref type="parallelPassage"><bibl><title>Iosue 9:1 quibus auditis
 										cuncti reges</title></bibl><num>XV</num></ref></lem>
 						<rdg wit="#Tr" type="unclear" cause="digitisation">?</rdg>
 						<witDetail wit="#Tr">Due to the tight binding of the manuscript and the poor
@@ -1717,13 +1717,13 @@
 					<title>Perturbatio regum</title>
 				</item>
 				<item n="16">
-					<ref type="parallelPassage"><bibl><title>Iosue 9.3 at hi qui
+					<ref type="parallelPassage"><bibl><title>Iosue 9:3 at hi qui
 							habitabant</title></bibl><num>XVI</num></ref>
 					<title>Simulatio gabaonitarum</title>
 				</item>
 				<item n="17">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Iosue 10.1 quae cum
+						<lem><ref type="parallelPassage"><bibl><title>Iosue 10:1 quae cum
 										audisset</title></bibl><num>XVII</num></ref></lem>
 						<rdg wit="#Tr" type="unclear" cause="digitisation">?</rdg>
 						<witDetail wit="#Tr">Due to the tight binding of the manuscript and the poor
@@ -1749,13 +1749,13 @@
 							<lem>diei unius</lem>
 							<rdg wit="#Mb2" type="transposition" cause="unknown">unius diei</rdg>
 						</app><note>The episode described by the second part of the capitulum
-								(<q>tunc imperauit soli...</q>) is narrated in Ios 10.12-14, despite
+								(<q>tunc imperauit soli...</q>) is narrated in Ios 10:12-14, despite
 							the fact that in all the Turonian Bibles chapter 18 already begins at
-							Ios 10.8.</note></title>
+							Ios 10:8.</note></title>
 				</item>
 				<item n="18">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Iosue 10.8 dixitque
+						<lem><ref type="parallelPassage"><bibl><title>Iosue 10:8 dixitque
 										Dominus</title></bibl><num>XVIII</num></ref></lem>
 						<rdg wit="#Tr" type="unclear" cause="digitisation">?</rdg>
 						<witDetail wit="#Tr">Due to the tight binding of the manuscript and the poor
@@ -1766,7 +1766,7 @@
 				</item>
 				<item n="19">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Iosue 12.6 Moyses famulus
+						<lem><ref type="parallelPassage"><bibl><title>Iosue 12:6 Moyses famulus
 										Domini</title></bibl><num>XVIIII</num></ref></lem>
 						<rdg wit="#Tr" type="unclear" cause="digitisation">?</rdg>
 						<witDetail wit="#Tr">Due to the tight binding of the manuscript and the poor
@@ -1810,7 +1810,7 @@
 				<lb n="[Am2_4r]"/>
 				<item n="20">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Iosue 12.7 hi sunt
+						<lem><ref type="parallelPassage"><bibl><title>Iosue 12:7 hi sunt
 										reges</title></bibl><num>XX</num></ref></lem>
 						<rdg wit="#Tr" type="unclear" cause="digitisation">?</rdg>
 						<witDetail wit="#Tr">Due to the tight binding of the manuscript and the poor
@@ -1829,8 +1829,8 @@
 				</item>
 				<item n="21">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Iosue 13.6 ego sum qui (Tu:
-										13.1 Iosue senex
+						<lem><ref type="parallelPassage"><bibl><title>Iosue 13:6 ego sum qui (Tu:
+										13:1 Iosue senex
 								provectaeque)</title></bibl><num>XXI</num></ref></lem>
 						<rdg wit="#Tr" type="unclear" cause="digitisation">?</rdg>
 						<witDetail wit="#Tr">Due to the tight binding of the manuscript and the poor
@@ -1845,7 +1845,7 @@
 				</item>
 				<item n="22">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Iosue 14.6 accesserunt itaque
+						<lem><ref type="parallelPassage"><bibl><title>Iosue 14:6 accesserunt itaque
 										filii</title></bibl><num>XXII</num></ref></lem>
 						<rdg wit="#Tr" type="unclear" cause="digitisation">?</rdg>
 						<witDetail wit="#Tr">Due to the tight binding of the manuscript and the poor
@@ -1885,7 +1885,7 @@
 				</item>
 				<item n="23">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Iosue 15.1 igitur sors
+						<lem><ref type="parallelPassage"><bibl><title>Iosue 15:1 igitur sors
 										filiorum</title></bibl><num>XXIII</num></ref></lem>
 						<rdg wit="#Tr" type="unclear" cause="digitisation">?</rdg>
 						<witDetail wit="#Tr">Due to the tight binding of the manuscript and the poor
@@ -1901,7 +1901,7 @@
 				</item>
 				<item n="24">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Iosue 16.1 cecidit quoque
+						<lem><ref type="parallelPassage"><bibl><title>Iosue 16:1 cecidit quoque
 										sors</title></bibl><num>XXIIII</num></ref></lem>
 						<rdg wit="#B2" type="minor" cause="numbering">XXV</rdg>
 					</app>
@@ -1916,7 +1916,7 @@
 				</item>
 				<item n="25">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Iosue 17.14 locutique sunt
+						<lem><ref type="parallelPassage"><bibl><title>Iosue 17:14 locutique sunt
 										filii</title></bibl><num>XXV</num></ref></lem>
 						<rdg wit="#Tr" type="unclear" cause="digitisation">?</rdg>
 						<witDetail wit="#Tr">Due to the tight binding of the manuscript and the poor
@@ -1971,7 +1971,7 @@
 				</item>
 				<item n="26">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Iosue 18.1 congregatique sunt
+						<lem><ref type="parallelPassage"><bibl><title>Iosue 18:1 congregatique sunt
 										omnes</title></bibl><num>XXVI</num></ref></lem>
 						<rdg wit="#Tr" type="unclear" cause="digitisation">?</rdg>
 						<witDetail wit="#Tr">Due to the tight binding of the manuscript and the poor
@@ -1982,14 +1982,14 @@
 							<rdg wit="#P2" varSeq="1" type="omission" cause="slip"/>
 							<rdg wit="#P2" varSeq="2" type="lem" cause="correction" hand="#l"
 								rend="margin">Congregatique sunt omnes filii israhel in silo</rdg>
-							<note>The capitulum reproduces Ios 18.1 so literally that the enclitic
+							<note>The capitulum reproduces Ios 18:1 so literally that the enclitic
 									<q>-que</q> in <q>congregatique</q> is retained, even though it
 								is superfluous in the context of the capitulum.</note>
 						</app></title>
 				</item>
 				<item n="27">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Iosue 18.8 cumque surrexissent
+						<lem><ref type="parallelPassage"><bibl><title>Iosue 18:8 cumque surrexissent
 										viri</title></bibl><num>XXVII</num></ref></lem>
 						<rdg wit="#Tr" type="unclear" cause="digitisation">?</rdg>
 						<witDetail wit="#Tr">Due to the tight binding of the manuscript and the poor
@@ -2023,8 +2023,8 @@
 				</item>
 				<item n="28">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Iosue 20.1 loquere filiis
-										(Am2, B2 [+ Tu]): 20.1 et locutus est dominus ad iosue
+						<lem><ref type="parallelPassage"><bibl><title>Iosue 20:1 loquere filiis
+										(Am2, B2 [+ Tu]): 20:1 et locutus est dominus ad iosue
 										dicens loquere filiis)
 								</title></bibl><num>XXVIII</num></ref></lem>
 						<rdg wit="#Tr" type="unclear" cause="digitisation">?</rdg>
@@ -2045,8 +2045,8 @@
 				</item>
 				<item n="29">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Iosue 21.2 locutique sunt ad
-										eos (B2: 21.2 dominus praecepit; Tu: 21.1 accesseruntque
+						<lem><ref type="parallelPassage"><bibl><title>Iosue 21:2 locutique sunt ad
+										eos (B2: 21:2 dominus praecepit; Tu: 21:1 accesseruntque
 										principes)</title></bibl><num>XXVIIII</num></ref></lem>
 						<rdg wit="#Sg1" varSeq="1" type="minor" cause="slip_numbering">XXVIII</rdg>
 						<rdg wit="#Sg1" varSeq="2" type="lem" cause="correction" rend="above"
@@ -2062,7 +2062,7 @@
 				</item>
 				<item n="30">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Iosue 21.42 dataque est ab
+						<lem><ref type="parallelPassage"><bibl><title>Iosue 21:42 dataque est ab
 										eo</title></bibl><num>XXX</num></ref></lem>
 						<rdg wit="#Tr" type="unclear" cause="digitisation">?</rdg>
 						<witDetail wit="#Tr">Due to the tight binding of the manuscript and the poor
@@ -2075,7 +2075,7 @@
 				</item>
 				<item n="31">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Iosue 22.10 cumque
+						<lem><ref type="parallelPassage"><bibl><title>Iosue 22:10 cumque
 										venissent</title></bibl><num>XXXI</num></ref></lem>
 						<rdg wit="#Tr" type="unclear" cause="digitisation">?</rdg>
 						<witDetail wit="#Tr">Due to the tight binding of the manuscript and the poor
@@ -2100,7 +2100,7 @@
 				</item>
 				<item n="32">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Iosue 23.1 evoluto
+						<lem><ref type="parallelPassage"><bibl><title>Iosue 23:1 evoluto
 										autem</title></bibl><num>XXXII</num></ref></lem>
 						<rdg wit="#Tr" type="unclear" cause="digitisation">?</rdg>
 						<witDetail wit="#Tr">Due to the tight binding of the manuscript and the poor
@@ -2144,7 +2144,7 @@
 				</item>
 				<item n="33">
 					<app>
-						<lem><ref type="parallelPassage"><bibl><title>Iosue 24.1 congregavitque
+						<lem><ref type="parallelPassage"><bibl><title>Iosue 24:1 congregavitque
 										Iosue</title></bibl><num>XXXIII</num></ref></lem>
 						<rdg wit="#Tr" type="unclear" cause="digitisation">?</rdg>
 						<witDetail wit="#Tr">Due to the tight binding of the manuscript and the poor
