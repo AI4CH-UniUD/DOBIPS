@@ -1,0 +1,1996 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Capitula Isaiae in Tournai, Bibliothèque du Séminaire, MS 1</title>
+				<respStmt>
+					<resp>Critical Edition by</resp>
+					<name>Silverio Franzoni</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<p>Digital editions of summaries in Medieval Bibles</p>
+			</publicationStmt>
+			<sourceDesc>
+				<listBibl>
+					<head>bibliographical abbreviations</head>
+					<bibl xml:id="de_Bruyne">
+						<author>Donatien de Bruyne</author>
+						<title>Sommaires, divisions et rubriques de la Bible latine</title>
+						<pubPlace>Namur</pubPlace>
+						<date>1914</date></bibl>
+					<bibl xml:id="Ben">
+						<editor>Monachi abbatiae pontificiae Sancti Hieronymi in Urbe</editor>
+						<title>Biblia Sacra iuxta Latinam vulgatam versionem ad codicum fidem...
+							Liber Isaiae ex interpretatione sancti Hieronymi cum prologo eiusdem et
+							variis capitulorum seriebus</title>
+						<pubPlace>Romae</pubPlace>
+						<date>1969</date>
+					</bibl>
+					<bibl>
+						<author>P.-M. Bogaert, A. De Coster, J.-B. Lebigue et alii</author>
+						<title>LM 1. Biblia sacra, dite « Bible de Lobbes »</title>, in
+							<title>Séminaire de Tournai : histoire, bâtiments, collections</title>
+						<editor>M. Maillard-Luypaert</editor>
+						<pubPlace>Leuven</pubPlace>
+						<date>2008</date>
+						<biblScope>pp. 77-101</biblScope></bibl>
+				</listBibl>
+				<listWit>
+					<witness xml:id="To">
+						<msDesc>
+							<msIdentifier>
+								<settlement>Tournai</settlement>
+								<repository>Bibliothèque du Séminaire</repository>
+								<idno>MS 1</idno>
+							</msIdentifier>
+							<head>Bible of Lobbes (first volume)</head>
+							<msContents>
+								<msItem>
+									<locus>ff. 172vb-173va</locus>
+									<title>capitula Isaiae</title>
+								</msItem>
+							</msContents>
+							<physDesc>
+								<objectDesc form="codex">
+									<supportDesc material="parch">
+										<extent> 276 folios <lb/><dimensions type="leaf" unit="mm">
+												<height quantity="495">height 495 mm</height>
+												<width quantity="325">width 325 mm</width>
+											</dimensions></extent>
+									</supportDesc>
+									<layoutDesc>
+										<layout columns="2"><lb/>2 cols.</layout>
+									</layoutDesc>
+								</objectDesc>
+								<handDesc>
+									<handNote script="preGothicMinuscule">pre-gothic
+										minuscule</handNote>
+								</handDesc>
+							</physDesc>
+							<history>
+								<origin>
+									<origDate from-custom="1084" to-custom="1084">1084</origDate>
+									<origPlace>Lobbes, Abbey of St Peter</origPlace>
+								</origin>
+							</history>
+							<additional>
+								<surrogates>
+									<p>
+										<bibl type="digital_facsimile" subtype="full"><hi
+												rend="bold"><ref
+												target="https://arca.irht.cnrs.fr/ark:/63955/md859c680g25"
+												>digital facsimile</ref></hi>
+										</bibl>
+										<lb/>
+										<bibl type="description"><hi rend="bold"><ref
+												target="http://www.cicweb.be/fr/manuscrit.php?id=70=48"
+												>description</ref></hi><ref/></bibl>
+										<lb/>
+										<bibl type="IIIF_Manifest_URL"><hi rend="bold"><ref
+												target="https://api.irht.cnrs.fr/ark:/63955/fpfg6g1sg75j/manifest.json"
+												>IIIF Manifest</ref></hi>
+										</bibl>
+									</p></surrogates>
+							</additional>
+						</msDesc></witness>
+					<witness xml:id="A_br">text of A(br) series as edited by de Bruyne, <hi
+							rend="italic">Sommaires...</hi>, p. 184-192</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<tagsDecl>
+				<rendition xml:id="CU">mixed capital and uncial letters</rendition>
+				<rendition xml:id="U">uncial letters</rendition>
+				<rendition xml:id="Ca">capital letters</rendition>
+				<rendition xml:id="red">red color letter(s)</rendition>
+				<rendition xml:id="blue">blue color letter(s)</rendition>
+				<rendition xml:id="textink"/>
+				<rendition xml:id="bw">the digital reproduction is b/w, impossible to determine
+					color</rendition>
+				<rendition xml:id="gold">golden letter(s)</rendition>
+			</tagsDecl>
+		</encodingDesc>
+		<profileDesc>
+			<handNotes>
+				<handNote xml:id="m">main scribe</handNote>
+				<handNote xml:id="l">later hand</handNote>
+				<handNote xml:id="u">unknown, impossible to determine</handNote>
+			</handNotes>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<p>The series of <hi rend="italic">capitula</hi> published here is unknown to both <ref
+					target="#de_Bruyne">de Bruyne</ref> and the <ref target="#Ben">Benedictine
+					edition</ref> of the Vulgate. Since it is clearly derived (see below) from the
+				series called <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k8537228/f198"
+					>A(br)</ref> by de Bruyne and A(b) in the Benedictine edition, we label it <hi
+					rend="bold">A(c)_dobips</hi>. Among the manuscripts recorded in the DOBiPS
+				database, it occurs only in <hi rend="bold">To</hi> (Tournai, Bibliothèque du
+				Séminaire, MS 1), the first volume (the second being lost) of the so-called Bible of
+				Lobbes, produced at the eponymous Belgian abbey in the late 11th century.<lb/>Given
+				the general proximity to the text of A(br), it is easy both to recognize this series
+				as the source of A(c) and to compare the two in order to show the subtle, yet
+				numerous, modifications of the latter. Clearly, not all discrepancies are the result
+				of deliberate modification, and the redactor of A(c) may at times have been prompted
+				to intervene by corruptions in his A(br) model. In the edition, the points where the
+				two series diverge (regardless of cause) are highlighted in yellow; orthographic
+				discrepancies have been ignored.<lb/><lb/>The point in the text of Isaias where To
+				places the chapter number corresponding to each <hi rend="italic">capitulum</hi> can
+				be accessed either by clicking on the two-page icon next to each <hi rend="italic"
+					>capitulum</hi> number, or by clicking on the "Passi paralleli" thumbnail (in
+				the right-hand panel of the "Testo di lettura" screen).</p>
+		</front>
+		<body>
+			<head>
+				<pb facs="data/images/single/To_172v.jpeg" n="To_172v"/>
+				<lb n="[To_172v]"/>
+				<lb/>
+				<app>
+					<lem rendition="#CU #red">INCIPIUNT CAPITULA</lem>
+					<rdg wit="#A_br" type="omission" cause="unknown"/>
+				</app>
+			</head>
+
+			<list>
+				<item n="1">
+					<ref type="parallelPassage"><bibl><title>Is 1:1 visio
+							isaiae</title></bibl><num>I</num></ref>
+					<title>Sermo domini super hierusalem et iudȩam propter peccata eas fuisse
+						desertas cessantibus omnibus solemnitatibus legis</title></item>
+				<item n="2">
+					<ref type="parallelPassage"><bibl><title>Is 1:16 lavamini mundi
+							estote</title></bibl><num>II</num></ref>
+					<title>Lauacro futuro <app>
+							<lem cause="version">predicit</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>praedicauit</rdg>
+						</app> propheta mundari homines a peccatis</title></item>
+				<item n="3">
+					<ref type="parallelPassage"><bibl><title>Is 1:21 quomodo facta est
+								meretrix</title></bibl><num>III</num></ref>
+					<title>Increpat dominus hierusalem <app>
+							<lem cause="version">quod</lem>
+							<rdg wit="#A_br" type="medium" cause="grammatical">quae</rdg>
+						</app> fuit fidelis et facta est meretrix <app>
+							<lem cause="version"/>
+							<rdg wit="#A_br" type="addition" cause="version">cui minatur uindicari
+								in illa ab inimicis</rdg>
+						</app></title></item>
+				<item n="4">
+					<ref type="parallelPassage"><bibl><title>Is 2:1 verbum quod vidit
+							isaias</title></bibl><num>IIII</num></ref>
+					<title>De <app>
+							<lem cause="version">christo domino</lem>
+							<rdg wit="#A_br" type="transposition" cause="unknown">domino
+								christo</rdg>
+						</app> quod mons sit dictus</title></item>
+				<item n="5">
+					<ref type="parallelPassage"><bibl><title>Is 2:6 proiecisti enim populum
+								tuum</title></bibl><num>V</num></ref>
+					<title>Typus populi noui <app>
+							<lem cause="version">repudiati</lem>
+							<rdg wit="#A_br" type="substantive" cause="version">repudiatis
+								iudaeis</rdg>
+						</app> pro idolis quȩ fecerunt et adorauerunt</title></item>
+				<item n="6">
+					<ref type="parallelPassage"><bibl><title>Is 3:1 ecce enim dominator
+							deus</title></bibl><num>VI</num></ref>
+					<title>Quod <app>
+							<lem cause="version">pro peccatis</lem>
+							<rdg wit="#A_br" type="transposition" cause="version"/>
+						</app>
+						<app>
+							<lem cause="version">auferat</lem>
+							<rdg wit="#A_br" type="minor" cause="grammatical">auferet</rdg>
+						</app> dominus a iudȩa omnem potentiam uirtutis <app>
+							<lem cause="version"/>
+							<rdg wit="#A_br" type="addition" cause="version">in qua
+								praeualebant</rdg>
+						</app><lb/>
+						<app>
+							<lem cause="version"/>
+							<rdg wit="#A_br" type="transposition" cause="version">pro peccatis</rdg>
+						</app></title></item>
+				<note>Cap. 7 in A(br) (<q>De domino christo</q>) is omitted by A(c).</note>
+				<item n="7">
+					<ref type="parallelPassage"><bibl><title>Is 3:8 ruit enim
+							hierusalem</title></bibl><app>
+							<lem cause="version"><num>VII</num></lem>
+							<rdg wit="#A_br" type="minor" cause="numbering">VIII</rdg>
+						</app></ref>
+					<title>De cogitatione iudȩorum ut occiderent <app>
+							<lem cause="version"/>
+							<rdg wit="#A_br" type="addition" cause="version">dominum</rdg>
+						</app>christum</title></item>
+				<item n="8">
+					<ref type="parallelPassage"><bibl><title>Is 3:13 stat ad iudicandum
+								dominus</title></bibl><app>
+							<lem cause="version"><num>VIII</num></lem>
+							<rdg wit="#A_br" type="minor" cause="numbering">VIIII</rdg>
+						</app></ref>
+					<title>De domino <app>
+							<lem cause="version"/>
+							<rdg wit="#A_br" type="addition" cause="version">christo</rdg>
+						</app> iudice et de iniquitate iudȩorum</title></item>
+				<item n="9">
+					<ref type="parallelPassage"><bibl><title>Is 4:1 et adprehendent septem
+								mulieres</title></bibl><app>
+							<lem cause="version"><num>VIIII</num></lem>
+							<rdg wit="#A_br" type="substantive" subtype="error" cause="numbering"
+								>X</rdg>
+						</app></ref>
+					<title><app>
+							<lem cause="version">De christo sub typo unius uiri et de septem donis
+								spiritus sancti</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>de domino christo</rdg>
+						</app></title></item>
+				<item n="10">
+					<ref type="parallelPassage"><bibl><title>Is 5:1 cantabo dilecto
+							meo</title></bibl><app>
+							<lem cause="version"><num>X</num></lem>
+							<rdg wit="#A_br" type="minor" cause="numbering">XI</rdg>
+						</app></ref>
+					<title>Canticum isaiȩ super hierusalem</title></item>
+				<item n="11">
+					<ref type="parallelPassage"><bibl><title>Is 5:8 vae qui coniungitis
+								domum</title></bibl><app>
+							<lem cause="version"><num>XI</num></lem>
+							<rdg wit="#A_br" type="minor" cause="numbering">XII</rdg>
+						</app></ref>
+					<title>De eo qui <app>
+							<lem cause="version">rapit</lem>
+							<rdg wit="#A_br" type="minor" cause="grammatical">rapuit</rdg>
+						</app> domum aut uillam</title></item>
+				<item n="12">
+					<ref type="parallelPassage"><bibl><title>Is 5:11 vae qui consurgitis
+								mane</title></bibl><app>
+							<lem cause="version"><num>XII</num></lem>
+							<rdg wit="#A_br" type="minor" cause="numbering">XIII</rdg>
+						</app></ref>
+					<title><app>
+							<lem cause="version">Ve</lem>
+							<rdg wit="#A_br" type="medium" cause="grammatical">de</rdg>
+						</app> sicera sectantibus <app>
+							<lem cause="version">ut cythara lasciuiȩ</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>uicini lasciuiae</rdg>
+						</app> uinum <app>
+							<lem cause="version">bibant</lem>
+							<rdg wit="#A_br" type="medium" cause="grammatical">biberunt</rdg>
+						</app>
+						<app>
+							<lem cause="version"/>
+							<rdg wit="#A_br" type="addition" cause="version">et suscepit eos
+								tartarus et infernus</rdg>
+						</app></title></item>
+				<item n="13">
+					<ref type="parallelPassage"><bibl><title>Is 5:18 vae qui trahitis [contrahitis
+								To] iniquitatem</title></bibl><app>
+							<lem cause="version"><num>XIII</num></lem>
+							<rdg wit="#A_br" type="minor" cause="numbering">XIIII</rdg>
+						</app></ref>
+					<title><app>
+							<lem cause="version">Ve</lem>
+							<rdg wit="#A_br" type="medium" cause="grammatical">de</rdg>
+						</app> peccatoribus et <app>
+							<lem cause="version"/>
+							<rdg wit="#A_br" type="addition" cause="version">potentibus populi
+								israhel</rdg>
+						</app>qui ponunt <app>
+							<lem cause="version">bonum malum</lem>
+							<rdg wit="#A_br" type="transposition" cause="unknown">malum bonum</rdg>
+						</app>
+						<app>
+							<lem cause="version">et sibimet sapientibus</lem>
+							<rdg wit="#A_br" type="omission" cause="version"/>
+						</app></title></item>
+				<item n="14">
+					<ref type="parallelPassage"><bibl><title>Is 5:26 et levabit
+							signum</title></bibl><app>
+							<lem cause="version"><num>XIIII</num></lem>
+							<rdg wit="#A_br" type="substantive" subtype="error" cause="numbering"
+								>XV</rdg>
+						</app></ref>
+					<title>Repromissio <app>
+							<lem cause="version">christi gentibus facta</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>gentis</rdg>
+						</app></title></item>
+				<item n="15">
+					<ref type="parallelPassage"><bibl><title>Is 6:1 in anno quo mortuus est
+								rex</title></bibl><app>
+							<lem cause="version"><num>XV</num></lem>
+							<rdg wit="#A_br" type="minor" cause="numbering">XVI</rdg>
+						</app></ref>
+					<title>Vbi dominum uidit isaias <app>
+							<lem cause="version">sedentem</lem>
+							<rdg wit="#A_br" type="omission" cause="unknown"/>
+						</app> in <app>
+							<lem cause="version">throno</lem>
+							<rdg wit="#A_br" type="minor" cause="grammatical">thronum</rdg>
+						</app></title></item>
+				<item n="16">
+					<ref type="parallelPassage"><bibl><title>Is 6:6 et volavit ad me</title></bibl><app>
+							<lem cause="version"><num>XVI</num></lem>
+							<rdg wit="#A_br" type="minor" cause="numbering">XVII</rdg>
+						</app></ref>
+					<title><app>
+							<lem cause="version">Tacta sunt de carbone</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>tactu carbonis</rdg>
+						</app>altaris labia prophetȩ <app>
+							<lem cause="version"/>
+							<rdg wit="#A_br" type="addition" cause="version">iussu domini</rdg>
+						</app><app>
+							<lem cause="version">et</lem>
+							<rdg wit="#A_br" type="omission" cause="unknown"/>
+						</app> peccata <app>
+							<lem cause="version"/>
+							<rdg wit="#A_br" type="addition" cause="unknown">cuncta</rdg>
+						</app> purgata <app>
+							<lem cause="version"/>
+							<rdg wit="#A_br" type="addition" cause="unknown">sunt</rdg>
+						</app></title></item>
+				<item n="17">
+					<ref type="parallelPassage"><bibl><title>Is 6:8 et audivi vocem
+							domini</title></bibl><app>
+							<lem cause="version"><num>XVII</num></lem>
+							<rdg wit="#A_br" type="minor" cause="numbering">XVIII</rdg>
+						</app></ref>
+					<title><app>
+							<lem cause="version">Mittitur ad populum isaias</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>praedicat esaias populo</rdg>
+						</app> ne <app>
+							<lem cause="version">conuertantur</lem>
+							<rdg wit="#A_br" type="minor" cause="grammatical">conuerterentur</rdg>
+						</app> et salui <app>
+							<lem cause="version">fiant</lem>
+							<rdg wit="#A_br" type="minor" cause="grammatical">fierent</rdg>
+						</app></title></item>
+				<item n="18">
+					<ref type="parallelPassage"><bibl><title>Is 6:11 et dixi usquequo
+							domine</title></bibl><app>
+							<lem cause="version"><num>XVIII</num></lem>
+							<rdg wit="#A_br" type="minor" cause="numbering">XVIIII</rdg>
+						</app></ref>
+					<title><app>
+							<lem cause="version">Post desolationem adhuc decimatio populi
+								describitur</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>quod deserta fieret iudaea et decimaretur populo suo a rege
+								assyriorum</rdg>
+						</app></title></item>
+				<item n="19">
+					<ref type="parallelPassage"><bibl><title>Is 7:1 et factum est in diebus
+								ahaz</title></bibl><app>
+							<lem cause="version"><num>XVIIII</num></lem>
+							<rdg wit="#A_br" type="substantive" subtype="error" cause="numbering"
+								>XX</rdg>
+						</app></ref>
+					<title>De his qui uoluerunt expugnare hierusalem</title></item>
+				<item n="20">
+					<ref type="parallelPassage"><bibl><title>Is 7:10 et adiecit
+							dominus</title></bibl><app>
+							<lem cause="version"><num>XX</num></lem>
+							<rdg wit="#A_br" type="minor" cause="numbering">XXI</rdg>
+						</app></ref>
+					<title>De natiuitate <app>
+							<lem cause="version"/>
+							<rdg wit="#A_br" type="addition" cause="unknown">domini nostri
+								iesu</rdg>
+						</app>christi <app>
+							<lem cause="version">ex uirgine matre prȩnuntiata</lem>
+							<rdg wit="#A_br" type="omission" cause="version"/>
+						</app><app>
+							<lem cause="version"/>
+							<rdg wit="#A_br" type="addition" cause="version">et de baptismate</rdg>
+						</app></title></item>
+				<item n="21">
+					<ref type="parallelPassage"><bibl><title>Is 8:1 et dixit dominus ad
+							me</title></bibl><app>
+							<lem cause="version"><num>XXI</num></lem>
+							<rdg wit="#A_br" type="minor" cause="numbering">XXII</rdg>
+						</app></ref>
+					<title><app>
+							<lem cause="version">De christo sub typo nati pueri et de baptismo</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>de domino christo</rdg>
+						</app></title></item>
+				<item n="22">
+					<ref type="parallelPassage"><bibl><title>Is 8:16 liga testimonium
+							signa</title></bibl><app>
+							<lem cause="version"><num>XXII</num></lem>
+							<rdg wit="#A_br" type="minor" cause="numbering">XXIII</rdg>
+						</app></ref>
+					<title>Vox domini christi de discipulis <app>
+							<lem cause="version">et de nouȩ gratiȩ testimonio</lem>
+							<rdg wit="#A_br" type="omission" cause="unknown"/>
+						</app></title></item>
+				<item n="23">
+					<ref type="parallelPassage"><bibl><title>Is 9:1 primo tempore adleviata
+								est</title></bibl><app>
+							<lem cause="version"><num>XXIII</num></lem>
+							<rdg wit="#A_br" type="minor" cause="numbering">XXIIII</rdg>
+						</app></ref>
+					<title>De <app>
+							<lem cause="version">christo nato cuius imperium</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>domini christi imperio</rdg>
+						</app> super <app>
+							<lem cause="version">humerum</lem>
+							<rdg wit="#A_br" type="minor" cause="grammatical">humeros</rdg>
+						</app> eius</title></item>
+				<item n="24">
+					<ref type="parallelPassage"><bibl><title>Is 9:8 verbum misit
+							dominus</title></bibl><app>
+							<lem cause="version"><num>XXIIII</num></lem>
+							<rdg wit="#A_br" type="substantive" subtype="error" cause="numbering"
+								>XXV</rdg>
+						</app></ref>
+					<title>De <app>
+							<lem cause="version">syriis</lem>
+							<rdg wit="#A_br" type="minor" cause="grammatical">syris</rdg>
+						</app>
+						<app>
+							<lem cause="version"/>
+							<rdg wit="#A_br" type="addition" cause="unknown">quod sint</rdg>
+						</app> a solis ortu et <app>
+							<lem cause="version">grecis</lem>
+							<rdg wit="#A_br" type="minor" cause="grammatical">graeci</rdg>
+						</app> ab occasu et <app>
+							<lem cause="version">ira domini super eos</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>adflictione eorum</rdg>
+						</app></title></item>
+				<pb facs="data/images/single/To_173r.jpeg" n="To_173r"/>
+				<lb n="[To_173r]"/>
+				<item n="25">
+					<ref type="parallelPassage"><bibl><title>Is 10:1 vae qui condunt leges
+								iniquas</title></bibl><app>
+							<lem cause="version"><num>XXV</num></lem>
+							<rdg wit="#A_br" type="minor" cause="numbering">XXVI</rdg>
+						</app></ref>
+					<title>De <app>
+							<lem cause="version">uiduis</lem>
+							<rdg wit="#A_br" type="minor" cause="grammatical">uidua</rdg>
+						</app> et <app>
+							<lem cause="version">pupillis</lem>
+							<rdg wit="#A_br" type="minor" cause="grammatical">pupillo</rdg>
+						</app><app>
+							<lem cause="version"/>
+							<rdg wit="#A_br" type="addition" cause="unknown">et populo</rdg>
+						</app>
+						<app>
+							<lem cause="version">per iniquas leges</lem>
+							<rdg wit="#A_br" type="omission" cause="unknown"/>
+						</app> oppressis</title></item>
+				<item n="26">
+					<ref type="parallelPassage"><bibl><title>Is 10:5 vae assur virga furoris
+								mei</title></bibl><app>
+							<lem cause="version"><num>XXVI</num></lem>
+							<rdg wit="#A_br" type="minor" cause="numbering">XXVII</rdg>
+						</app></ref>
+					<title>Sermo domini super hierusalem et samariam pro idolis</title></item>
+				<item n="27">
+					<ref type="parallelPassage"><bibl><title>Is 10:15 numquid gloriabitur
+								securis</title></bibl><app>
+							<lem cause="version"><num>XXVII</num></lem>
+							<rdg wit="#A_br" type="minor" cause="numbering">XXVIII</rdg>
+						</app></ref>
+					<title>De <app>
+							<lem cause="version">securi</lem>
+							<rdg wit="#A_br" type="minor" cause="grammatical">secure</rdg>
+						</app> et serra <app>
+							<lem cause="version">a deo similitudo assumpta</lem>
+							<rdg wit="#A_br" type="omission" cause="version"/>
+						</app></title></item>
+				<item n="28">
+					<ref type="parallelPassage"><bibl><title>Is 10:24 propter hoc haec dicit
+								Dominus</title></bibl><app>
+							<lem cause="version"><num>XXVIII</num></lem>
+							<rdg wit="#A_br" type="minor" cause="numbering">XXVIIII</rdg>
+						</app></ref>
+					<title><app>
+							<lem cause="version">Consolatur deus populum suum ne timeat ab
+								assur</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>de domino nostro iesu christo</rdg>
+						</app></title></item>
+				<item n="29">
+					<ref type="parallelPassage"><bibl><title>Is 10:28 veniet in aiath</title></bibl><app>
+							<lem cause="version"><num>XXVIIII</num></lem>
+							<rdg wit="#A_br" type="substantive" subtype="error" cause="numbering"
+								>XXX</rdg>
+						</app></ref>
+					<title>De rama <app>
+							<lem cause="version">et gabaa</lem>
+							<rdg wit="#A_br" type="omission" cause="version"/>
+						</app> ciuitate saul</title></item>
+				<item n="30">
+					<ref type="parallelPassage"><bibl><title>Is 10:33 ecce dominator
+							dominus</title></bibl><app>
+							<lem cause="version"><num>XXX</num></lem>
+							<rdg wit="#A_br" type="minor" cause="numbering">XXXI</rdg>
+						</app></ref>
+					<title><app>
+							<lem cause="version">De origine christi et spiritu septiformi super eum
+								et de sepulchro eius</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>de domino nostro iesu christo et populo gentium christiano</rdg>
+						</app></title></item>
+				<item n="31">
+					<ref type="parallelPassage"><bibl><title>Is 12:1 et dices in illa die [~ die
+								illa To]</title></bibl><app>
+							<lem cause="version"><num>XXXI</num></lem>
+							<rdg wit="#A_br" type="minor" cause="numbering">XXXII</rdg>
+						</app></ref>
+					<title><app>
+							<lem cause="version">Confessio in laude christi</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>de domino christo</rdg>
+						</app> et <app>
+							<lem cause="version">de</lem>
+							<rdg wit="#A_br" type="omission" cause="unknown"/>
+						</app> aqua baptismi</title></item>
+				<item n="32">
+					<ref type="parallelPassage"><bibl><title>Is 13:1 onus babylonis</title></bibl><app>
+							<lem cause="version"><num>XXXII</num></lem>
+							<rdg wit="#A_br" type="minor" cause="numbering">XXXIII</rdg>
+						</app></ref>
+					<title><app>
+							<lem cause="version">De commotione domini</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>de passione crucis christi</rdg>
+						</app> et <app>
+							<lem cause="version">de</lem>
+							<rdg wit="#A_br" type="omission" cause="unknown"/>
+						</app> aduentu <app>
+							<lem>diei</lem>
+							<rdg wit="#A_br" type="minor" cause="slip">dei</rdg>
+							<note>The reading <q>dei</q> is likely a typographical error of de
+								Bruyne's edition for <q>diei</q>.</note>
+						</app>
+						<app>
+							<lem cause="version">ipsius</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric"
+								cause="grammatical">eius</rdg>
+						</app></title></item>
+				<item n="33">
+					<ref type="parallelPassage"><bibl><title>Is 13:19 et erit babylon illa
+								gloriosa</title></bibl><app>
+							<lem cause="version"><num>XXXIII</num></lem>
+							<rdg wit="#A_br" type="minor" cause="numbering">XXXIIII</rdg>
+						</app></ref>
+					<title><app>
+							<lem cause="version">Euersio babyloniȩ et quod</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric">sermo domini
+								super babyloniam inimicam populi dei quod in euersione eius</rdg>
+						</app>
+						<app>
+							<lem cause="version">in ea habitent</lem>
+							<rdg wit="#A_br" type="transposition" cause="unknown">habitent in
+								ea</rdg>
+						</app> sirenȩ <app>
+							<lem cause="version">et</lem>
+							<rdg wit="#A_br" type="omission" cause="unknown"/>
+						</app> ericii <app>
+							<lem cause="version"/>
+							<rdg wit="#A_br" type="addition" cause="unknown">et onocentauri</rdg>
+						</app></title></item>
+				<item n="34">
+					<ref type="parallelPassage"><bibl><title>Is 14:3 et erit in die
+							illa</title></bibl><app>
+							<lem cause="version"><num>XXXIIII</num></lem>
+							<rdg wit="#A_br" type="substantive" subtype="error" cause="numbering"
+								>XXXV</rdg>
+						</app></ref>
+					<title><app>
+							<lem cause="version">De ruina diaboli qui dixerat</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>de diabolo loquitur spiritus sanctus ubi dixit</rdg>
+						</app>
+						<app>
+							<lem cause="version">similis ero</lem>
+							<rdg wit="#A_br" type="transposition" cause="unknown">ero similis</rdg>
+						</app> altissimo <app>
+							<lem cause="version"/>
+							<rdg wit="#A_br" type="addition" cause="unknwon">et quod in se reges et
+								orbem totum commoueat ad perdendum</rdg>
+						</app></title></item>
+				<item n="35">
+					<ref type="parallelPassage"><bibl><title>Is 14:22 et consurgam super
+							eos</title></bibl><app>
+							<lem cause="version"><num>XXXV</num></lem>
+							<rdg wit="#A_br" type="minor" cause="numbering">XXXVI</rdg>
+						</app></ref>
+					<title><app>
+							<lem cause="version"/>
+							<rdg wit="#A_br" type="addition" cause="version">sermo domini</rdg>
+						</app>Super babyloniam <app>
+							<lem cause="version">manus domini extenta</lem>
+							<rdg wit="#A_br" type="omission" cause="version"/>
+						</app></title></item>
+				<item n="36">
+					<ref type="parallelPassage"><bibl><title>Is 14:28 in anno quo mortuus est
+								rex</title></bibl><app>
+							<lem cause="version"><num>XXXVI</num></lem>
+							<rdg wit="#A_br" type="minor" cause="numbering">XXXVII</rdg>
+						</app></ref>
+					<title>Onus <app>
+							<lem cause="version">super phylistum</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>moabitidum</rdg>
+						</app></title></item>
+				<item n="37">
+					<ref type="parallelPassage"><bibl><title>Is 15:1 onus moab</title></bibl><app>
+							<lem cause="version"><num>XXXVII</num></lem>
+							<rdg wit="#A_br" type="minor" cause="numbering">XXXVIII</rdg>
+						</app></ref>
+					<title><app>
+							<lem cause="version">Onus</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>de domino christo et</rdg>
+						</app> super moab</title></item>
+				<item n="38">
+					<ref type="parallelPassage"><bibl><title>Is 16:1 emitte agnum
+								dominatorem</title></bibl><app>
+							<lem cause="version"><num>XXXVIII</num></lem>
+							<rdg wit="#A_br" type="omission" cause="version"/>
+						</app></ref>
+					<title><app>
+							<lem cause="version">De agno dominatore terrȩ et super moab</lem>
+							<rdg wit="#A_br" type="omission" cause="version"/>
+						</app><note>cap. 38 om. A(br)</note></title></item>
+				<item n="39">
+					<ref type="parallelPassage"><bibl><title>Is 17:1 onus
+							damasci</title></bibl><num>XXXVIIII</num></ref>
+					<title>Sermo domini super damascum</title></item>
+				<item n="40">
+					<ref type="parallelPassage"><bibl><title>Is 17:4 et erit in die
+							illa</title></bibl><num>XL</num></ref>
+					<title>Indignatio domini super iacob</title></item>
+				<item n="41">
+					<ref type="parallelPassage"><bibl><title>Is 17:12 vae multitudo populorum
+								multorum</title></bibl><num>XLI</num></ref>
+					<title>Sermo domini super gentes et super ȩthyopiam</title></item>
+				<item n="42">
+					<ref type="parallelPassage"><bibl><title>Is 18:3 omnes habitatores
+							orbis</title></bibl><num>XLII</num></ref>
+					<title><app>
+							<lem cause="version">Post peccantium uastitatem deo immolantur
+								hostiȩ</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>de domino christo quod uideri habetur in hierusalem</rdg>
+						</app></title></item>
+				<item n="43">
+					<ref type="parallelPassage"><bibl><title>Is 19:1 onus
+							aegypti</title></bibl><num>XLIII</num></ref>
+					<title>Sermo domini super ȩgyptum et super diuinos eius</title></item>
+				<item n="44">
+					<ref type="parallelPassage"><bibl><title>Is 19:18 in die illa erunt quinque
+								civitates</title></bibl><num>XLIIII</num></ref>
+					<title>Quod ȩgyptus creditura esset in <app>
+							<lem cause="version">christo domino</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>domino iesu christo</rdg>
+						</app></title></item>
+				<item n="45">
+					<ref type="parallelPassage"><bibl><title>Is 20:1 in anno quo ingressus est
+								Tharthan</title></bibl><num>XLV</num></ref>
+					<title><app>
+							<lem cause="version">Portentum nudi et discalciati prophetȩ super
+								gentes</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>sermo domini super aegyptios et aethiopas</rdg>
+						</app></title></item>
+				<item n="46">
+					<ref type="parallelPassage"><bibl><title>Is 21:1 onus deserti
+							maris</title></bibl><num>XLVI</num></ref>
+					<title><app>
+							<lem cause="version">Super mare desertum quod est babylonia sit sermo
+								domini</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>sermo domini super tyrum</rdg>
+						</app></title></item>
+				<item n="47">
+					<ref type="parallelPassage"><bibl><title>Is 21:6 haec enim dixit
+							mihi</title></bibl><num>XLVII</num></ref>
+					<title>De ruina babyloniȩ</title></item>
+				<item n="48">
+					<ref type="parallelPassage"><bibl><title>Is 21:11 onus
+							duma</title></bibl><num>XLVIII</num></ref>
+					<title>Sermo domini super idumeam</title></item>
+				<item n="49">
+					<ref type="parallelPassage"><bibl><title>Is 21:13 onus in
+							arabia</title></bibl><num>XLVIIII</num></ref>
+					<title>Sermo domini super <app>
+							<lem cause="version">saracenos</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>sion pro idolis</rdg>
+						</app></title></item>
+				<item n="50">
+					<ref type="parallelPassage"><bibl><title>Is 22:1 onus vallis
+							visionis</title></bibl><num>L</num></ref>
+					<title><app>
+							<lem cause="version">De subuersione hierusalem sub nomine uallis
+								uisionis</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>de auersione aquae et falso baptismo iudaeorum et de idolatria et
+								quod dicebant manducemus et bibamus</rdg>
+						</app></title></item>
+				<item n="51">
+					<ref type="parallelPassage"><bibl><title>Is 22:15 haec dicit dominus
+								deus</title></bibl><num>LI</num></ref><title>Sermo domini super <app>
+							<lem cause="version">sobnam</lem>
+							<rdg wit="#A_br" type="minor" cause="orthographic">somnam</rdg>
+						</app> scribam populi <app>
+							<lem cause="version"/>
+							<rdg wit="#A_br" type="addition" cause="unknown">id est
+								dispensatoris</rdg>
+						</app></title></item>
+				<item n="52">
+					<ref type="parallelPassage"><bibl><title>Is 23:1 onus
+							tyri</title></bibl><num>LII</num></ref><title>Sermo domini super
+						chartaginem <app>
+							<lem cause="version">post LXX annos restituendam</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>quod LXX annis esset deserta et restitueretur</rdg>
+						</app></title></item>
+				<item n="53">
+					<ref type="parallelPassage"><bibl><title>Is 24:1 ecce dominus dissipabit
+								terram</title></bibl><num>LIII</num></ref><title><app>
+							<lem cause="version">Mala</lem>
+							<rdg wit="#A_br" type="medium" cause="version">de malis</rdg>
+						</app> quȩ promisit deus dare super terram <app>
+							<lem cause="version"/>
+							<rdg wit="#A_br" type="addition" cause="unknown">pro peccatis</rdg>
+						</app></title></item>
+				<item n="54">
+					<ref type="parallelPassage"><bibl><title>Is 24:7 luxit
+							vindemia</title></bibl><num>LIIII</num></ref><title>De ebrietate uini <app>
+							<lem cause="version">punienda</lem>
+							<rdg wit="#A_br" type="omission" cause="unknown"/>
+						</app></title></item>
+				<item n="55">
+					<ref type="parallelPassage"><bibl><title>Is 24:16 praevaricantes praevaricati
+								sunt</title></bibl><num>LV</num></ref><title><app>
+							<lem cause="version">De transgressoribus et prȩuaricatoribus legis</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>de desperantibus et reprobantibus legem domini</rdg>
+						</app><app>
+							<lem cause="version"/>
+							<rdg wit="#A_br" type="addition" cause="unknown">et confusione solis et
+								lunae</rdg>
+						</app></title></item>
+				<item n="56">
+					<ref type="parallelPassage"><bibl><title>Is 24:23 et erubescet
+							luna</title></bibl><num>LVI</num></ref><title>De <app>
+							<lem cause="version"/>
+							<rdg wit="#A_br" type="addition" cause="unknown">domino</rdg>
+						</app>christo quod regnaturus esset <app>
+							<lem cause="version">in carne ueniens</lem>
+							<rdg wit="#A_br" type="transposition" cause="unknown">ueniens in
+								carne</rdg>
+						</app></title></item>
+				<item n="57">
+					<ref type="parallelPassage"><bibl><title>Is 25:6 et faciet dominus
+								exercituum</title></bibl><num>LVII</num></ref><title><app>
+							<lem cause="version">De interitu impiorum et remuneratione
+								iustorum</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>de fide gentibus promissa</rdg>
+						</app></title></item>
+				<item n="58">
+					<ref type="parallelPassage"><bibl><title>Is 26:1 in die illa cantabitur
+								canticum</title></bibl><num>LVIII</num></ref><title><app>
+							<lem cause="version">Canticum in terra iuda de fortitudine christi</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>de domino christo et de iusto et impio</rdg>
+						</app></title></item>
+				<item n="59">
+					<ref type="parallelPassage"><bibl><title>Is 26:13 domine deus noster
+								possederunt</title></bibl><num>LVIIII</num></ref><title>De domino
+						christo et resurrectione <app>
+							<lem cause="version">mortuorum</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>eius</rdg>
+						</app></title></item>
+				<item n="60">
+					<ref type="parallelPassage"><bibl><title>Is 27:1 in die illo [in illa die To]
+								visitabit dominus</title></bibl><num>LX</num></ref><title><app>
+							<lem cause="version">Interitus</lem>
+							<rdg wit="#A_br" type="minor" cause="grammatical">de interitu</rdg>
+						</app> diaboli et <app>
+							<lem cause="version">canticum</lem>
+							<rdg wit="#A_br" type="minor" cause="grammatical">cantico</rdg>
+						</app> uineȩ meri</title></item>
+				<item n="61"><app>
+						<lem cause="version"><ref type="parallelPassage"><bibl><title>Is 27:9
+										idcirco super hoc
+								dimittetur</title></bibl><num>LXI</num></ref><title>Quod non erunt
+								idola et de mulieribus amantibus spectacula</title></lem>
+						<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version">LXI
+							Sermo domini super terram pro idolis. LXII De mulieribus spectacula
+							amantibus</rdg>
+					</app><note>A(c) merges chapters 61 and 62 of A(br) into one.</note></item>
+				<item n="62">
+					<ref type="parallelPassage"><bibl><title>Is 28:1 vae coronae
+							superbiae</title></bibl><app>
+							<lem cause="version"><num>LXII</num></lem>
+							<rdg wit="#A_br" type="minor" cause="numbering">LXIII</rdg>
+						</app></ref><title>Indignatio domini super <app>
+							<lem cause="version">ebriis</lem>
+							<rdg wit="#A_br" type="omission" cause="unknown"/>
+						</app> effraim</title></item>
+				<item n="63">
+					<ref type="parallelPassage"><bibl><title>Is 28:5 in die illa erit
+								dominus</title></bibl><app>
+							<lem cause="version"><num>LXIII</num></lem>
+							<rdg wit="#A_br" type="minor" cause="numbering">LXIIII</rdg>
+						</app></ref><title>De ebrietate <app>
+							<lem cause="version">sacerdotum et prophetarum</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>uini et sicerae</rdg>
+						</app></title></item>
+				<item n="64">
+					<ref type="parallelPassage"><bibl><title>Is 28:14 propter hoc audite
+								verbum</title></bibl><app>
+							<lem cause="version"><num>LXIIII</num></lem>
+							<rdg wit="#A_br" type="substantive" subtype="error" cause="numbering"
+								>LXV</rdg>
+						</app></ref><title>Sermo domini super <app>
+							<lem cause="version">principes illusores</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>principes populi et fallaces</rdg>
+						</app> et <app>
+							<lem cause="version">de lapide offensionis</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>de domino christo nascituro qui in sion esset lapis
+								offensionis</rdg>
+						</app></title></item>
+				<item n="65">
+					<ref type="parallelPassage"><bibl><title>Is 28:21 sicut enim in monte
+								divisionum</title></bibl><app>
+							<lem cause="version"><num>LXV</num></lem>
+							<rdg wit="#A_br" type="minor" cause="numbering">LXVI</rdg>
+						</app></ref><title>De gith et cymino et omni frumento <app>
+							<lem cause="version">comparatio</lem>
+							<rdg wit="#A_br" type="omission" cause="unknown"/>
+						</app></title></item>
+				<item n="66">
+					<ref type="parallelPassage"><bibl><title>Is 29:1 vae arihel arihel
+								civitas</title></bibl><app>
+							<lem cause="version"><num>LXVI</num></lem>
+							<rdg wit="#A_br" type="minor" cause="numbering">LXVII</rdg>
+						</app></ref><title><app>
+							<lem cause="version"/>
+							<rdg wit="#A_br" type="addition" cause="unknown">sermo domini</rdg>
+						</app><app>
+							<lem cause="version">De ariel ciuitate</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>super ciuitatem arihel</rdg>
+						</app> quam expugnauit dauid</title></item>
+				<item n="67">
+					<ref type="parallelPassage"><bibl><title>Is 29:6 eritque repente
+								confestim</title></bibl><app>
+							<lem cause="version"><num>LXVII</num></lem>
+							<rdg wit="#A_br" type="minor" cause="numbering">LXVIII</rdg>
+						</app></ref><title>Perire dicit omnes <app>
+							<lem>qui populum</lem>
+							<note>"qui popul-" fort. in ras. To</note>
+						</app> dei <app>
+							<lem cause="version">insequuntur</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>laeserint</rdg>
+						</app></title></item>
+				<item n="68">
+					<ref type="parallelPassage"><bibl><title>Is 29:9 obstupescite et
+								admiramini</title></bibl><app>
+							<lem cause="version"><num>LXVIII</num></lem>
+							<rdg wit="#A_br" type="minor" cause="numbering">LXVIIII</rdg>
+						</app></ref><title><app>
+							<lem cause="version">Inebriari dicit</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>inebriatos dicit esse</rdg>
+						</app> iudȩos spiritu <app>
+							<lem cause="version">erratico</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>transpunctionis pro peccatis suis</rdg>
+						</app> et de libro signato</title></item>
+				<item n="69">
+					<ref type="parallelPassage"><bibl><title>Is 29:15 vae qui profundi estis
+								corde</title></bibl><app>
+							<lem cause="version"><num>LXVIIII</num></lem>
+							<rdg wit="#A_br" type="substantive" subtype="error" cause="numbering"
+								>LXX</rdg>
+						</app></ref><title>De his qui sine deo <app>
+							<lem cause="version">profundi sunt corde ut faciant mala</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>aliquid faciunt et dicunt non uidet dominus</rdg>
+						</app></title></item>
+				<item n="70">
+					<ref type="parallelPassage"><bibl><title>Is 29:17 nonne adhuc in
+							modico</title></bibl><app>
+							<lem cause="version"><num>LXX</num></lem>
+							<rdg wit="#A_br" type="minor" cause="numbering">LXXI</rdg>
+						</app></ref><title>De operibus <app>
+							<lem cause="version"/>
+							<rdg wit="#A_br" type="addition" cause="unknown">domini</rdg>
+						</app>christi et <app>
+							<lem cause="version">de prȩdestinatione gentium</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>quod nobis sit fides promissa non iudaeis qui in eum
+								peccaverunt</rdg>
+						</app></title></item>
+				<item n="71">
+					<ref type="parallelPassage"><bibl><title>Is 30:1 vae filii
+							desertores</title></bibl><app>
+							<lem cause="version"><num>LXXI</num></lem>
+							<rdg wit="#A_br" type="minor" cause="numbering">LXXII</rdg>
+						</app></ref><title>De incredulitate iudȩorum <app>
+							<lem cause="version">punienda</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>qui prophetas audire contemnunt</rdg>
+						</app></title></item>
+				<item n="72">
+					<app>
+						<lem cause="version"><ref type="parallelPassage"><bibl><title>Is 30:6 onus
+										iumentorum
+								austri</title></bibl><num>LXXII</num></ref><title>Contritio eorum
+								qui prophetas audire contempserunt</title></lem>
+						<rdg wit="#A_br" type="omission" cause="version"/>
+					</app><note>cap. 72 om. A(br)</note></item>
+				<item n="73">
+					<ref type="parallelPassage"><bibl><title>Is 30:15 quia haec dicit
+								dominus</title></bibl><num>LXXIII</num></ref><title><app>
+							<lem cause="version">Exhortatio dei ad penitentiam agendam</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>de paenitentia agenda</rdg>
+						</app></title></item>
+				<item n="74">
+					<ref type="parallelPassage"><bibl><title>Is 30:18 propterea expectat
+								dominus</title></bibl><num>LXXIIII</num></ref><title><app>
+							<lem cause="version">Reuocat deus</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>de domino christo quod reuocaturus sit</rdg>
+						</app> populum ab errore idolorum</title></item>
+				<item n="75">
+					<ref type="parallelPassage"><bibl><title>Is 30:23 et dabitur pluvia semini tuo
+								[~ semini tuo pluvia To]</title></bibl><num>LXXV</num></ref><title><app>
+							<lem cause="version"/>
+							<rdg wit="#A_br" type="addition" cause="unknown">de domino christo</rdg>
+						</app>De baptismo <app>
+							<lem cause="version"/>
+							<rdg wit="#A_br" type="addition" cause="unknown">et populo</rdg>
+						</app>nouo <app>
+							<lem cause="version"/>
+							<rdg wit="#A_br" type="addition" cause="unknown">christiano</rdg>
+						</app> et splendore solis et lunȩ</title></item>
+				<item n="76">
+					<ref type="parallelPassage"><bibl><title>Is 30:27 ecce nomen domini
+								venit</title></bibl><num>LXXVI</num></ref><title><app>
+							<lem cause="version">Nomen domini et furor eius grauis super eos</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>iratus est dominus his</rdg>
+						</app> qui cum peccato introeunt <app>
+							<lem cause="version"/>
+							<rdg wit="#A_br" type="addition" cause="unknown">in</rdg>
+						</app>sancta et <app>
+							<lem cause="version">ob hoc traduntur incendio</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>tradidit eos in manus inimicorum</rdg>
+						</app></title></item>
+				<item n="77">
+					<ref type="parallelPassage"><bibl><title>Is 31:1 vae qui descendunt in
+								aegyptum</title></bibl><num>LXXVII</num></ref><title><app>
+							<lem cause="version">Ve qui descendunt in ȩgyptum ad auxilium et de
+								idolis</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>sermo domini super populum quod sumere auxilia et aegypto
+								uoluerunt</rdg>
+						</app></title></item>
+				<item n="78">
+					<ref type="parallelPassage"><bibl><title>Is 32:1 ecce in iustitia regnabit
+								rex</title></bibl><num>LXXVIII</num></ref><title><app>
+							<lem cause="version">Iustitia regis dei et iudicium sanctorum eius super
+								impium</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>sermo domini super terram et homines pro idolis</rdg>
+						</app></title></item>
+				<item n="79">
+					<ref type="parallelPassage"><bibl><title>Is 32:9 mulieres opulentae
+								surgite</title></bibl><num>LXXVIIII</num></ref><title><app>
+							<lem cause="version">Sermo dei super mulieres opulentas</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>de opulentia mulieris</rdg>
+						</app></title></item>
+				<item n="80">
+					<ref type="parallelPassage"><bibl><title>Is 33:1 vae qui
+							praedaris</title></bibl><num>LXXX</num></ref><title><app>
+							<lem cause="version">Super sennacherib ultio facta ab angelo
+								denuntiatur</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>de seminantibus super aquis</rdg>
+						</app></title></item>
+				<item n="81">
+					<ref type="parallelPassage"><bibl><title>Is 33:7 ecce videntes
+							clamabunt</title></bibl><num>LXXXI</num></ref>
+					<title><app>
+							<lem cause="version">De christi passione</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>de domino christo de passione</rdg>
+						</app> et resurrectione <app>
+							<lem cause="version"/>
+							<rdg wit="#A_br" type="addition" cause="unknown">eius</rdg>
+						</app>
+						<app>
+							<lem cause="version">et iudicio futuro</lem>
+							<rdg wit="#A_br" type="omission" cause="version"/>
+						</app></title></item>
+				<item n="82">
+					<ref type="parallelPassage"><bibl><title>Is 33:18 ubi est
+							litteratus</title></bibl><num>LXXXII</num></ref>
+					<title>De prudentibus et <app>
+							<lem cause="version">litteratis</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>consiliariis seruis</rdg>
+						</app>
+						<app>
+							<lem cause="version">deum non cognoscentibus</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>qui dominum christum cognouerunt</rdg>
+						</app></title></item>
+				<item n="83">
+					<ref type="parallelPassage"><bibl><title>Is 33:20 respice sion
+							civitatem</title></bibl><num>LXXXIII</num></ref>
+					<title><app>
+							<lem cause="version">De stabilitate et gaudio ecclesiȩ et peccatorum
+								remissione</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>de domino christo ecclesia et baptismo</rdg>
+						</app></title></item>
+				<item n="84">
+					<ref type="parallelPassage"><bibl><title>Is 34:1 accedite gentes et
+								audite</title></bibl><num>LXXXIIII</num></ref>
+					<title><app>
+							<lem cause="version">De iudicio dei futuro et tormentis inferni</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>quod traderetur populus inimicis et perditionem et de ruina
+								babyloniae</rdg>
+						</app></title></item>
+				<item n="85">
+					<ref type="parallelPassage"><bibl><title>Is 35:1 laetabitur deserta et
+								invia</title></bibl><num>LXXXV</num></ref>
+					<title><app>
+							<lem cause="version">Consolatio infirmorum et ȩterna lȩtitia
+								bonorum</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>de domino christo et gentium populo de signis curationum et
+								baptismo</rdg>
+						</app></title></item>
+				<item n="86">
+					<ref type="parallelPassage"><bibl><title>Is 36:1 et factum est in quartodecimo
+								anno</title></bibl><num>LXXXVI</num></ref>
+					<title><app>
+							<lem cause="version">Sennacherib rex</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>de sennacerib rege</rdg>
+						</app> assyriorum <app>
+							<lem cause="version">ascendit</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>cum uellet</rdg>
+						</app> expugnare hierusalem et <app>
+							<lem cause="version"/>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>dominus non permisit unde</rdg>
+						</app>
+						<app>
+							<lem cause="version">per isaiam prophetam consuluit ezechias
+								dominum</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>consuluit ezechias esaiam prophetam</rdg>
+						</app></title></item>
+				<item n="87">
+					<ref type="parallelPassage"><bibl><title>Is 37:15 et oravit ezechias ad
+								dominum</title></bibl><num>LXXXVII</num></ref>
+					<title>Oratio ezechiȩ <app>
+							<lem cause="version">ad dominum</lem>
+							<rdg wit="#A_br" type="omission" cause="unknown"/>
+						</app> et <app>
+							<lem cause="version">quod idola</lem>
+							<rdg wit="#A_br" type="medium" cause="version">de idolis quod</rdg>
+						</app> dii non sint</title></item>
+				<item n="88">
+					<ref type="parallelPassage"><bibl><title>Is 37:21 et misit Isaias filius
+								Amos</title></bibl><num>LXXXVIII</num></ref>
+					<title><app>
+							<lem cause="version">Prophetia isaiȩ super rege sennacherib et de
+								CLXXXtaVque milibus per noctem ab angelo interemptis et de interitu
+								regis</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>auertit dominus regem assyriorum ab hierusalem et occidit ei
+								angelus domini in castris per noctem centum octoginta quinque milia
+								uirorum et ipse postea a filiis suis est interfectus</rdg>
+						</app></title></item>
+				<item n="89">
+					<ref type="parallelPassage"><bibl><title>Is 38:1 in diebus illis aegrotavit
+								ezechias</title></bibl><num>LXXXVIIII</num></ref>
+					<title><app>
+							<lem cause="version">Quindecim anni sunt ezechiȩ ad uitam additi</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>ubi dominus addidit ezechiae regi annos quindecim ad uitam</rdg>
+						</app> et canticum <app>
+							<lem cause="version">eius</lem>
+							<rdg wit="#A_br" type="minor" cause="grammatical">eiusdem</rdg>
+						</app></title></item>
+				<item n="90">
+					<ref type="parallelPassage"><bibl><title>Is 40:1 consolamini consolamini populus
+								meus</title></bibl><num>XC</num></ref>
+					<title><app>
+							<lem cause="version"/>
+							<rdg wit="#A_br" type="addition" cause="unknown">sermo domini super
+								hierusalem</rdg>
+						</app>De aduentu <app>
+							<lem cause="version">christi</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>domini</rdg>
+						</app> et <app>
+							<lem cause="version">prȩnuntiatione</lem>
+							<rdg wit="#A_br" type="omission" cause="unknown"/>
+						</app> iohannis</title></item>
+				<item n="91">
+					<ref type="parallelPassage"><bibl><title>Is 40:6 vox dicentis
+							clama</title></bibl><num>XCI</num></ref>
+					<title>Quod omnis caro sit foenum</title></item>
+				<item n="92">
+					<ref type="parallelPassage"><bibl><title>Is 40:9 super montem excelsum
+								ascende</title></bibl><num>XCII</num></ref>
+					<title><app>
+							<lem cause="version">Christus in carne ueniens</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>de domino christo</rdg>
+						</app>
+						<app>
+							<lem cause="version">conuocat</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>congregans</rdg>
+						</app> populos ad fidem</title></item>
+				<item n="93">
+					<ref type="parallelPassage"><bibl><title>Is 40:12 quis mensus est pugillo
+								aquas</title></bibl><num>XCIII</num></ref>
+					<title><app>
+							<lem cause="version">Quod nemo plene comprehendat opera dei</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>neminem scire consilium dei</rdg>
+						</app></title></item>
+				<item n="94">
+					<ref type="parallelPassage"><bibl><title>Is 40:18 cui ergo similem
+								fecistis</title></bibl><num>XCIIII</num></ref>
+					<title>De idolis quȩ <app>
+							<lem cause="version">facit homo</lem>
+							<rdg wit="#A_br" type="transposition" cause="unknown">homo facit</rdg>
+						</app> quod dii non sint</title></item>
+				<item n="95">
+					<ref type="parallelPassage"><bibl><title>Is 40:27 quare dicis
+							iacob</title></bibl><num>XCV</num></ref>
+					<title><app>
+							<lem cause="version">Quod nulli possit deus assimilari</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>dei sensum non conprehendi</rdg>
+						</app> et in ipso <app>
+							<lem cause="version">nobis sint omnia</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>omnia nobis dari</rdg>
+						</app></title></item>
+				<item n="96">
+					<ref type="parallelPassage"><bibl><title>Is 41:8 et tu israhel serve
+								meus</title></bibl><num>XCVI</num></ref>
+					<title>De ȩcclesia et <app>
+							<lem cause="version"/>
+							<rdg wit="#A_br" type="addition" cause="unknown">de domino</rdg>
+						</app>christo reuocante ab idolis populum</title></item>
+				<item n="97">
+					<ref type="parallelPassage"><bibl><title>Is 41:17 egeni et pauperes
+								quaerunt</title></bibl><num>XCVII</num></ref>
+					<title>De baptismo <app>
+							<lem cause="version">promisso</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>nouo praedicto</rdg>
+						</app>
+						<app>
+							<lem cause="version">et plantatione ecclesiȩ</lem>
+							<rdg wit="#A_br" type="omission" cause="unknown"/>
+						</app></title></item>
+				<item n="98">
+					<ref type="parallelPassage"><bibl><title>Is 41:21 prope facite iudicium
+								vestrum</title></bibl><num>XCVIII</num></ref>
+					<title>De iudicio dei in idolis</title></item>
+				<item n="99">
+					<ref type="parallelPassage"><bibl><title>Is 42:1 ecce servus
+							meus</title></bibl><num>XCVIIII</num></ref>
+					<title><app>
+							<lem cause="version"/>
+							<rdg wit="#A_br" type="addition" cause="unknown">de domino christo
+								est</rdg>
+						</app>Vox patris <app>
+							<lem cause="version">ad filium</lem>
+							<rdg wit="#A_br" type="omission" cause="unknown"/>
+						</app> quod ei omnia dederit <app>
+							<lem cause="version"/>
+							<rdg wit="#A_br" type="addition" cause="unknown">et de baptismo</rdg>
+						</app></title></item>
+				<item n="100">
+					<ref type="parallelPassage"><bibl><title>Is 42:10 cantate domino canticum
+								novum</title></bibl><num>C</num></ref>
+					<title><app>
+							<lem cause="version">Pro idolatriis iudȩi</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>de idolatriis iudaeorum quod pro his</rdg>
+						</app> traditi <app>
+							<lem cause="version">sunt</lem>
+							<rdg wit="#A_br" type="minor" cause="grammatical">sint</rdg>
+						</app> in direptionem</title></item>
+				<note>Cap. 101 in A(br) (<q>Non laedi aqua aut igni eum quem dominus protegit</q>)
+					is omitted by A(c).</note>
+				<item n="101">
+					<ref type="parallelPassage"><bibl><title>Is 43:1 et nunc haec dicit
+								dominus</title></bibl><app>
+							<lem cause="version"><num>CI</num></lem>
+							<rdg wit="#A_br" type="minor" cause="numbering">CII</rdg>
+						</app></ref>
+					<title>De populo nouo ex omnibus gentibus futuro</title></item>
+				<item n="102">
+					<ref type="parallelPassage"><bibl><title>Is 43:14 haec dicit dominus
+								redemptor</title></bibl><app>
+							<lem cause="version"><num>CII</num></lem>
+							<rdg wit="#A_br" type="minor" cause="numbering">CIII</rdg>
+						</app></ref>
+					<title>Vox <app>
+							<lem cause="version">domini</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="unknown"
+								>dei</rdg>
+						</app> patris de domino christo et de baptismo</title></item>
+				<item n="103">
+					<ref type="parallelPassage"><bibl><title>Is 43:22 non me invocasti
+							iacob</title></bibl><app>
+							<lem cause="version"><num>CIII</num></lem>
+							<rdg wit="#A_br" type="minor" cause="numbering">CIIII</rdg>
+						</app></ref>
+					<title>De sacrificiis <app>
+							<lem cause="version">iudeorum et uictimis</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="unknown"
+								>et incensis iudaeorum</rdg>
+						</app> reprobatis</title></item>
+				<item n="104">
+					<ref type="parallelPassage"><bibl><title>Is 44:1 et nunc audi
+							iacob</title></bibl><app>
+							<lem cause="version"><num>CIIII</num></lem>
+							<rdg wit="#A_br" type="substantive" subtype="error" cause="numbering"
+								>CV</rdg>
+						</app></ref>
+					<title>De baptismo nouo promisso <app>
+							<lem cause="version">israheli</lem>
+							<rdg wit="#A_br" type="minor" cause="grammatical">israhel</rdg>
+						</app></title></item>
+				<item n="105">
+					<ref type="parallelPassage"><bibl><title>Is 44:6 haec dicit
+							dominus</title></bibl><app>
+							<lem cause="version"><num>CV</num></lem>
+							<rdg wit="#A_br" type="minor" cause="numbering">CVI</rdg>
+						</app></ref>
+					<title>De idolis gentium inutilibus <app>
+							<lem cause="version">qualiter fiant</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>quae homo facit</rdg>
+						</app></title></item>
+				<item n="106">
+					<ref type="parallelPassage"><bibl><title>Is 44:21 memento horum iacob et
+								israhel</title></bibl><app>
+							<lem cause="version"><num>CVI</num></lem>
+							<rdg wit="#A_br" type="minor" cause="numbering">CVIII</rdg>
+						</app></ref>
+					<title><app>
+							<lem cause="version">Corripit</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>increpat</rdg>
+						</app> dominus <app>
+							<lem cause="version">israhel populum suum</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>iudaeos</rdg>
+						</app>
+						<app>
+							<lem cause="version">ne idola colat</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>pro idolis</rdg>
+						</app></title></item>
+				<item n="107">
+					<ref type="parallelPassage"><bibl><title>Is 45:1 haec dicit
+							dominus</title></bibl><num>CVII</num></ref>
+					<title>De <app>
+							<lem cause="version">christo domino</lem>
+							<rdg wit="#A_br" type="transposition" cause="unknown">domino
+								christo</rdg>
+						</app>
+						<app>
+							<lem cause="version">sub nomine cyri</lem>
+							<rdg wit="#A_br" type="omission" cause="unknown"/>
+						</app> est uox dei patris</title></item>
+				<note>Cap. 106-107 of A(c) coincide with cap. 108-107 of A(br).</note>
+				<item n="108">
+					<ref type="parallelPassage"><bibl><title>Is 45:8 rorate caeli
+							desuper</title></bibl><app>
+							<lem cause="version"><num>CVIII</num></lem>
+							<rdg wit="#A_br" type="minor" cause="numbering">CVIIII</rdg>
+						</app></ref>
+					<title><app>
+							<lem cause="version"/>
+							<rdg wit="#A_br" type="addition" cause="version">de domino christo</rdg>
+						</app>Quod <app>
+							<lem cause="version">christus</lem>
+							<rdg wit="#A_br" type="omission" cause="version"/>
+						</app> saluator sit dictus et de adoptione gentium</title></item>
+				<item n="109">
+					<ref type="parallelPassage"><bibl><title>Is 45:18 quia haec dicit
+								dominus</title></bibl><app>
+							<lem cause="version"><num>CVIIII</num></lem>
+							<rdg wit="#A_br" type="substantive" subtype="error" cause="numbering"
+								>CX</rdg>
+						</app></ref>
+					<title>De idolorum opere et colentium penitentia</title></item>
+				<item n="110">
+					<ref type="parallelPassage"><bibl><title>Is 47:1 descende sede in pulverem
+								[puluere To]</title></bibl><app>
+							<lem cause="version"><num>CX</num></lem>
+							<rdg wit="#A_br" type="minor" cause="numbering">CXI</rdg>
+						</app></ref>
+					<title>Sermo domini super babyloniam pro idolis ceterisque malis<app>
+							<lem cause="version"/>
+							<rdg wit="#A_br" type="addition" cause="unknown">quae admisit in populo
+								domini</rdg>
+						</app></title></item>
+				<item n="111">
+					<ref type="parallelPassage"><bibl><title>Is 47:4 redemptor noster
+								dominus</title></bibl><app>
+							<lem cause="version"><num>CXI</num></lem>
+							<rdg wit="#A_br" type="minor" cause="numbering">CXII</rdg>
+						</app></ref>
+					<title><app>
+							<lem cause="version">Indignatio domini</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>de domino christo indignatione</rdg>
+						</app> maledicens babyloniam</title></item>
+				<item n="112">
+					<ref type="parallelPassage"><bibl><title>Is 48:1 audite hoc domus
+							iacob</title></bibl><app>
+							<lem cause="version"><num>CXII</num></lem>
+							<rdg wit="#A_br" type="minor" cause="numbering">CXIII</rdg>
+						</app></ref>
+					<title>Increpat dominus iudȩos <app>
+							<lem cause="version">malorum suorum</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>pro idolis</rdg>
+						</app> et <app>
+							<lem cause="version">durȩ ceruicis</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>pro ceruice dura</rdg>
+						</app></title></item>
+				<item n="113">
+					<ref type="parallelPassage"><bibl><title>Is 48:12 audi me iacob et
+								israhel</title></bibl><app>
+							<lem cause="version"><num>CXIII</num></lem>
+							<rdg wit="#A_br" type="minor" cause="numbering">CXIIII</rdg>
+						</app></ref>
+					<title>De domino christo <app>
+							<lem cause="version">misso a patre</lem>
+							<rdg wit="#A_br" type="omission" cause="unknown"/>
+						</app> et de baptismo</title></item>
+				<item n="114">
+					<ref type="parallelPassage"><bibl><title>Is 49:1 audite insulae</title></bibl><app>
+							<lem cause="version"><num>CXIIII</num></lem>
+							<rdg wit="#A_br" type="substantive" subtype="error" cause="numbering"
+								>CXV</rdg>
+						</app></ref>
+					<title>Vox <app>
+							<lem cause="version"/>
+							<rdg wit="#A_br" type="addition" cause="unknown">domini</rdg>
+						</app> christi omnia sibi data a patre <app>
+							<lem cause="version">et de salute omnium gentium</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>ad salutem iacob et israhel et omnium gentium</rdg>
+						</app></title></item>
+				<item n="115">
+					<ref type="parallelPassage"><bibl><title>Is 49:8 haec dicit
+							dominus</title></bibl><app>
+							<lem cause="version"><num>CXV</num></lem>
+							<rdg wit="#A_br" type="minor" cause="numbering">CXVI</rdg>
+						</app></ref>
+					<title>Vox domini <app>
+							<lem cause="version">in consolatione</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>consolantis</rdg>
+						</app> syon idest <app>
+							<lem cause="version">ecclesiȩ</lem>
+							<rdg wit="#A_br" type="minor" cause="grammatical">ecclesiam</rdg>
+						</app><app>
+							<lem cause="version"/>
+							<rdg wit="#A_br" type="addition" cause="unknown">et futuro
+								baptismo</rdg>
+						</app></title></item>
+				<item n="116">
+					<ref type="parallelPassage"><bibl><title>Is 49:22 haec dicit dominus
+								deus</title></bibl><app>
+							<lem cause="version"><num>CXVI</num></lem>
+							<rdg wit="#A_br" type="minor" cause="numbering">CXVII</rdg>
+						</app></ref>
+					<title>Vox <app>
+							<lem cause="version"/>
+							<rdg wit="#A_br" type="addition" cause="unknown">domini</rdg>
+						</app> christi quod <app>
+							<lem cause="version">afferant</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>adsumant</rdg>
+						</app> ad eum gentes filios <app>
+							<lem cause="version"/>
+							<rdg wit="#A_br" type="addition" cause="unknown">suos</rdg>
+						</app> in <app>
+							<lem cause="version">ulnis</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>ulnas suas</rdg>
+						</app></title></item>
+				<item n="117">
+					<ref type="parallelPassage"><bibl><title>Is 50:1 haec dicit
+							dominus</title></bibl><app>
+							<lem cause="version"><num>CXVII</num></lem>
+							<rdg wit="#A_br" type="minor" cause="numbering">CXVIII</rdg>
+						</app></ref>
+					<title>De synagoga repudiata <app>
+							<lem cause="version">in aduentu christi</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>a domino christo in aduentu eius</rdg>
+						</app></title></item>
+				<item n="118">
+					<ref type="parallelPassage"><bibl><title>Is 50:4 dominus dedit mihi
+								linguam</title></bibl><app>
+							<lem cause="version"><num>CXVIII</num></lem>
+							<rdg wit="#A_br" type="minor" cause="numbering">CXVIIII</rdg>
+						</app></ref>
+					<title><app>
+							<lem cause="version"/>
+							<rdg wit="#A_br" type="addition" cause="unknown">dominus</rdg>
+						</app>Christus <app>
+							<lem cause="version">de passione sua</lem>
+							<rdg wit="#A_br" type="medium" cause="grammatical">passionem suam</rdg>
+						</app>
+						<app>
+							<lem cause="version">obtestatur</lem>
+							<rdg wit="#A_br" type="minor" cause="grammatical">testatur</rdg>
+						</app>
+						<app>
+							<lem cause="version"/>
+							<rdg wit="#A_br" type="addition" cause="unknown">et increpat</rdg>
+						</app>iudeos <app>
+							<lem cause="version"/>
+							<rdg wit="#A_br" type="addition" cause="unknown">qui in eum erant
+								peccaturi</rdg>
+						</app></title></item>
+				<item n="119">
+					<ref type="parallelPassage"><bibl><title>Is 51:1 audite me qui
+							sequimini</title></bibl><app>
+							<lem cause="version"><num>CXVIIII</num></lem>
+							<rdg wit="#A_br" type="substantive" subtype="error" cause="numbering"
+								>CXX</rdg>
+						</app></ref>
+					<title><app>
+							<lem cause="version">Promittit dominus consolationem super ruinas
+								ecclesiȩ</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>de ecclesia promissionis christi</rdg>
+						</app></title></item>
+				<item n="120">
+					<ref type="parallelPassage"><bibl><title>Is 51:7 audite me qui
+							scitis</title></bibl><app>
+							<lem cause="version"><num>CXX</num></lem>
+							<rdg wit="#A_br" type="minor" cause="numbering">CXXI</rdg>
+						</app></ref>
+					<title>Non despici a domino eos qui ab hominibus despiciuntur</title></item>
+				<item n="121">
+					<ref type="parallelPassage"><bibl><title>Is 51:9 consurge
+							consurge</title></bibl><app>
+							<lem cause="version"><num>CXXI</num></lem>
+							<rdg wit="#A_br" type="minor" cause="numbering">CXXII</rdg>
+						</app></ref>
+					<title><app>
+							<lem cause="version">Consolatio</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>promissio</rdg>
+						</app> sanctȩ matris ecclesiȩ de gentibus <app>
+							<lem cause="version"/>
+							<rdg wit="#A_br" type="addition" cause="unknown">et de domino
+								christo</rdg>
+						</app></title></item>
+				<item n="122">
+					<ref type="parallelPassage"><bibl><title>Is 51:17 elevare elevare</title></bibl><app>
+							<lem cause="version"><num>CXXII</num></lem>
+							<rdg wit="#A_br" type="minor" cause="numbering">CXXIII</rdg>
+						</app></ref>
+					<title>Dominus <app>
+							<lem cause="version">ulciscitur</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>ulcisci facit</rdg>
+						</app> populum suum de persecutoribus et <app>
+							<lem cause="version">reformat</lem>
+							<rdg wit="#A_br" type="minor" cause="grammatical">reformari</rdg>
+						</app> hierusalem</title></item>
+				<item n="123">
+					<ref type="parallelPassage"><bibl><title>Is 52:1 consurge
+							consurge</title></bibl><app>
+							<lem cause="version"><num>CXXIII</num></lem>
+							<rdg wit="#A_br" type="minor" cause="numbering">CXXIIII</rdg>
+						</app></ref>
+					<title>Vox <app>
+							<lem cause="version"/>
+							<rdg wit="#A_br" type="addition" cause="unknown">domini</rdg>
+						</app> christi ad <app>
+							<lem cause="version">ȩcclesiam</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>hierusalem</rdg>
+						</app>
+						<app>
+							<lem cause="version">pro calumniantibus</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>et de male blasphemantibus</rdg>
+						</app></title></item>
+				<item n="124">
+					<ref type="parallelPassage"><bibl><title>Is 52:7 quam pulchri super
+								montes</title></bibl><app>
+							<lem cause="version"><num>CXXIIII</num></lem>
+							<rdg wit="#A_br" type="substantive" subtype="error" cause="numbering"
+								>CXXV</rdg>
+						</app></ref>
+					<title><app>
+							<lem cause="version">De christo euangelizante et de ȩcclesia</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>de hierusalem et de domino christo</rdg>
+						</app> et sanctis <app>
+							<lem cause="version">omnibus</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>eius</rdg>
+						</app></title></item>
+				<item n="125">
+					<ref type="parallelPassage"><bibl><title>Is 52:11 recedite
+							recedite</title></bibl><app>
+							<lem cause="version"><num>CXXV</num></lem>
+							<rdg wit="#A_br" type="minor" cause="numbering">CXXVI</rdg>
+						</app></ref>
+					<title><app>
+							<lem cause="version">Monentur sancti recedere</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>admonet dominus recedere sanctos</rdg>
+						</app> de ciuitate peccantium <app>
+							<lem cause="version"/>
+							<rdg wit="#A_br" type="addition" cause="unknown">et de aduentu
+								christi</rdg>
+						</app></title></item>
+				<item n="126">
+					<ref type="parallelPassage"><bibl><title>Is 53:1 quis credidit
+							auditui</title></bibl><app>
+							<lem cause="version"><num>CXXVI</num></lem>
+							<rdg wit="#A_br" type="minor" cause="numbering">CXXVII</rdg>
+						</app></ref>
+					<title><app>
+							<lem cause="version">Passio christi in omnibus satis digesta</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>de passione christi</rdg>
+						</app></title></item>
+				<pb facs="data/images/single/To_173v.jpeg" n="To_173v"/>
+				<lb n="[To_173v]"/>
+				<item n="127">
+					<ref type="parallelPassage"><bibl><title>Is 54:1 lauda sterilis quae non
+								paris</title></bibl><app>
+							<lem cause="version"><num>CXXVII</num></lem>
+							<rdg wit="#A_br" type="minor" cause="numbering">CXXVIII</rdg>
+						</app></ref>
+					<title><app>
+							<lem cause="version">Fȩcunditas et status et firmamentum ecclesiȩ
+								repromittitur</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>uox domini de ecclesia a gentibus erecta</rdg>
+						</app></title></item>
+				<item n="128">
+					<ref type="parallelPassage"><bibl><title>Is 54:14 recede procul a
+								calumnia</title></bibl><app>
+							<lem cause="version"><num>CXXVIII</num></lem>
+							<rdg wit="#A_br" type="minor" cause="numbering">CXXVIIII</rdg>
+						</app></ref>
+					<title>De proselitis et aduenis</title></item>
+				<item n="129">
+					<ref type="parallelPassage"><bibl><title>Is 54:16 ecce ego creavi
+							fabrum</title></bibl><app>
+							<lem cause="version"><num>CXXVIIII</num></lem>
+							<rdg wit="#A_br" type="substantive" subtype="error" cause="numbering"
+								>CXXX</rdg>
+						</app></ref>
+					<title><app>
+							<lem cause="version">Persecutores ecclesiȩ dicit in uanum
+								laboraturos</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>omnes que exsurgunt in persecutionem ecclesiae reos dicit
+								remanere</rdg>
+						</app></title></item>
+				<item n="130">
+					<ref type="parallelPassage"><bibl><title>Is 55:1 o [om. To] omnes sitientes
+								venite</title></bibl><app>
+							<lem cause="version"><num>CXXX</num></lem>
+							<rdg wit="#A_br" type="minor" cause="numbering">CXXXI</rdg>
+						</app></ref>
+					<title><app>
+							<lem cause="version">Conuocatio omnium gentium ad aquas baptismi</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>de baptismo et populo christiano</rdg>
+						</app></title></item>
+				<item n="131">
+					<ref type="parallelPassage"><bibl><title>Is 55:6 quaerite dominum</title></bibl><app>
+							<lem cause="version"><num>CXXXI</num></lem>
+							<rdg wit="#A_br" type="minor" cause="numbering">CXXXII</rdg>
+						</app></ref>
+					<title><app>
+							<lem cause="version">Quȩrere</lem>
+							<rdg wit="#A_br" type="minor" cause="grammatical">quaerentes</rdg>
+						</app> dominum <app>
+							<lem cause="version">et</lem>
+							<rdg wit="#A_br" type="omission" cause="version"/>
+						</app>
+						<app>
+							<lem cause="version">recedere iubet</lem>
+							<rdg wit="#A_br" type="transposition" cause="unknown">iubet
+								recedere</rdg>
+						</app> a malis et uitam consequi</title></item>
+				<item n="132">
+					<ref type="parallelPassage"><bibl><title>Is 56:3 et non dicat filius
+								advenae</title></bibl><app>
+							<lem cause="version"><num>CXXXII</num></lem>
+							<rdg wit="#A_br" type="minor" cause="numbering">CXXXIII</rdg>
+						</app></ref>
+					<title>De spadonibus <app>
+							<lem cause="version">remunerandis</lem>
+							<rdg wit="#A_br" type="omission" cause="unknown"/>
+						</app> et <app>
+							<lem cause="version">malis pastoribus puniendis</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>mansionibus populi maligni</rdg>
+						</app></title></item>
+				<item n="133">
+					<ref type="parallelPassage"><bibl><title>Is 57:1 iustus perit et
+							nemo</title></bibl><app>
+							<lem cause="version"><num>CXXXIII</num></lem>
+							<rdg wit="#A_br" type="minor" cause="numbering">CXXXIIII</rdg>
+						</app></ref>
+					<title><app>
+							<lem cause="version">A conspectu malitiȩ iustus rapitur</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>de iusto</rdg>
+						</app></title></item>
+				<item n="134">
+					<ref type="parallelPassage"><bibl><title>Is 57:3 vos autem accedite
+							huc</title></bibl><app>
+							<lem cause="version"><num>CXXXIIII</num></lem>
+							<rdg wit="#A_br" type="substantive" subtype="error" cause="numbering"
+								>CXXXV</rdg>
+						</app></ref>
+					<title><app>
+							<lem cause="version">Increpantur iudȩi grauiter a deo</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>increpat dominus iudaeos</rdg>
+						</app> pro idolatria</title></item>
+				<item n="135">
+					<ref type="parallelPassage"><bibl><title>Is 57:15 quia haec dicit [deus add. To]
+								excelsus</title></bibl><app>
+							<lem cause="version"><num>CXXXV</num></lem>
+							<rdg wit="#A_br" type="minor" cause="numbering">CXXXVI</rdg>
+						</app></ref>
+					<title><app>
+							<lem cause="version">Viuificantur humiles spiritu</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>de domino christo</rdg>
+						</app> et <app>
+							<lem cause="version"/>
+							<rdg wit="#A_br" type="addition" cause="version">quod</rdg>
+						</app> impiis non <app>
+							<lem cause="version">est</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>sit</rdg>
+						</app> pax</title></item>
+				<item n="136">
+					<ref type="parallelPassage"><bibl><title>Is 58:1 clama ne cesses</title></bibl><app>
+							<lem cause="version"><num>CXXXVI</num></lem>
+							<rdg wit="#A_br" type="minor" cause="numbering">CXXXVII</rdg>
+						</app></ref>
+					<title><app>
+							<lem cause="version"/>
+							<rdg wit="#A_br" type="addition" cause="unknown">de</rdg>
+						</app>Forma ieiuniorum</title></item>
+				<item n="137">
+					<ref type="parallelPassage"><bibl><title>Is 59:1 ecce non est adbreviata
+								manus</title></bibl><app>
+							<lem cause="version"><num>CXXXVII</num></lem>
+							<rdg wit="#A_br" type="minor" cause="numbering">CXXXVIII</rdg>
+						</app></ref>
+					<title>Delicta <app>
+							<lem cause="version">nostra prȩpediunt</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>separant inter nos et deum</rdg>
+						</app> ne a malis liberemur</title></item>
+				<item n="138">
+					<ref type="parallelPassage"><bibl><title>Is 59:4 conceperunt
+							laborem</title></bibl><app>
+							<lem cause="version"><num>CXXXVIII</num></lem>
+							<rdg wit="#A_br" type="minor" cause="numbering">CXXXVIIII</rdg>
+						</app></ref>
+					<title><app>
+							<lem cause="version">In persona aspidum memorantur facta
+								antichristorum</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>de aspidum fetibus in persona antichristorum persecutorum nihil de
+								sanctis habentium</rdg>
+						</app></title></item>
+				<item n="139">
+					<ref type="parallelPassage"><bibl><title>Is 59:9 propter hoc elongatum
+								est</title></bibl><app>
+							<lem cause="version"><num>CXXXVIIII</num></lem>
+							<rdg wit="#A_br" type="substantive" subtype="error" cause="numbering"
+								>CXL</rdg>
+						</app></ref>
+					<title>Vox <app>
+							<lem cause="version">poenitentium</lem>
+							<rdg wit="#A_br" type="minor" cause="grammatical">paenitentiae</rdg>
+						</app> pro peccatis</title></item>
+				<item n="140">
+					<ref type="parallelPassage"><bibl><title>Is 59:15 et vidit dominus et
+								malum</title></bibl><app>
+							<lem cause="version"><num>CXL</num></lem>
+							<rdg wit="#A_br" type="minor" cause="numbering">CXLI</rdg>
+						</app></ref>
+					<title><app>
+							<lem cause="version"/>
+							<rdg wit="#A_br" type="addition" cause="version">de domino christo</rdg>
+						</app>Quod <app>
+							<lem cause="version">christus</lem>
+							<rdg wit="#A_br" type="omission" cause="version"/>
+						</app> ueniens liberaret israhel et populum gentium</title></item>
+				<item n="141">
+					<ref type="parallelPassage"><bibl><title>Is 60:1 surge inluminare</title></bibl><app>
+							<lem cause="version"><num>CXLI</num></lem>
+							<rdg wit="#A_br" type="minor" cause="numbering">CXLII</rdg>
+						</app></ref>
+					<title><app>
+							<lem cause="version">Illuminatio ecclesiȩ</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>de ecclesia</rdg>
+						</app> cui <app>
+							<lem cause="version"/>
+							<rdg wit="#A_br" type="addition" cause="unknown">dominus</rdg>
+						</app> christus exortus est <app>
+							<lem cause="version"/>
+							<rdg wit="#A_br" type="addition" cause="unknown">in hierusalem et
+								promissiones eius ornandae</rdg>
+						</app></title></item>
+				<item n="142">
+					<ref type="parallelPassage"><bibl><title>Is 61:1 spiritus domini super
+								me</title></bibl><app>
+							<lem cause="version"><num>CXLII</num></lem>
+							<rdg wit="#A_br" type="minor" cause="numbering">CXLIII</rdg>
+						</app></ref>
+					<title>Vox <app>
+							<lem cause="version"/>
+							<rdg wit="#A_br" type="addition" cause="unknown">domini</rdg>
+						</app> christi <app>
+							<lem cause="version"/>
+							<rdg wit="#A_br" type="addition" cause="unknown">de se et</rdg>
+						</app> de ecclesia et populo et sacerdotibus</title></item>
+				<item n="143">
+					<ref type="parallelPassage"><bibl><title>Is 61:8 quia ego dominus</title></bibl><app>
+							<lem cause="version"><num>CXLIII</num></lem>
+							<rdg wit="#A_br" type="minor" cause="numbering">CXLIIII</rdg>
+						</app></ref>
+					<title><app>
+							<lem cause="version">Odium dei super iniustitia et rapinis</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>de iustitia et rapinis</rdg>
+						</app></title></item>
+				<item n="144">
+					<ref type="parallelPassage"><bibl><title>Is 61:10 gaudens gaudebo in
+								domino</title></bibl><app>
+							<lem cause="version"><num>CXLIIII</num></lem>
+							<rdg wit="#A_br" type="substantive" subtype="error" cause="numbering"
+								>CXLV</rdg>
+						</app></ref>
+					<title><app>
+							<lem cause="version">Ornatus ecclesiȩ et aduentus saluatoris sui</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>vox domini christi de ecclesia et de se ipso</rdg>
+						</app></title></item>
+				<item n="145">
+					<ref type="parallelPassage"><bibl><title>Is 62:8 iuravit dominus in dextera
+								sua</title></bibl><app>
+							<lem cause="version"><num>CXLV</num></lem>
+							<rdg wit="#A_br" type="minor" cause="numbering">CXLVI</rdg>
+						</app></ref>
+					<title><app>
+							<lem cause="version">Iuramentum domini se cito uenturum</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>de domino christo ecclesia et eius passione</rdg>
+						</app></title>
+				</item>
+				<item n="146">
+					<app>
+						<lem cause="version"><ref type="parallelPassage"><bibl><title>Is 63:1 quis
+										est iste qui venit</title></bibl><num>CXLVI</num></ref>
+							<title>De passione domini et de uictoria mortis</title></lem>
+						<rdg wit="#A_br" type="omission" cause="version"/>
+					</app><note>cap. 146 om. A(br)</note></item>
+				<item n="147">
+					<ref type="parallelPassage"><bibl><title>Is 63:7 miserationum domini recordabor
+							</title></bibl><num>CXLVII</num></ref>
+					<title>Quod <app>
+							<lem cause="version"/>
+							<rdg wit="#A_br" type="addition" cause="unknown">dominus</rdg>
+						</app>christus per moysen <app>
+							<lem cause="version">transduxerit</lem>
+							<rdg wit="#A_br" type="medium" cause="version">transuexit</rdg>
+						</app>
+						<app>
+							<lem cause="version">israhel</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>populum</rdg>
+						</app> per <app>
+							<lem cause="version">mare rubrum</lem>
+							<rdg wit="#A_br" type="transposition" cause="unknown">rubrum mare</rdg>
+						</app></title></item>
+				<item n="148">
+					<ref type="parallelPassage"><bibl><title>Is 63:15 adtende de
+							caelo</title></bibl><num>CXLVIII</num></ref>
+					<title>Exomologesis prophetȩ ad deum pro populo</title></item>
+				<item n="149">
+					<ref type="parallelPassage"><bibl><title>Is 64:5 ecce tu iratus
+							es</title></bibl><num>CXLVIIII</num></ref>
+					<title>De penitentia <app>
+							<lem>populi</lem>
+							<rdg wit="#To" varSeq="1" type="minor" cause="grammatical"
+								rend="erasure" hand="#u" cert="low">populum</rdg>
+							<rdg wit="#To" varSeq="2" type="lem" cause="correction">populi</rdg>
+						</app>
+						<app>
+							<lem cause="version">sicut in</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>pro</rdg>
+						</app> panno menstruali</title></item>
+				<item n="150">
+					<ref type="parallelPassage"><bibl><title>Is 65:1 quaesierunt
+							me</title></bibl><num>CL</num></ref>
+					<title>Vox <app>
+							<lem cause="version"/>
+							<rdg wit="#A_br" type="addition" cause="unknown">domini</rdg>
+						</app> christi de passione et contra iudȩos <app>
+							<lem>de</lem>
+							<note>In A(br), <q>de</q> is omitted by the manuscripts and restored by
+								de Bruyne.</note>
+						</app> idolatria</title></item>
+				<item n="151">
+					<ref type="parallelPassage"><bibl><title>Is 65:8 haec dicit
+							Dominus</title></bibl><num>CLI</num></ref>
+					<title>Non <app>
+							<lem cause="version">perdet</lem>
+							<rdg wit="#A_br" type="minor" cause="grammatical">perdere</rdg>
+						</app>
+						<app>
+							<lem cause="version">deus</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>dominum</rdg>
+						</app> seruientem sibi sed non seruientem</title></item>
+				<item n="152">
+					<ref type="parallelPassage"><bibl><title>Is 65:13 propter hoc haec
+							dicit</title></bibl><num>CLII</num></ref>
+					<title>De mercede seruientium domino</title></item>
+				<item n="153">
+					<ref type="parallelPassage"><bibl><title>Is 65:18 quia ecce ego
+							creo</title></bibl><num>CLIII</num></ref>
+					<title><app>
+							<lem cause="version">Repromissio ecclesiȩ</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>promisso domini de reformatione hierusalem</rdg>
+							<note><q>Promisso</q>, which is grammatically incorrect, may merely be a
+								typographical slip in de Bruyne’s edition of A(br) for
+									<q>promissio</q>.</note>
+						</app> et <app>
+							<lem cause="version">quod</lem>
+							<rdg wit="#A_br" type="omission" cause="unknown"/>
+						</app>
+						<app>
+							<lem cause="version">habitabit</lem>
+							<rdg wit="#A_br" type="minor" cause="grammatical">habitauit</rdg>
+							<note>Since the future is certainly the correct form, the perfect
+									<q>habitauit</q> may be an accidental error of de Bruyne's
+								witnesses.</note>
+						</app> lupus cum agno</title></item>
+				<item n="154">
+					<ref type="parallelPassage"><bibl><title>Is 66:1 haec dicit
+							Dominus</title></bibl><num>CLIIII</num></ref>
+					<title>Quod humilem et quietum diligat deus</title></item>
+				<item n="155">
+					<ref type="parallelPassage"><bibl><title>Is 66:3 qui immolat
+							bovem</title></bibl><num>CLV</num></ref>
+					<title><app>
+							<lem cause="version">Increpantur iudȩi</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>increpat dominus iudaeos</rdg>
+						</app> quod <app>
+							<lem cause="version">deo</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>dominum</rdg>
+						</app> non <app>
+							<lem cause="version">placuerint</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>receperunt</rdg>
+						</app></title></item>
+				<item n="156">
+					<ref type="parallelPassage"><bibl><title>Is 66:10 laetamini cum
+								hierusalem</title></bibl><num>CLVI</num></ref>
+					<title>Diligentibus hierusalem omnia bona abundare</title></item>
+				<item n="157">
+					<ref type="parallelPassage"><bibl><title>Is 66:15 quia ecce dominus in
+								igne</title></bibl><num>CLVII</num></ref>
+					<title>De aduentu <app>
+							<lem cause="version">futuro</lem>
+							<rdg wit="#A_br" type="minor" cause="grammatical">futuri</rdg>
+						</app>
+						<app>
+							<lem cause="version">magni</lem>
+							<rdg wit="#A_br" type="omission" cause="unknown"/>
+						</app> diei domini</title></item>
+				<item n="158">
+					<ref type="parallelPassage"><bibl><title>Is 66:18 ego autem opera
+							eorum</title></bibl><num>CLVIII</num></ref>
+					<title><app>
+							<lem cause="version">Verba dei de retributione bonorum et malorum</lem>
+							<rdg wit="#A_br" type="substantive" subtype="adiaphoric" cause="version"
+								>dominus christus de se et de apostolis et de populo loquitur</rdg>
+						</app></title></item>
+			</list>
+
+			<trailer>
+				<app>
+					<lem rendition="#CU #red">EXPLICIUNT CAPITULA</lem>
+				</app>
+			</trailer>
+		</body>
+	</text>
+</TEI>

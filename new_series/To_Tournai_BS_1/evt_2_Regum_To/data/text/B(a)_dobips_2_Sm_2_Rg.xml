@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Capitula 2 Samuhel / 2 Regum in Tournai, Bibliothèque du Séminaire, MS
+					1</title>
+				<respStmt>
+					<resp>Critical Edition by</resp>
+					<name>Silverio Franzoni</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<p>Digital editions of summaries in Medieval Bibles</p>
+			</publicationStmt>
+			<sourceDesc>
+				<listBibl>
+					<head>bibliographical abbreviations</head>
+					<bibl xml:id="de_Bruyne">
+						<author>Donatien de Bruyne</author>
+						<title>Sommaires, divisions et rubriques de la Bible latine</title>
+						<pubPlace>Namur</pubPlace>
+						<date>1914</date></bibl>
+					<bibl xml:id="Ben">
+						<editor>Monachi abbatiae pontificiae Sancti Hieronymi in Urbe</editor>
+						<title>Biblia Sacra iuxta Latinam vulgatam versionem ad codicum fidem...
+							Liber Samuhelis ex interpretatione sancti Hieronymi cum praefatione et
+							variis capitulorum seriebus</title>
+						<pubPlace>Romae</pubPlace>
+						<date>1944</date>
+					</bibl>
+					<bibl xml:id="descrBog">
+						<author>P.-M. Bogaert, A. De Coster, J.-B. Lebigue et alii</author>
+						<title>LM 1. Biblia sacra, dite « Bible de Lobbes »</title>, in
+							<title>Séminaire de Tournai : histoire, bâtiments, collections</title>
+						<editor>M. Maillard-Luypaert</editor>
+						<pubPlace>Leuven</pubPlace>
+						<date>2008</date>
+						<biblScope>pp. 77-101</biblScope>
+					</bibl>
+				</listBibl>
+				<listWit>
+					<witness xml:id="To">
+						<msDesc>
+							<msIdentifier>
+								<settlement>Tournai</settlement>
+								<repository>Bibliothèque du Séminaire</repository>
+								<idno>MS 1</idno>
+							</msIdentifier>
+							<head>Bible of Lobbes (first volume)</head>
+							<msContents>
+								<msItem>
+									<locus>ff. 131rb-131va</locus>
+									<title>capitula 2 Samuhel / 2 Regum</title>
+								</msItem>
+							</msContents>
+							<physDesc>
+								<objectDesc form="codex">
+									<supportDesc material="parch">
+										<extent> 276 folios <lb/><dimensions type="leaf" unit="mm">
+												<height quantity="495">height 495 mm</height>
+												<width quantity="325">width 325 mm</width>
+											</dimensions></extent>
+									</supportDesc>
+									<layoutDesc>
+										<layout columns="2"><lb/>2 cols.</layout>
+									</layoutDesc>
+								</objectDesc>
+								<handDesc>
+									<handNote script="preGothicMinuscule">pre-gothic
+										minuscule</handNote>
+								</handDesc>
+							</physDesc>
+							<history>
+								<origin>
+									<origDate from-custom="1084" to-custom="1084">1084</origDate>
+									<origPlace>Lobbes, Abbey of St Peter</origPlace>
+								</origin>
+							</history>
+							<additional>
+								<surrogates>
+									<p>
+										<bibl type="digital_facsimile" subtype="full"><hi
+												rend="bold"><ref
+												target="https://arca.irht.cnrs.fr/ark:/63955/md859c680g25"
+												>digital facsimile</ref></hi>
+										</bibl>
+										<lb/>
+										<bibl type="description"><hi rend="bold"><ref
+												target="http://www.cicweb.be/fr/manuscrit.php?id=70=48"
+												>description</ref></hi><ref/></bibl>
+										<lb/>
+										<bibl type="IIIF_Manifest_URL"><hi rend="bold"><ref
+												target="https://api.irht.cnrs.fr/ark:/63955/fpfg6g1sg75j/manifest.json"
+												>IIIF Manifest</ref></hi>
+										</bibl>
+									</p></surrogates>
+							</additional>
+						</msDesc></witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<tagsDecl>
+				<rendition xml:id="CU">mixed capital and uncial letters</rendition>
+				<rendition xml:id="U">uncial letters</rendition>
+				<rendition xml:id="Ca">capital letters</rendition>
+				<rendition xml:id="red">red color letter(s)</rendition>
+				<rendition xml:id="blue">blue color letter(s)</rendition>
+				<rendition xml:id="textink"/>
+				<rendition xml:id="bw">the digital reproduction is b/w, impossible to determine
+					color</rendition>
+				<rendition xml:id="gold">golden letter(s)</rendition>
+			</tagsDecl>
+		</encodingDesc>
+		<profileDesc>
+			<handNotes>
+				<handNote xml:id="m">main scribe</handNote>
+				<handNote xml:id="l">later hand</handNote>
+				<handNote xml:id="u">unknown, impossible to determine</handNote>
+			</handNotes>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<p>The series of <hi rend="italic">capitula</hi> published here is unknown to both <ref
+					target="#de_Bruyne">de Bruyne</ref> and the <ref target="#Ben">Benedictine
+					edition</ref> of the Vulgate. Since it is mainly based on de Bruyne's <ref
+					target="https://gallica.bnf.fr/ark:/12148/bpt6k8537228/f121">B series</ref> (as
+				observed by P.-M. Bogaert in <ref target="#descrBog">Bogaert et alii</ref>, p. 81;
+				see also below), we label it <hi rend="bold">B(a)_dobips</hi>. Among the manuscripts
+				recorded in the DOBiPS database, it occurs only in <hi rend="bold">To</hi> (Tournai,
+				Bibliothèque du Séminaire, MS 1), the first volume (the second being lost) of the
+				so-called Bible of Lobbes, produced at the eponymous Belgian abbey in the late 11th
+				century. <lb/><lb/>As in the case of 3 Regum (here) and 4 Regum (here), B(a) draws
+				both from de Bruyne's <ref
+					target="https://gallica.bnf.fr/ark:/12148/bpt6k8537228/f120">A</ref> and B
+				series to 2 Regum. While some <hi rend="italic">capitula</hi> are borrowed almost
+				literally from A (for example, <hi rend="italic">cap.</hi> 27 and 42, which
+				correspond to <hi rend="italic">cap.</hi> 49 and 68 of A), the core of B(a) is a
+				reworking of the B series, each <hi rend="italic">capitulum</hi> of which is split
+				into two or more titles, sometimes with additional details.<lb/> For example, from
+				B's <hi rend="italic">cap.</hi> 2, B(a) draws four titles:<list>
+					<item>B, <hi rend="italic">cap.</hi> 2:<list>
+							<item>De reditu dauid in hebron ubi secundo unctus est et de abner et
+								hisboseth et ioab et de proelio <lb/>ubi luserunt pueri et asahel
+								occubuit</item>
+						</list></item>
+					<item>B(a), <hi rend="italic">cap.</hi> 29-32<list>
+							<item>29 De reditu dauid in hebron ubi secundo unctus est</item>
+							<item>30 De abner et hisboseth filio saul et de ioab</item>
+							<item>31 De proelio in gabaon ubi luserunt pueri</item>
+							<item>32 De occubitu asahel fratris ioab percusso ab abner</item>
+						</list></item>
+				</list>The numbering (27-69) continues that of book 1, where the standard B series
+				to 1 Regum (de Bruyne, <ref
+					target="https://gallica.bnf.fr/ark:/12148/bpt6k8537228/f117">p. 103-105</ref>) –
+				which counts 26 chapters – is employed.<lb/><lb/>The point in the text of 2 Regum
+				where To places the chapter number corresponding to each <hi rend="italic"
+					>capitulum</hi> can be accessed either by clicking on the two-page icon next to
+				each <hi rend="italic">capitulum</hi> number, or by clicking on the "Passi
+				paralleli" thumbnail (in the right-hand panel of the "Testo di lettura" screen).</p>
+		</front>
+		<body>
+			<head>
+				<pb facs="data/images/single/To_131r.jpeg" n="To_131r"/>
+				<lb n="[To_131r]"/>
+				<lb/>
+				<app>
+					<lem rendition="#CU #red">INCIPIUNT CAPITULA LIBri SeCunDI</lem>
+				</app>
+			</head>
+
+			<list>
+				<item n="1">
+					<ref type="parallelPassage"><bibl><title>2 Rg 1:1 factum est
+							autem</title></bibl><num>XXVII</num></ref>
+					<title>Nuntium sceleris iubet dauid ante se interfici pro morte
+					saul</title></item>
+				<item n="2">
+					<ref type="parallelPassage"><bibl><title>2 Rg 1:17 planxit autem
+							david</title></bibl><num>XXVIII</num></ref>
+					<title>De planctu dauid quomodo luxit saul et ionathan</title></item>
+				<item n="3">
+					<ref type="parallelPassage"><bibl><title>2 Rg 2:1 igitur post
+							haec</title></bibl><num>XXVIIII</num></ref>
+					<title>De reditu dauid in hebron ubi secundo unctus est</title></item>
+				<item n="4">
+					<ref type="parallelPassage"><bibl><title>2 Rg 2:8 abner autem filius
+							ner</title></bibl><num>XXX</num></ref>
+					<title>De abner et hisboseth filio saul et de ioab</title></item>
+				<item n="5">
+					<ref type="parallelPassage"><bibl><title>2 Rg 2:16 adprehensoque
+								unusquisque</title></bibl><num>XXXI</num></ref>
+					<title>De proelio in gabaon ubi luserunt pueri</title></item>
+				<item n="6">
+					<ref type="parallelPassage"><bibl><title>2 Rg 2:23 percussit ergo eum
+								abner</title></bibl><num>XXXII</num></ref>
+					<title>De occubitu asahel fratris ioab percusso ab abner</title></item>
+				<item n="7">
+					<ref type="parallelPassage"><bibl><title>2 Rg 3:2 nati quoque [natique To] sunt
+								filii</title></bibl><num>XXXIII</num></ref>
+					<title>De filiis dauid in hebron natis et quomodo recepit michol</title></item>
+				<item n="8">
+					<ref type="parallelPassage"><bibl><title>2 Rg 3:23 nuntiatum est
+							itaque</title></bibl><num>XXXIIII</num></ref>
+					<title>De abner ab ioab interfecto et de fletu regis dauid super
+					eo</title></item>
+				<item n="9">
+					<ref type="parallelPassage"><bibl><title>2 Rg 4:1 audivit autem filius
+								saul</title></bibl><num>XXXV</num></ref>
+					<title>De morte hisboseth filii saul et ultione pro eo facta</title></item>
+				<item n="10">
+					<ref type="parallelPassage"><bibl><title>2 Rg 5:1 et venerunt universae
+								tribus</title></bibl><num>XXXVI</num></ref>
+					<title>De cunctis tribubus secutis dauid et quomodo ingressus est
+					syon</title></item>
+				<item n="11">
+					<ref type="parallelPassage"><bibl><title>2 Rg 5:11 misit quoque hiram rex
+								tyri</title></bibl><num>XXXVII</num></ref>
+					<title>De tyri artificibus et lignis et de uxoribus uel filiis qui nati sunt
+						dauid</title></item>
+				<item n="12">
+					<ref type="parallelPassage"><bibl><title>2 Rg 5:17 audierunt vero philisthim
+								[-um To]</title></bibl><num>XXXVIII</num></ref>
+					<title>De duobus proeliis quibus dauid percussit phylisteos</title></item>
+				<item n="13">
+					<ref type="parallelPassage"><bibl><title>2 Rg 6:1 congregavit autem rursum
+								david</title></bibl><num>XXXVIIII</num></ref>
+					<title>De arca adducta in hierusalem et de percussione oza</title></item>
+				<item n="14">
+					<ref type="parallelPassage"><bibl><title>2 Rg 7:1 factum est autem cum
+								sedisset</title></bibl><num>XL</num></ref>
+					<title>De nathan propheta ubi prohibuit dauid ȩdificare templum et prophetauit
+						de christo et dauid gratias egit deo</title></item>
+				<item n="15">
+					<ref type="parallelPassage"><bibl><title>2 Rg 8:1 factum est autem post
+								haec</title></bibl><num>XLI</num></ref>
+					<title>Quomodo dauid omnes in circuitu humiliauerit nationes</title></item>
+				<item n="16">
+					<ref type="parallelPassage"><bibl><title>2 Rg 8:9 audivit autem
+							thou</title></bibl><num>XLII</num></ref>
+					<title>Thou rex emath misit ioram filium suum cum muneribus ad
+					dauid</title></item>
+				<item n="17">
+					<ref type="parallelPassage"><bibl><title>2 Rg 9:1 et dixit
+							david</title></bibl><num>XLIII</num></ref>
+					<title>De mifiboseth filio ionathȩ et de familia serui sui sibȩ</title></item>
+				<item n="18">
+					<ref type="parallelPassage"><bibl><title>2 Rg 10:1 factum est autem post
+								haec</title></bibl><num>XLIIII</num></ref>
+					<title>De annon rege ammon quomodo illusit pueris dauid</title></item>
+				<item n="19">
+					<ref type="parallelPassage"><bibl><title>2 Rg 11:1 factum est ergo [autem To]
+								vertente anno</title></bibl><num>XLV</num></ref>
+					<title>De <app>
+							<lem wit="#To" varSeq="1" type="lem" rend="subpunctuated">bersabee</lem>
+							<rdg wit="#To" varSeq="2" type="minor"
+								cause="orthographic_falseEmendation" hand="#l" rend="above"
+								>bethsabee</rdg>
+						</app> uxore uriȩ et de interitu ipsius uriȩ</title></item>
+				<item n="20">
+					<ref type="parallelPassage"><bibl><title>2 Rg 12:1 misit ergo dominus
+								nathan</title></bibl><num>XLVI</num></ref>
+					<title>Parabola de paupere et diuite dauid per nathan a domino
+					data</title></item>
+				<item n="21">
+					<ref type="parallelPassage"><bibl><title>2 Rg 12:15 percussitque dominus
+								parvulum</title></bibl><num>XLVII</num></ref>
+					<title>De morte pueri de stupro nati</title></item>
+				<item n="22">
+					<ref type="parallelPassage"><bibl><title>2 Rg 12:24 et consolatus est
+								david</title></bibl><num>XLVIII</num></ref>
+					<title>De natiuitate salomonis et de urbe rabbath a dauid capta</title></item>
+				<item n="23">
+					<ref type="parallelPassage"><bibl><title>2 Rg 13:1 factum est autem post
+								haec</title></bibl><num>XLVIIII</num></ref>
+					<title>Quȩ de amnon primogenito dauid et de thamar memorantur</title></item>
+				<item n="24">
+					<ref type="parallelPassage"><bibl><title>2 Rg 13:23 factum est autem post tempus
+								biennii</title></bibl><num>L</num></ref>
+					<title>De absalon quomodo interfecit amnon et de fuga eius in
+					iessur</title></item>
+				<item n="25">
+					<ref type="parallelPassage"><bibl><title>2 Rg 14:1 intellegens autem
+								ioab</title></bibl><num>LI</num></ref>
+					<title>De muliere thecuite quȩ pro eo dauid locuta est</title></item>
+				<item n="26">
+					<ref type="parallelPassage"><bibl><title>2 Rg 14:25 porro sicut
+							absalom</title></bibl><num>LII</num></ref>
+					<title>De absalon pulchritudine et quos habuerit filios</title></item>
+				<item n="27">
+					<ref type="parallelPassage"><bibl><title>2 Rg 15:7 post quattuor autem
+								annos</title></bibl><num>LIII</num></ref>
+					<title>Quomodo patrem regno expulit absalon</title></item>
+				<pb facs="data/images/single/To_131v.jpeg" n="To_131v"/>
+				<lb n="[To_131v]"/>
+				<item n="28">
+					<ref type="parallelPassage"><bibl><title>2 Rg 15:24 venit autem et
+							sadoc</title></bibl><num>LIIII</num></ref>
+					<title>De leuitis et arca reducta et de chusai amico dauid</title></item>
+				<item n="29">
+					<ref type="parallelPassage"><bibl><title>2 Rg 16:5 venit ergo rex
+							david</title></bibl><num>LV</num></ref>
+					<title>De semei filio gera et accessu chusai ad absalon</title></item>
+				<item n="30">
+					<ref type="parallelPassage"><bibl><title>2 Rg 16:20 dixit autem
+							absalom</title></bibl><num>LVI</num></ref>
+					<title>De concubinis consilio achitofel uiolatis</title></item>
+				<item n="31">
+					<ref type="parallelPassage"><bibl><title>2 Rg 17:1 dixit igitur
+							ahitofel</title></bibl><num>LVII</num></ref>
+					<title>De consilio achitofel et chusai dato absalon et de achimaas et ionathan
+						exploratoribus dauid</title></item>
+				<item n="32">
+					<ref type="parallelPassage"><bibl><title>2 Rg 18:1 igitur considerato
+								david</title></bibl><num>LVIII</num></ref>
+					<title>Diuidit exercitum dauid tribus ducibus et absalon precipit
+						reseruari</title></item>
+				<item n="33">
+					<ref type="parallelPassage"><bibl><title>2 Rg 18:6 itaque egressus est
+								populus</title></bibl><num>LVIIII</num></ref>
+					<title>De bello ubi absalon periit</title></item>
+				<item n="34">
+					<ref type="parallelPassage"><bibl><title>2 Rg 18:32 dixit autem rex ad
+								chusi</title></bibl><num>LX</num></ref>
+					<title>Quomodo dauid luxit absalon et ioab obiurgauit dauid</title></item>
+				<item n="35">
+					<ref type="parallelPassage"><bibl><title>2 Rg 19:9 omnis quoque populus
+								certabat</title></bibl><num>LXI</num></ref>
+					<title>De reditu dauid in hierusalem et recuperatione regni</title></item>
+				<item n="36">
+					<ref type="parallelPassage"><bibl><title>2 Rg 20:1 accidit quoque [autem To] ut
+								ibi esset</title></bibl><num>LXII</num></ref>
+					<title>De siba qui cum parte populi rebellauit contra dauid</title></item>
+				<item n="37">
+					<ref type="parallelPassage"><bibl><title>2 Rg 20:4 dixit autem
+							rex</title></bibl><num>LXIII</num></ref>
+					<title>De amasa quem interfecit ioab</title></item>
+				<item n="38">
+					<ref type="parallelPassage"><bibl><title>2 Rg 21:1 facta est quoque
+								fames</title></bibl><num>LXIIII</num></ref>
+					<title>De fame quȩ accidit pro gabaonitis quos ultus est dauid in septem
+						crucifixis de stirpe saul</title></item>
+				<item n="39">
+					<ref type="parallelPassage"><bibl><title>2 Rg 21:15 factum est autem rursum
+								proelium</title></bibl><num>LXV</num></ref>
+					<title>De proelio phylistinorum in quo dauid patuit discrimini et de reliquis
+						bellis fortiter actis</title></item>
+				<item n="40">
+					<ref type="parallelPassage"><bibl><title>2 Rg 22:1 locutus est autem
+								david</title></bibl><num>LXVI</num></ref>
+					<title>De cantico dauid et prophetia de christo</title></item>
+				<item n="41">
+					<ref type="parallelPassage"><bibl><title>2 Rg 23:8 haec nomina
+							fortium</title></bibl><num>LXVII</num></ref>
+					<title>De uiris fortissimis in proeliis cum dauid et de eorum magnanimitate et
+						uirtutibus</title></item>
+				<item n="42">
+					<ref type="parallelPassage"><bibl><title>2 Rg 24:1 et addidit furor
+								domini</title></bibl><num>LXVIII</num></ref>
+					<title>De indignatione diuina aduersum dauid pro eo quod populum iusserat
+						numerari</title></item>
+				<item n="43">
+					<ref type="parallelPassage"><bibl><title>2 Rg 24:11 et sermo domini factus
+								est</title></bibl><num>LXVIIII</num></ref>
+					<title>De optione per gad uidentem tribus modis oblata et de interfectione LXXta
+						milium per angelum et de sacrificio oblato a dauid in area areuna
+						iebusei</title></item>
+			</list>
+
+			<trailer>
+				<app>
+					<lem rendition="#CU #red">EXPLICIUNT CAPITULA</lem>
+				</app>
+			</trailer>
+		</body>
+	</text>
+</TEI>

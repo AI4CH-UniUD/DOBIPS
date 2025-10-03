@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Capitula Ecclesiastes in Boulogne, BM, MS 2 (2)</title>
+				<respStmt>
+					<resp>Critical Edition by</resp>
+					<name>Silverio Franzoni</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<p>Digital editions of summaries in Medieval Bibles</p>
+			</publicationStmt>
+			<sourceDesc>
+				<listBibl>
+					<head>bibliographical abbreviations</head>
+					<bibl xml:id="de_Bruyne">
+						<author>Donatien de Bruyne</author>
+						<title>Sommaires, divisions et rubriques de la Bible latine</title>
+						<pubPlace>Namur</pubPlace>
+						<date>1914</date></bibl>
+					<bibl xml:id="Ben">
+						<editor>Monachi abbatiae pontificiae Sancti Hieronymi in Urbe</editor>
+						<title>Biblia Sacra iuxta Latinam vulgatam versionem ad codicum fidem...
+							Libri Salomonis id est Proverbia Ecclesiastes Canticum Canticorum ex
+							interpretatione sancti Hieronymi cum praefationibus et variis
+							capitulorum seriebus</title>
+						<pubPlace>Romae</pubPlace>
+						<date>1957</date>
+					</bibl>
+				</listBibl>
+				<listWit>
+					<witness xml:id="Bl1_2">
+						<msDesc>
+							<msIdentifier>
+								<settlement>Boulogne-sur-Mer</settlement>
+								<repository>Bibliothèque des Annonciades</repository>
+								<idno>MS 2 (2)</idno>
+							</msIdentifier>
+							<head>Bible of Saint-André-au-Bois (second volume)</head>
+							<msContents>
+								<msItem>
+									<locus>ff. 14v-15r</locus>
+									<title>capitula Ecclesiastes</title>
+								</msItem>
+							</msContents>
+							<physDesc>
+								<objectDesc form="codex">
+									<supportDesc material="parch">
+										<extent>II + 299 + III folios <lb/><dimensions type="leaf"
+												unit="mm">
+												<height quantity="512">height 512 mm</height>
+												<width quantity="350">width 350 mm</width>
+											</dimensions></extent>
+									</supportDesc>
+									<layoutDesc>
+										<layout columns="2"><lb/>2 cols.</layout>
+									</layoutDesc>
+								</objectDesc>
+								<handDesc>
+									<handNote script="preGothicMinuscule">pre-gothic
+										minuscule</handNote>
+								</handDesc>
+							</physDesc>
+							<history>
+								<origin>
+									<origDate from-custom="1170" to-custom="1180"
+										>1170-1180</origDate>
+									<origPlace>Northern France</origPlace>
+								</origin>
+							</history>
+							<additional>
+								<surrogates>
+									<p>
+										<bibl type="digital_facsimile" subtype="full"><hi
+												rend="bold"><ref
+												target="https://arca.irht.cnrs.fr/ark:/63955/md79h415rq1k"
+												>digital facsimile</ref></hi>
+										</bibl>
+										<lb/>
+										<bibl type="description"><hi rend="bold"><ref
+												target="https://ccfr.bnf.fr/portailccfr/jsp/index_view_direct_anonymous.jsp?record=eadcgm:EADC:D04030002"
+												>description</ref></hi><ref/></bibl>
+										<lb/>
+										<bibl type="IIIF_Manifest_URL"><hi rend="bold"><ref
+												target="https://api.irht.cnrs.fr/ark:/63955/fpmf181q1yvi/manifest.json"
+												>IIIF Manifest</ref></hi>
+										</bibl>
+									</p></surrogates>
+							</additional>
+						</msDesc></witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<tagsDecl>
+				<rendition xml:id="CU">mixed capital and uncial letters</rendition>
+				<rendition xml:id="U">uncial letters</rendition>
+				<rendition xml:id="Ca">capital letters</rendition>
+				<rendition xml:id="red">red color letter(s)</rendition>
+				<rendition xml:id="blue">blue color letter(s)</rendition>
+				<rendition xml:id="textink"/>
+				<rendition xml:id="bw">the digital reproduction is b/w, impossible to determine
+					color</rendition>
+				<rendition xml:id="gold">golden letter(s)</rendition>
+			</tagsDecl>
+		</encodingDesc>
+		<profileDesc>
+			<handNotes>
+				<handNote xml:id="m">main scribe</handNote>
+				<handNote xml:id="l">later hand</handNote>
+				<handNote xml:id="u">unknown, impossible to determine</handNote>
+			</handNotes>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<p>The series of <hi rend="italic">capitula</hi> published here is unknown both to <ref
+					target="#de_Bruyne">de Bruyne</ref> and to the <ref target="#Ben">Benedictine
+					edition</ref> of the Vulgate, and bears no resemblance to any of the other
+				attested series; picking up and continuing the system of sigla adopted in the
+				Benedictine edition, we label it <hi rend="bold">C_dobips</hi>. Among the
+				manuscripts recorded in the DOBiPS database, it appears only in <hi rend="bold"
+					>Bl1_2</hi> (Boulogne, BM, MS 2 [2]), that is, the second volume of the
+				so-called "Bible of Saint-André-au-Bois" (late 12th cent., Northern France).
+				<lb/>Although in the manuscript the number is usually given at the end of each <hi
+					rend="italic">capitulum</hi>, here, for the sake of consistency with the other
+				editions of the project, the number has been placed before the text. Occasionally, a
+					<hi rend="italic">capitulum</hi> is numbered twice, for example when its text
+				extends over two lines, each concluding with a number. In these cases, both numbers
+				have also been given before the <hi rend="italic">capitulum</hi>. <lb/><lb/>The
+				point in the text of Ecclesiastes where Bl1_2 places the chapter number
+				corresponding to each <hi rend="italic">capitulum</hi> can be accessed either by
+				clicking on the two-page icon next to each <hi rend="italic">capitulum</hi> number,
+				or by clicking on the "Passi paralleli" thumbnail (in the right-hand panel of the
+				"Testo di lettura" screen). <lb/>Note that the chapter numbering in the text itself
+				is not affected by the errors found in the table of <hi rend="italic">capitula</hi>;
+				whenever the table has a wrong number, the correct one is provided after the
+				biblical reference.</p>
+		</front>
+		<body>
+			<head>
+				<pb facs="data/images/single/Bl1_2_14v.jpeg" n="Bl1_2_14v"/>
+				<lb n="[Bl1_2_14v]"/>
+				<lb/>
+				<app>
+					<lem rendition="#CU #red #blue">INCIPIUNT CAPITULA LIBRI ECCLESIASTES</lem>
+				</app>
+			</head>
+			<list>
+				<item n="1">
+					<ref type="parallelPassage"><bibl><title>Ecl 1:1 verba
+							ecclesiastes</title></bibl><num>I</num></ref>
+					<title>Vbi dicit ecclesiastes quod omnia sint uanitas generationem preterire
+						terram uero in ȩternum stare</title></item>
+				<item n="2">
+					<ref type="parallelPassage"><bibl><title>Ecl 1:5 oritur
+							sol</title></bibl><num>II</num></ref>
+					<title>De ortu et uertigine solis</title></item>
+				<item n="3">
+					<ref type="parallelPassage"><bibl><title>Ecl 1:7 omnia
+							flumina</title></bibl><num>III</num></ref>
+					<title>Quod omnia flumina a mari ducant originem</title></item>
+				<item n="4">
+					<ref type="parallelPassage"><bibl><title>Ecl 1:9 quid est quod
+							fuit</title></bibl><num>IIII</num></ref>
+					<title>Quod nichil sit preter quod fuit et quod fuit idipsum futurum
+					sit</title></item>
+				<item n="5">
+					<ref type="parallelPassage"><bibl><title>Ecl 1:12 ego ecclesiastes
+							fui</title></bibl><num>V</num></ref>
+					<title>Qualiter se ad omnia contulit inuestiganda</title></item>
+				<item n="6">
+					<ref type="parallelPassage"><bibl><title>Ecl 1:17 et agnovi quod in
+							his</title></bibl><num>VI</num></ref>
+					<title>Qualiter in cogitatu fatigatur uir sapiens</title></item>
+				<item n="7">
+					<ref type="parallelPassage"><bibl><title>Ecl 2:1 dixi ego [ergo Bl1_2] in corde
+								meo</title></bibl><num>VII</num></ref>
+					<title>Qualiter proponit letandum sed et hoc uanum</title></item>
+				<item n="8">
+					<ref type="parallelPassage"><bibl><title>Ecl 2:4 magnificavi opera
+							mea</title></bibl><num>VIII</num></ref>
+					<title>Qualiter ualde ditatus in nichilum computat diuitias</title></item>
+				<item n="9">
+					<ref type="parallelPassage"><bibl><title>Ecl 2:11 cumque me convertissem [~
+								convertissem me Bl1_2]</title></bibl><num>IX</num></ref>-
+						<num>X</num>
+					<title>Qualiter circumspectis omnibus totum esse uanum
+					deprehendit</title></item>
+				<item n="10">
+					<ref type="parallelPassage"><bibl><title>Ecl 2:14 sapientis oculi
+							(10)</title></bibl><num>XI</num></ref>
+					<title>Disputatio de stulto et sapiente</title></item>
+				<item n="11">
+					<ref type="parallelPassage"><bibl><title>Ecl 2:16 moritur doctus similiter
+								(11)</title></bibl><num>XII</num></ref>
+					<title>Similiter mori doctum ut indoctum</title></item>
+				<item n="12">
+					<ref type="parallelPassage"><bibl><title>Ecl 2:20 unde cessavi
+							(12)</title></bibl><num>XIII</num></ref>
+					<title>Laborare dissimulat pre tedio fatuorum</title></item>
+				<item n="13">
+					<ref type="parallelPassage"><bibl><title>Ecl 2:24 nonne melius est
+							(13)</title></bibl><num>XIIII</num></ref>
+					<title>Despectu carnalium bonum esse dicit manducare et bibere</title></item>
+				<item n="14">
+					<ref type="parallelPassage"><bibl><title>Ecl 3:1 omnia tempus habent
+								(14)</title></bibl><num>XV</num></ref>
+					<title>Omnia dicit tempus habere et suis spatiis uniuersa
+					transire</title></item>
+				<item n="15">
+					<ref type="parallelPassage"><bibl><title>Ecl 3:9 quid habet amplius homo
+								(15)</title></bibl><num>XVI</num></ref>
+					<title>Prodit distensionem curiositatis</title></item>
+				<item n="16">
+					<ref type="parallelPassage"><bibl><title>Ecl 3:12 et cognovi quod
+							(16)</title></bibl><num>XVII</num></ref>
+					<title>Ex sententia infirmorum corporalibus heret</title></item>
+				<item n="17">
+					<ref type="parallelPassage"><bibl><title>Ecl 3:16 vidi sub sole
+							(17)</title></bibl><num>XVIII</num></ref>
+					<title>Iudicium futurum propalat</title></item>
+				<item n="18">
+					<ref type="parallelPassage"><bibl><title>Ecl 3:19 idcirco unus interitus
+								(18)</title></bibl><num>XIX</num></ref>- <num>XX</num>
+					<title>Sententia imperitorum quod idem finis sequatur homines et
+					iumenta</title></item>
+				<item n="19">
+					<ref type="parallelPassage"><bibl><title>Ecl 3:21 quis novit si spiritus
+								(19)</title></bibl><num>XXI</num></ref>
+					<title>Consideratio malorum huius uitȩ</title></item>
+				<item n="20">
+					<ref type="parallelPassage"><bibl><title>Ecl 4:4 rursum contemplatus
+								(20)</title></bibl><num>XXII</num></ref>
+					<title>Contemplatio inertis et inutilis</title></item>
+				<item n="21">
+					<ref type="parallelPassage"><bibl><title>Ecl 4:7 considerans repperi
+								(21)</title></bibl><num>XXIII</num></ref>
+					<title>Homini frustra sudanti succenset</title></item>
+				<item n="22">
+					<ref type="parallelPassage"><bibl><title>Ecl 4:9 melius ergo est
+							(22)</title></bibl><num>XXIIII</num></ref>
+					<title>Commendatio duorum ad monimentum caritatis</title></item>
+				<item n="23">
+					<app>
+						<lem><ref type="parallelPassage"><bibl><title>Ecl 4:12 funiculus triplex
+										(23)</title></bibl><num>XVV</num></ref></lem>
+						<note>The number is written thus, no doubt due to a palaeographical
+							confusion between X and V.</note>
+					</app>
+					<title>Triplicem funem idest assiduum uitium difficile rumpi</title></item>
+				<item n="24">
+					<app>
+						<lem><ref type="parallelPassage"><bibl><title>Ecl 4:17 custodi pedem tuum
+										(24)</title></bibl><num>XVI</num></ref></lem>
+						<note>The numbering error (XVI instead of XXVI), which affects all the
+							subsequent capitula, may have been facilitated by the change of column
+							(14va to 14vb) occurring before this capitulum.</note>
+					</app>
+					<title>Commendatio deo placentis obedientiȩ</title></item>
+				<item n="25">
+					<ref type="parallelPassage"><bibl><title>Ecl 5:1 ne temere quid loquaris
+								(25)</title></bibl><num>XVII</num></ref>
+					<title>Qua reuerentia coram deo quid loquamur docet</title></item>
+				<item n="26">
+					<ref type="parallelPassage"><bibl><title>Ecl 5:3 si quid vovisti Deo
+								(26)</title></bibl><num>XVIII</num></ref>
+					<title>Quod deo uouetur cito soluendum omnia non curanda et pauperibus
+						subueniendum</title></item>
+				<item n="27">
+					<ref type="parallelPassage"><bibl><title>Ecl 5:6 ubi multa sunt somnia
+								(27)</title></bibl><num>XIX</num></ref>
+					<title>De peccato auaritiȩ</title></item>
+				<item n="28">
+					<ref type="parallelPassage"><bibl><title>Ecl 5:9 avarus non implebitur
+								(28)</title></bibl><num>XX</num></ref>
+					<title>De diuitiis quȩ seruantur nescitur cui</title></item>
+				<item n="29">
+					<ref type="parallelPassage"><bibl><title>Ecl 5:12 est et alia infirmitas
+								(29)</title></bibl><num>XXI</num></ref>- <num>XXII</num>
+					<title>Secundum sententiam infirmorum comedendum et bibendum atque
+						gaudendum</title></item>
+				<item n="30">
+					<ref type="parallelPassage"><bibl><title>Ecl 5:17 hoc itaque mihi visum est
+								(30)</title></bibl><num>XXIII</num></ref>
+					<title>De homine diuitias habente et ipsis frui non ualente</title></item>
+				<item n="31">
+					<app>
+						<lem><ref type="parallelPassage"><bibl><title>Ecl 6:1 est et aliud malum
+										quod vidi (31)</title></bibl><num>XX<hi rend="italic"
+										>IIII</hi></num></ref></lem>
+						<note>The final part of the number (IIII) is not visible in the digitisation
+							due to the tight binding of the manuscript and should therefore be
+							understood only as a plausible integration.</note>
+					</app>
+					<title>Item de infelicitate hominis quo melior sit abortiuus</title></item>
+				<item n="32">
+					<ref type="parallelPassage"><bibl><title>Ecl 6:3 si genuerit quispiam
+								(32)</title></bibl><num>XXV</num></ref>
+					<title>Hoc habere plus sapientem ab stulto quod illuc iturus sit ubi uita
+						est</title></item>
+				<item n="33">
+					<ref type="parallelPassage"><bibl><title>Ecl 6:7 omnis labor hominis
+								(33)</title></bibl><num>XXVI</num></ref>
+					<title>Non necesse est homini ut se maiora querat</title></item>
+				<item n="34">
+					<app>
+						<lem><ref type="parallelPassage"><bibl><title>Ecl 7:1 quid necesse est
+										homini (34)</title></bibl><num>XXV<hi rend="italic"
+									>II</hi></num></ref></lem>
+						<note>The final part of the number (II) is not visible in the digitisation
+							due to the tight binding of the manuscript and should therefore be
+							understood only as a plausible integration.</note>
+					</app>
+					<title>Melius esse ire ad domum luctus quam ad domum conuiuii</title></item>
+				<item n="35">
+					<app>
+						<lem><ref type="parallelPassage"><bibl><title>Ecl 7:3 melius est ire
+										(35)</title></bibl><num>XXV<hi rend="italic"
+								>III</hi></num></ref></lem>
+						<note>The final part of the number (III) is not visible in the digitisation
+							due to the tight binding of the manuscript and should therefore be
+							understood only as a plausible integration.</note>
+					</app>
+					<title>Melius esse a sapiente corripi quam stultorum adulatione
+					decipi</title></item>
+				<item n="36">
+					<ref type="parallelPassage"><bibl><title>Ecl 7:6 melius est a sapiente corripi
+								(36)</title></bibl><num>XXIX</num></ref>
+					<title>Vt tardi simus ad iram monet</title></item>
+				<item n="37">
+					<app>
+						<lem><ref type="parallelPassage"><bibl><title>Ecl 7:10 ne velox sis
+										(37)</title></bibl><num>XX<hi rend="italic"
+								>X</hi></num></ref></lem>
+						<note>The final part of the number (X) is not visible in the digitisation
+							due to the tight binding of the manuscript and should therefore be
+							understood only as a plausible integration.</note>
+					</app>
+					<title>Quȩ sit comparatio inter pecuniam et sapientiam</title></item>
+				<item n="38">
+					<ref type="parallelPassage"><bibl><title>Ecl 7:13 sicut enim protegit
+								(38)</title></bibl><num>XXXI</num></ref>
+					<title>Neminem posse corrigere quem deus despexerit</title></item>
+				<item n="39">
+					<app>
+						<lem><ref type="parallelPassage"><bibl><title>Ecl 7:14 considera opera dei
+										(39)</title></bibl><num>XXX<hi rend="italic"
+								>II</hi></num></ref></lem>
+						<note>The final part of the number (II) is not visible in the digitisation
+							due to the tight binding of the manuscript and should therefore be
+							understood only as a plausible integration.</note>
+					</app>
+					<title>Videtur infirmis quod iustus parum iniustus multum uiuat</title></item>
+				<item n="40">
+					<ref type="parallelPassage"><bibl><title>Ecl 7:16 haec quoque vidi
+							(40)</title></bibl><num>XXXIII</num></ref>
+					<title>De cura penes iustum habenda</title></item>
+				<item n="41">
+					<app>
+						<lem><ref type="parallelPassage"><bibl><title>Ecl 7:19 bonum est te
+										sustentare (41)</title></bibl><num>XXXI<hi rend="italic"
+										>III</hi></num></ref></lem>
+						<note>The final part of the number (III) is not visible in the digitisation
+							due to the tight binding of the manuscript and should therefore be
+							understood only as a plausible integration.</note>
+					</app>
+					<title>Volens effici sapiens sibi uidetur stultus magis</title></item>
+				<item n="42">
+					<app>
+						<lem><ref type="parallelPassage"><bibl><title>Ecl 7:24 cuncta temptavi
+										(42)</title></bibl><num>XXX<hi rend="italic"
+								>V</hi></num></ref></lem>
+						<note>The final part of the number (V) is not visible in the digitisation
+							due to the tight binding of the manuscript and should therefore be
+							understood only as a plausible integration.</note>
+					</app>
+					<title>Virum bonum difficile repperiri mulierem uero nec difficile inueniri
+						bonam</title></item>
+				<item n="43">
+					<ref type="parallelPassage"><bibl><title>Ecl 7:28 ecce hoc inveni
+							(43)</title></bibl><num>XXXVI</num></ref>
+					<title>Quod fecerit deus hominem sapientem</title></item>
+				<item n="44">
+					<ref type="parallelPassage"><bibl><title>Ecl 7:30 solummodo hoc inveni
+								(44)</title></bibl><num>XXXVII</num></ref>
+					<title>Sapientiȩ inuigilandum et ab illa non recedendum</title></item>
+				<item n="45">
+					<app>
+						<lem><ref type="parallelPassage"><bibl><title>Ecl 8:1 sapientia hominis
+										lucet (45)</title></bibl><num>XXX<hi rend="italic"
+									>VIII</hi></num></ref></lem>
+						<note>The final part of the number (VIII) is not visible in the digitisation
+							due to the tight binding of the manuscript and should therefore be
+							understood only as a plausible integration.</note>
+					</app>
+					<title>Quȩ retributio maneat precepta dei custodientem</title></item>
+				<item n="46">
+					<app>
+						<lem><ref type="parallelPassage"><bibl><title>Ecl 8:5 qui custodit
+										praeceptum (46)</title></bibl><num>XXX<hi rend="italic"
+										>IX</hi></num></ref></lem>
+						<note>The final part of the number (IX) is not visible in the digitisation
+							due to the tight binding of the manuscript and should therefore be
+							understood only as a plausible integration.</note>
+					</app>
+					<title>Non esse in hominis potestate utrum moriatur uel non</title></item>
+				<item n="47">
+					<ref type="parallelPassage"><bibl><title>Ecl 8:8 non est in hominis dicione
+								prohibere (47)</title></bibl><num>XL</num></ref>
+					<title>De impunitate qua se peccatores tuentur</title></item>
+				<item n="48">
+					<ref type="parallelPassage"><bibl><title>Ecl 8:11 etenim quia non profertur
+								(48)</title></bibl><num>XLI</num></ref>
+					<title>De prosperitate stultorum et aduersitate iustorum</title></item>
+				<item n="49">
+					<app>
+						<lem><ref type="parallelPassage"><bibl><title>Ecl 8:14 est et alia vanitas
+										(49)</title></bibl><num>XLI<hi rend="italic"
+								>I</hi></num></ref></lem>
+						<note>The final part of the number (I) is not visible in the digitisation
+							due to the tight binding of the manuscript and should therefore be
+							understood only as a plausible integration.</note>
+					</app>
+					<title>Post hec quasi motus leticiam predicat temporalem</title></item>
+				<item n="50">
+					<ref type="parallelPassage"><bibl><title>Ecl 8:15 laudavi igitur laetitiam
+								(50)</title></bibl><num>XLIII</num></ref>
+					<title>Quanta sit difficultas sapientiam inuenire</title></item>
+				<item n="51">
+					<app>
+						<lem><ref type="parallelPassage"><bibl><title>Ecl 8:16 est homo qui diebus
+										ac noctibus (51)</title></bibl><num>XLII<hi rend="italic"
+										>II</hi></num></ref></lem>
+						<note>The final part of the number (II) is not visible in the digitisation
+							due to the tight binding of the manuscript and should therefore be
+							understood only as a plausible integration.</note>
+					</app>
+					<title>Quod ignoratur quid quisque mereatur amorem uel odium</title></item>
+				<item n="52">
+					<ref type="parallelPassage"><bibl><title>Ecl 9:1 sunt iusti atque sapientes
+								(52)</title></bibl><num>XLV</num></ref>
+					<title>De inequalitate euentus bonorum uel malorum</title></item>
+				<item n="53">
+					<ref type="parallelPassage"><bibl><title>Ecl 9:3 hoc est pessimum
+							(53)</title></bibl><num>XLVI</num></ref>
+					<title>Repetit arbitrium infirmorum</title></item>
+				<item n="54">
+					<ref type="parallelPassage"><bibl><title>Ecl 9:7 vade ergo et comede
+								(54)</title></bibl><num>XLVII</num></ref>
+					<title>Commendatio caritatis</title></item>
+				<item n="55">
+					<app>
+						<lem><ref type="parallelPassage"><bibl><title>Ecl 9:8 omni tempore sint
+										(55)</title></bibl><num>XLV<hi rend="italic"
+								>III</hi></num></ref></lem>
+						<note>The final part of the number (III) is not visible in the digitisation
+							due to the tight binding of the manuscript and should therefore be
+							understood only as a plausible integration.</note>
+					</app>
+					<title>Quod cessare quis non debeat eo quod mors non tardet</title></item>
+				<pb facs="data/images/single/Bl1_2_15r.jpeg" n="Bl1_2_15r"/>
+				<lb n="[Bl1_2_15r]"/>
+				<item n="56">
+					<ref type="parallelPassage"><bibl><title>Ecl 9:10 quodcumque potest manus
+								(56)</title></bibl><num>XLIX</num></ref>
+					<title>Contemplatio sapientissima non esse cuiuspiam quod habere
+					uidetur</title></item>
+				<item n="57">
+					<ref type="parallelPassage"><bibl><title>Ecl 9:11 verti me alio
+							(57)</title></bibl><num>L</num></ref>
+					<title>Ciuitatem posse saluari per unum uirum sapientem</title></item>
+				<item n="58">
+					<ref type="parallelPassage"><bibl><title>Ecl 9:13 hanc quoque vidi
+							(58)</title></bibl><num>LI</num></ref>
+					<title>Qualiter melius uerba sapientis audiuntur</title></item>
+				<item n="59">
+					<ref type="parallelPassage"><bibl><title>Ecl 9:16 quomodo ergo sapientia
+								(59)</title></bibl><num>LII</num></ref>
+					<title>Nil esse comparandum sapientiȩ</title></item>
+				<item n="60">
+					<app>
+						<lem><ref type="parallelPassage"><bibl><title>Ecl 10:1 muscae morientes
+										(60)</title></bibl><num>LII</num></ref></lem>
+						<note>LII instead of LIII in the manuscript.</note>
+					</app>
+					<title>Temptanti diabolo non cedendum</title></item>
+				<item n="61">
+					<ref type="parallelPassage"><bibl><title>Ecl 10:4 si spiritus potestatem
+								habentis (61)</title></bibl><num>LIIII</num></ref>
+					<title>De principatu malorum</title></item>
+				<item n="62">
+					<ref type="parallelPassage"><bibl><title>Ecl 10:5 est malum quod vidi
+								(62)</title></bibl><num>LV</num></ref>
+					<title>Malafacientem incidere in malum</title></item>
+				<item n="63">
+					<ref type="parallelPassage"><bibl><title>Ecl 10:8 qui fodit foveam
+							(63)</title></bibl><num>LVI</num></ref>
+					<title>Vituperatio detractoris</title></item>
+				<item n="64">
+					<ref type="parallelPassage"><bibl><title>Ecl 10:11 si mordeat serpens
+								(64)</title></bibl><num>LVII</num></ref>
+					<title>Multum loqui stultorum est</title></item>
+				<item n="65">
+					<ref type="parallelPassage"><bibl><title>Ecl 10:14 stultus verba multiplicat
+								(65)</title></bibl><num>LVIII</num></ref>
+					<title>Beatificat terram regem habentem idoneum</title></item>
+				<item n="66">
+					<ref type="parallelPassage"><bibl><title>Ecl 10:17 beata terra cuius rex
+								(66)</title></bibl><num>LIX</num></ref>
+					<title>Auaros et munera suscipientes denotat</title></item>
+				<item n="67">
+					<ref type="parallelPassage"><bibl><title>Ecl 10:19 et pecuniae oboedient
+								[obediunt Bl1_2] omnia (67)</title></bibl><num>LX</num></ref>
+					<title>Pane lacrimarum et compunctione lectionis uti decet</title></item>
+				<item n="68">
+					<ref type="parallelPassage"><bibl><title>Ecl 11:1 mitte panem tuum
+							(68)</title></bibl><num>LXI</num></ref>
+					<title>Religioso non esse curandum quid quisque loquatur</title></item>
+				<item n="69">
+					<ref type="parallelPassage"><bibl><title>Ecl 11:4 qui observat ventum
+								(69)</title></bibl><num>LXII</num></ref>
+					<title>In iuuentute bene operandum et in senectute nunquam
+					cessandum</title></item>
+				<item n="70">
+					<ref type="parallelPassage"><bibl><title>Ecl 11:6 mane semina sementem [semen
+								Bl1_2] (70)</title></bibl><num>LXIII</num></ref>
+					<title>In prosperitate uitȩ longioris cogitandum finis nostri</title></item>
+				<item n="71">
+					<ref type="parallelPassage"><bibl><title>Ecl 11:8 si annis multis vixerit
+								(71)</title></bibl><num>LXIIII</num></ref>
+					<title>Predicat sententiam infirmorum quasi ad certum</title></item>
+				<item n="72">
+					<ref type="parallelPassage"><bibl><title>Ecl 11:9 laetare ergo iuvenis
+								(72)</title></bibl><num>LXV</num></ref>
+					<title>Non cedendum irȩ nec obediendum adolescentiȩ</title></item>
+				<item n="73">
+					<ref type="parallelPassage"><bibl><title>Ecl 11:10 aufer iram a corde tuo
+								(73)</title></bibl><num>LXVI</num></ref>
+					<title>Reminiscendum semper creatoris nostri dei</title></item>
+				<item n="74">
+					<ref type="parallelPassage"><bibl><title>Ecl 12:1 memento creatoris tui
+								(74)</title></bibl><num>LXVII</num></ref>
+					<title>Comparatio fidelis populi et memoria futuri iudicii</title></item>
+				<item n="75">
+					<ref type="parallelPassage"><bibl><title>Ecl 12:8 vanitas vanitatum dixit
+								(75)</title></bibl><num>LXVIII</num></ref>
+					<title>Cogitandum de morte ante mortem</title></item>
+				<item n="76">
+					<ref type="parallelPassage"><bibl><title>Ecl 12:12 faciendi plures libros
+								(76)</title></bibl><num>LXIX</num></ref>
+					<title>Finis omnium deum timere et sciendum quia deus unumquemque secundum opus
+						suum iudicabit</title></item>
+			</list>
+			<trailer>
+				<app>
+					<lem rendition="#CU #blue #red">EXPLICIUNT CAPITULA</lem>
+				</app>
+			</trailer>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Capitula 3 Regum / 1 Malachim in Tournai, Bibliothèque du Séminaire, MS
+					1</title>
+				<respStmt>
+					<resp>Critical Edition by</resp>
+					<name>Silverio Franzoni</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<p>Digital editions of summaries in Medieval Bibles</p>
+			</publicationStmt>
+			<sourceDesc>
+				<listBibl>
+					<head>bibliographical abbreviations</head>
+					<bibl xml:id="de_Bruyne">
+						<author>Donatien de Bruyne</author>
+						<title>Sommaires, divisions et rubriques de la Bible latine</title>
+						<pubPlace>Namur</pubPlace>
+						<date>1914</date></bibl>
+					<bibl xml:id="Ben">
+						<editor>Monachi abbatiae pontificiae Sancti Hieronymi in Urbe</editor>
+						<title>Biblia Sacra iuxta Latinam vulgatam versionem ad codicum fidem...
+							Liber Malachim ex interpretatione sancti Hieronymi cum variis
+							capitulorum seriebus</title>
+						<pubPlace>Romae</pubPlace>
+						<date>1945</date>
+					</bibl>
+					<bibl xml:id="descrBog">
+						<author>P.-M. Bogaert, A. De Coster, J.-B. Lebigue et alii</author>
+						<title>LM 1. Biblia sacra, dite « Bible de Lobbes »</title>, in
+							<title>Séminaire de Tournai : histoire, bâtiments, collections</title>
+						<editor>M. Maillard-Luypaert</editor>
+						<pubPlace>Leuven</pubPlace>
+						<date>2008</date>
+						<biblScope>pp. 77-101</biblScope>
+					</bibl>
+				</listBibl>
+				<listWit>
+					<witness xml:id="To">
+						<msDesc>
+							<msIdentifier>
+								<settlement>Tournai</settlement>
+								<repository>Bibliothèque du Séminaire</repository>
+								<idno>MS 1</idno>
+							</msIdentifier>
+							<head>Bible of Lobbes (first volume)</head>
+							<msContents>
+								<msItem>
+									<locus>ff. 143vb-144rb</locus>
+									<title>capitula 3 Regum / 1 Malachim</title>
+								</msItem>
+							</msContents>
+							<physDesc>
+								<objectDesc form="codex">
+									<supportDesc material="parch">
+										<extent> 276 folios <lb/><dimensions type="leaf" unit="mm">
+												<height quantity="495">height 495 mm</height>
+												<width quantity="325">width 325 mm</width>
+											</dimensions></extent>
+									</supportDesc>
+									<layoutDesc>
+										<layout columns="2"><lb/>2 cols.</layout>
+									</layoutDesc>
+								</objectDesc>
+								<handDesc>
+									<handNote script="preGothicMinuscule">pre-gothic
+										minuscule</handNote>
+								</handDesc>
+							</physDesc>
+							<history>
+								<origin>
+									<origDate from-custom="1084" to-custom="1084">1084</origDate>
+									<origPlace>Lobbes, Abbey of St Peter</origPlace>
+								</origin>
+							</history>
+							<additional>
+								<surrogates>
+									<p>
+										<bibl type="digital_facsimile" subtype="full"><hi
+												rend="bold"><ref
+												target="https://arca.irht.cnrs.fr/ark:/63955/md859c680g25"
+												>digital facsimile</ref></hi>
+										</bibl>
+										<lb/>
+										<bibl type="description"><hi rend="bold"><ref
+												target="http://www.cicweb.be/fr/manuscrit.php?id=70=48"
+												>description</ref></hi><ref/></bibl>
+										<lb/>
+										<bibl type="IIIF_Manifest_URL"><hi rend="bold"><ref
+												target="https://api.irht.cnrs.fr/ark:/63955/fpfg6g1sg75j/manifest.json"
+												>IIIF Manifest</ref></hi>
+										</bibl>
+									</p></surrogates>
+							</additional>
+						</msDesc></witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<tagsDecl>
+				<rendition xml:id="CU">mixed capital and uncial letters</rendition>
+				<rendition xml:id="U">uncial letters</rendition>
+				<rendition xml:id="Ca">capital letters</rendition>
+				<rendition xml:id="red">red color letter(s)</rendition>
+				<rendition xml:id="blue">blue color letter(s)</rendition>
+				<rendition xml:id="textink"/>
+				<rendition xml:id="bw">the digital reproduction is b/w, impossible to determine
+					color</rendition>
+				<rendition xml:id="gold">golden letter(s)</rendition>
+			</tagsDecl>
+		</encodingDesc>
+		<profileDesc>
+			<handNotes>
+				<handNote xml:id="m">main scribe</handNote>
+				<handNote xml:id="l">later hand</handNote>
+				<handNote xml:id="u">unknown, impossible to determine</handNote>
+			</handNotes>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<p>The series of <hi rend="italic">capitula</hi> published here is unknown to both <ref
+					target="#de_Bruyne">de Bruyne</ref> and the <ref target="#Ben">Benedictine
+					edition</ref> of the Vulgate. Since it is mainly based on de Bruyne's <ref
+					target="https://gallica.bnf.fr/ark:/12148/bpt6k8537228/f125">B series</ref> (as
+				observed by P.-M. Bogaert in <ref target="#descrBog">Bogaert et alii</ref>,
+				pp. 81-82; see also below), we label it <hi rend="bold">B(a)_dobips</hi>. Among the
+				manuscripts recorded in the DOBiPS database, it occurs only in <hi rend="bold"
+					>To</hi> (Tournai, Bibliothèque du Séminaire, MS 1), the first volume (the
+				second being lost) of the so-called Bible of Lobbes, produced at the eponymous
+				Belgian abbey in the late 11th century. <lb/><lb/>As in the case of 2 Regum (here)
+				and 4 Regum (here), B(a) combines de Bruyne's <ref
+					target="https://gallica.bnf.fr/ark:/12148/bpt6k8537228/f124">A</ref> and <ref
+					target="https://gallica.bnf.fr/ark:/12148/bpt6k8537228/f125">B</ref> series,
+				while often splitting their <hi rend="italic">capitula</hi> into two or more titles
+				and adding further details. <lb/>For example, B's <hi rend="italic">cap.</hi> 2 is
+				split into B(a)'s <hi rend="italic">cap.</hi> 3, 4, 5, and 6; the latter three
+				develop the final part of B's <hi rend="italic">capitulum</hi> by echoing the
+				wording of A's <hi rend="italic">cap.</hi> 3, 4, and 5. The text of the
+				above-mentioned chapters is as follows:<list>
+					<item>B <list>
+							<item>2 <hi rend="italic">De praeceptis dauid quibus instituit salomonem
+									et de morte dauid et de interfectione adoniae abiathar ioab et
+									semei</hi></item>
+						</list></item>
+					<item>B(a) <list>
+							<item>3 <hi rend="italic">De prȩceptis dauid quibus instituit salomonem
+									et de morte dauid</hi></item>
+							<item>4 <hi rend="italic">Adonias quem abisach petit in coniugium
+									occiditur</hi></item>
+							<item>5 <hi rend="italic">Iubente salomone ioab interficitur</hi></item>
+							<item>6 <hi rend="italic">Semei occiditur quia non seruauit
+									interdictum</hi></item>
+						</list></item>
+					<item>A <list>
+							<item>3 <hi rend="italic">Allegat adonias apud matrem regis salomonis
+										<hi rend="underline">petens abisag sunamiten in
+										coniugium</hi> unde <lb/>iratus salomon iussit occidi
+									fratrem suum adoniam etiam abiathar sacerdotem priuauit honore
+									<lb/>parcens sanguini eius</hi></item>
+							<item>4 <hi rend="italic"><hi rend="underline">Iubente salomone
+										interficitur ioab</hi> ad cornu altaris propter reatum
+									occisorum quos ense suo <lb/> iugulauit</hi></item>
+							<item>5 <hi rend="italic"><hi rend="underline">Semei occiditur iussu
+										regis quia non seruauit concessam sibi semel ueniam</hi> ita
+									ne discederet de hierusalem sed contempsit</hi></item>
+						</list></item>
+				</list>
+				<lb/>The point in the text of 3 Regum where To places the chapter number
+				corresponding to each <hi rend="italic">capitulum</hi> can be accessed either by
+				clicking on the two-page icon next to each <hi rend="italic">capitulum</hi> number,
+				or by clicking on the "Passi paralleli" thumbnail (in the right-hand panel of the
+				"Testo di lettura" screen).</p>
+		</front>
+		<body>
+			<head>
+				<pb facs="data/images/single/To_143v.jpeg" n="To_143v"/>
+				<lb n="[To_143v]"/>
+				<lb/>
+				<app>
+					<lem rendition="#CU #red">INCIPIUNT CAPITULA LIBri III</lem>
+				</app>
+			</head>
+
+			<list>
+				<item n="1">
+					<ref type="parallelPassage"><bibl><title>3 Rg 1:1 et rex david
+							senuerat</title></bibl><num>I</num></ref>
+					<title>De senectute dauid et abisach sunamite et de adonia filio dauid et de
+						bethsabee matre salomonis</title></item>
+				<item n="2">
+					<ref type="parallelPassage"><bibl><title>3 Rg 1:38 descendit ergo
+							sadoc</title></bibl><num>II</num></ref>
+					<title>Iubente dauid salomon filius eius in regem unguitur</title></item>
+				<item n="3">
+					<ref type="parallelPassage"><bibl><title>3 Rg 2:1 adpropinquaverant [-runt To]
+								autem dies</title></bibl><num>III</num></ref>
+					<title>De prȩceptis dauid quibus instituit salomonem et de morte
+					dauid</title></item>
+				<item n="4">
+					<ref type="parallelPassage"><bibl><title>3 Rg 2:12 salomon autem
+							sedit</title></bibl><num>IIII</num></ref>
+					<title>Adonias quem abisach petit in coniugium occiditur</title></item>
+				<item n="5">
+					<ref type="parallelPassage"><bibl><title>3 Rg 2:28 venit autem [ergo To]
+								nuntius</title></bibl><num>V</num></ref>
+					<title>Iubente salomone ioab interficitur</title></item>
+				<item n="6">
+					<ref type="parallelPassage"><bibl><title>3 Rg 2:36 misit quoque
+							rex</title></bibl><num>VI</num></ref>
+					<title>Semei occiditur quia non seruauit interdictum</title></item>
+				<item n="7">
+					<ref type="parallelPassage"><bibl><title>3 Rg 3:1 confirmatum est
+							igitur</title></bibl><num>VII</num></ref>
+					<title>De filia pharaonis quȩ facta est uxor salomonis</title></item>
+				<item n="8">
+					<ref type="parallelPassage"><bibl><title>3 Rg 3:5 apparuit dominus
+								salomoni</title></bibl><num>VIII</num></ref>
+					<title>De apparitione domini facta salomoni in gabaon</title></item>
+				<item n="9">
+					<ref type="parallelPassage"><bibl><title>3 Rg 3:16 tunc venerunt duae
+								mulieres</title></bibl><num>VIIII</num></ref>
+					<title>Iudicium salomonis de duabus meretricibus</title></item>
+				<item n="10">
+					<ref type="parallelPassage"><bibl><title>3 Rg 4:1 erat autem rex
+							salomon</title></bibl><num>X</num></ref>
+					<title>Dominatus regni salomonis et principum eius</title></item>
+				<item n="11">
+					<ref type="parallelPassage"><bibl><title>3 Rg 4:21 salomon autem
+							erat</title></bibl><num>XI</num></ref>
+					<title>De expensa salomonis diurna et de equis et de curribus et de sapientia et
+						parabolis eius</title></item>
+				<item n="12">
+					<ref type="parallelPassage"><bibl><title>3 Rg 5:1 misit quoque hiram
+							rex</title></bibl><num>XII</num></ref>
+					<title>De hyram rege tyri et quia non est satan neque occursus
+					malus</title></item>
+				<item n="13">
+					<ref type="parallelPassage"><bibl><title>3 Rg 5:8 et misit hiram ad
+								salomonem</title></bibl><num>XIII</num></ref>
+					<title>De prȩfectis operum et cementariis hyram et salomonis</title></item>
+				<item n="14">
+					<ref type="parallelPassage"><bibl><title>3 Rg 6:1 factum est igitur [autem
+								To]</title></bibl><num>XIIII</num></ref>
+					<title>De constructione templi et diuina institutione ad
+					salomonem</title></item>
+				<item n="15">
+					<ref type="parallelPassage"><bibl><title>3 Rg 6:14 igitur aedificavit
+								salomon</title></bibl><num>XV</num></ref>
+					<title>De oraculo et altari et cherub et celaturis</title></item>
+				<item n="16">
+					<ref type="parallelPassage"><bibl><title>3 Rg 6:37 anno quarto fundata
+								est</title></bibl><num>XVI</num></ref>
+					<title>De domibus quas ȩdificauit salomon sibi et uxori ȩgyptiȩ</title></item>
+				<item n="17">
+					<ref type="parallelPassage"><bibl><title> before 3 Rg 8:1 tunc congregavit
+								[congregati sunt To]</title><note>Between 7:51 and 8:1, To inserts a
+								reworked version of 3 Rg 7:1-12</note></bibl><num>XVII</num></ref>
+					<title>De archa domini gloriose in templo locata</title></item>
+				<item n="18">
+					<ref type="parallelPassage"><bibl><title>3 Rg 8:10 factum est
+							autem</title></bibl><num>XVIII</num></ref>
+					<title>De gloria domini quȩ in domo domini apparuit</title></item>
+				<item n="19">
+					<ref type="parallelPassage"><bibl><title>3 Rg 8:22 stetit autem
+							salomon</title></bibl><num>XVIIII</num></ref>
+					<title>Oratio salomonis genu flexo ante altare domini</title></item>
+				<item n="20">
+					<ref type="parallelPassage"><bibl><title>3 Rg 8:54 factum est
+							autem</title></bibl><num>XX</num></ref>
+					<title>Benedictio plebis a rege facta</title></item>
+				<item n="21">
+					<ref type="parallelPassage"><bibl><title>3 Rg 8:62 igitur rex et omnis
+								israhel</title></bibl><num>XXI</num></ref>
+					<title>De pecudum numero in sacrificio oblatorum et de solemnitate
+						celebrata</title></item>
+				<item n="22">
+					<ref type="parallelPassage"><bibl><title>3 Rg 9:1 factum est
+							autem</title></bibl><num>XXII</num></ref>
+					<title>Quomodo salomoni dominus secundo apparuit protestans eum</title></item>
+				<item n="23">
+					<ref type="parallelPassage"><bibl><title>3 Rg 9:10 expletis autem annis
+								viginti</title></bibl><num>XXIII</num></ref>
+					<title>De oppidis hyram datis et de oblatione salis ter per annum</title></item>
+				<item n="24">
+					<ref type="parallelPassage"><bibl><title>3 Rg 9:26 classem quoque
+							fecit</title></bibl><num>XXIIII</num></ref>
+					<title>De terra ophyr in qua est aurum</title></item>
+				<item n="25">
+					<ref type="parallelPassage"><bibl><title>3 Rg 10:1 sed et regina
+							saba</title></bibl><num>XXV</num></ref>
+					<title>De regina saba et muneribus eius et de lignis thynis</title></item>
+				<pb facs="data/images/single/To_144r.jpeg" n="To_144r"/>
+				<lb n="[To_144r]"/>
+				<item n="26">
+					<ref type="parallelPassage"><bibl><title>3 Rg 10:14 erat autem pondus
+								auri</title></bibl><num>XXVI</num></ref>
+					<title>De reditu annuo salomonis et scutis aureis et de throno constructo et de
+						magnificentia eius</title></item>
+				<item n="27">
+					<ref type="parallelPassage"><bibl><title>3 Rg 11:1 rex autem salomon
+								amavit</title></bibl><num>XXVII</num></ref>
+					<title>De uxoribus et concubinis salomonis per quas preuaricatus
+					est</title></item>
+				<item n="28">
+					<ref type="parallelPassage"><bibl><title>3 Rg 11:9 igitur iratus est
+								dominus</title></bibl><num>XXVIII</num></ref>
+					<title>Iratus dominus salomonem increpat</title></item>
+				<item n="29">
+					<ref type="parallelPassage"><bibl><title>3 Rg 11:14 suscitavit autem
+								dominus</title></bibl><num>XXVIIII</num></ref>
+					<title>Suscitantur a domino aduersarii salomoni</title></item>
+				<item n="30">
+					<ref type="parallelPassage"><bibl><title>3 Rg 11:29 factum est
+							igitur</title></bibl><num>XXX</num></ref>
+					<title>Spreto salomone hieroboam a domino eligitur</title></item>
+				<item n="31">
+					<ref type="parallelPassage"><bibl><title>3 Rg 11:43 dormivitque
+							salomon</title></bibl><num>XXXI</num></ref>
+					<title>Obitus salomonis et successus roboam filii eius</title></item>
+				<item n="32">
+					<ref type="parallelPassage"><bibl><title>3 Rg 12:2 at hieroboam filius
+								nabath</title></bibl><num>XXXII</num></ref>
+					<title>Hieroboam de ȩgypto reuertitur et roboam durissima
+					comminatur</title></item>
+				<item n="33">
+					<ref type="parallelPassage"><bibl><title>3 Rg 12:16 videns itaque
+								populus</title></bibl><num>XXXIII</num></ref>
+					<title>Spreto roboam a populo hieroboam asciscitur</title></item>
+				<item n="34">
+					<ref type="parallelPassage"><bibl><title>3 Rg 12:21 venit autem
+							roboam</title></bibl><num>XXXIIII</num></ref>
+					<title>De regno roboam in duas tribus et de semeia propheta</title></item>
+				<item n="35">
+					<ref type="parallelPassage"><bibl><title>3 Rg 12:26 dixitque
+							hieroboam</title></bibl><num>XXXV</num></ref>
+					<title>Scelus hieroboam qui fecit uitulos aureos</title></item>
+				<item n="36">
+					<ref type="parallelPassage"><bibl><title>3 Rg 13:1 et ecce vir
+							dei</title></bibl><num>XXXVI</num></ref>
+					<title>De propheta misso ad hieroboam qui prophetauit de iosia</title></item>
+				<item n="37">
+					<ref type="parallelPassage"><bibl><title>3 Rg 13:11 prophetes autem
+								quidam</title></bibl><num>XXXVII</num></ref>
+					<title>Vir dei seductus ad conuiuium reducitur</title></item>
+				<item n="38">
+					<ref type="parallelPassage"><bibl><title>3 Rg 13:24 qui cum
+							abisset</title></bibl><num>XXXVIII</num></ref>
+					<title>Propheta pro inoboedientia a leone percussus a <app>
+							<lem wit="#To" varSeq="2" type="lem" cause="correction"
+								rend="overstrike" hand="#l">seductore</lem>
+							<rdg wit="#To" varSeq="1" type="minor" cause="slip" rend="subpunctuated"
+								hand="#l">seductorio</rdg>
+						</app> sepelitur</title></item>
+				<item n="39">
+					<ref type="parallelPassage"><bibl><title>3 Rg 14:1 in tempore illo
+								aegrotavit</title></bibl><num>XXXVIIII</num></ref>
+					<title>De prophetia ahiȩ ad uxorem hieroboam et de morte filii eius et de morte
+						ipsius et de nadab filio eius</title></item>
+				<item n="40">
+					<ref type="parallelPassage"><bibl><title>3 Rg 14:21 porro roboam filius
+								salomonis</title></bibl><num>XL</num></ref>
+					<title>Pro peccato roboam sesach rex ȩgypti hierusalem ascendit obiit etiam
+						roboam et regnauit abia filius eius</title></item>
+				<item n="41">
+					<ref type="parallelPassage"><bibl><title>3 Rg 15:1 igitur in octavodecimo
+								anno</title></bibl><num>XLI</num></ref>
+					<title>De abia filio roboam et de morte eius et de asa filio eius</title></item>
+				<item n="42">
+					<ref type="parallelPassage"><bibl><title>3 Rg 15:11 et fecit asa
+							rectum</title></bibl><num>XLII</num></ref>
+					<title>Fecit asa rectum coram domino qui tamen in senectute dolens pedem obiit
+						et iosaphat filius eius regnauit</title></item>
+				<item n="43">
+					<ref type="parallelPassage"><bibl><title>3 Rg 15:25 nadab vero filius
+								hieroboam</title></bibl><num>XLIII</num></ref>
+					<title>Regnum nadab filii hieroboam et de baasa</title></item>
+				<item n="44">
+					<ref type="parallelPassage"><bibl><title>3 Rg 16:1 factus est
+							autem</title></bibl><num>XLIIII</num></ref>
+					<title>De hieu propheta misso ad baasa et de morte baasa</title></item>
+				<item n="45">
+					<ref type="parallelPassage"><bibl><title>3 Rg 16:8 anno vicesimo
+							sexto</title></bibl><num>XLV</num></ref>
+					<title>De hela filio baasa et de zambri et de amri et de tebni</title></item>
+				<item n="46">
+					<ref type="parallelPassage"><bibl><title>3 Rg 16:23 anno tricesimo
+							primo</title></bibl><num>XLVI</num></ref>
+					<title>Regnum amri qui emit montem samariȩ et de morte eius</title></item>
+				<item n="47">
+					<ref type="parallelPassage"><bibl><title>3 Rg 16:29 ahab vero filius
+								amri</title></bibl><num>XLVII</num></ref>
+					<title>De ahab filio amri et de iezabel</title></item>
+				<item n="48">
+					<ref type="parallelPassage"><bibl><title>3 Rg 17:1 et dixit helias
+								thesbites</title></bibl><num>XLVIII</num></ref>
+					<title>De heliȩ actibus et de muliere sarepthena</title></item>
+				<item n="49">
+					<ref type="parallelPassage"><bibl><title>3 Rg 17:17 factum est
+							autem</title></bibl><num>XLVIIII</num></ref>
+					<title>De filio matris familias defuncto et ab helia suscitato</title></item>
+				<item n="50">
+					<ref type="parallelPassage"><bibl><title>3 Rg 18:1 post dies
+							multos</title></bibl><num>L</num></ref>
+					<title>Heliȩ iubet dominus redire ad dandam pluuiam et de abdia bono
+						dispensatore regis ahab</title></item>
+				<item n="51">
+					<ref type="parallelPassage"><bibl><title>3 Rg 18:16 venitque
+							ahab</title></bibl><num>LI</num></ref>
+					<title>Helias regi ahab se prȩsentat et ante populum et sacerdotes baal
+						conditione facta domino offert holocaustum</title></item>
+				<item n="52">
+					<ref type="parallelPassage"><bibl><title>3 Rg 18:40 dixitque helias ad
+								eos</title></bibl><num>LII</num></ref>
+					<title>De interfectione prophetarum baal et de pluuia data et fuga heliȩ timore
+						iezabel</title></item>
+				<item n="53">
+					<ref type="parallelPassage"><bibl><title>3 Rg 19:3 timuit ergo
+							helias</title></bibl><num>LIII</num></ref>
+					<title>Angelus domini pauit thesbiten sub iunipero</title></item>
+				<item n="54">
+					<ref type="parallelPassage"><bibl><title>3 Rg 19:15 et ait dominus
+							</title></bibl><num>LIIII</num></ref>
+					<title>Sermo domini ad heliam iubens ut unguantur reges et heliseus propheta pro
+						se ipso</title></item>
+				<item n="55">
+					<ref type="parallelPassage"><bibl><title>3 Rg 20:1 porro benadad rex
+								syriae</title></bibl><num>LV</num></ref>
+					<title>Bellum benadab regis syriȩ contra israhel</title></item>
+				<item n="56">
+					<ref type="parallelPassage"><bibl><title>3 Rg 20:22 accedens autem
+								propheta</title></bibl><num>LVI</num></ref>
+					<title>Ammonet dominus regem israel per prophetam de futuro</title></item>
+				<item n="57">
+					<ref type="parallelPassage"><bibl><title>3 Rg 20:26 igitur postquam
+								annus</title></bibl><num>LVII</num></ref>
+					<title>Iterat bellum rex syriȩ et rex israel sine iussu domini cum eo foederatus
+						est</title></item>
+				<item n="58">
+					<ref type="parallelPassage"><bibl><title>3 Rg 20:35 tunc vir
+							quidam</title></bibl><num>LVIII</num></ref>
+					<title>De propheta qui rogauit socium ut se percuteret et qui denuntiauit regi
+						quod dignus esset morte</title></item>
+				<item n="59">
+					<ref type="parallelPassage"><bibl><title>3 Rg 21:1 post verba autem
+							haec</title></bibl><num>LVIIII</num></ref>
+					<title>Ambit rex uineam naboth quem iccirco iezabel interfecit et uineam
+						possedit</title></item>
+				<!-- continuare da qui aggiunta capitoli -->
+				<item n="60">
+					<ref type="parallelPassage"><bibl><title>3 Rg 21:17 factus est igitur
+								sermo</title></bibl><num>LX</num></ref>
+					<title>Sermo domini ad heliam super ahab et iezabel et de penitentia
+						ahab</title></item>
+				<item n="61">
+					<ref type="parallelPassage"><bibl><title>3 Rg 22:1 transierunt igitur tres
+								anni</title></bibl><num>LXI</num></ref>
+					<title>De conuentu iosaphat et ahab regum et de CCCCtis pseudo
+					prophetis</title></item>
+				<item n="62">
+					<ref type="parallelPassage"><bibl><title>3 Rg 22:9 vocavit ergo
+							rex</title></bibl><num>LXII</num></ref>
+					<title>De michea filio hiemla et de iniuria quam pertulit a sedechia pseudo
+						propheta</title></item>
+				<item n="63">
+					<ref type="parallelPassage"><bibl><title>3 Rg 22:34 unus autem
+							quidam</title></bibl><num>LXIII</num></ref>
+					<title>Occiso ahab in bello regnauit ochozias filius eius pro eo</title></item>
+				<item n="64">
+					<ref type="parallelPassage"><bibl><title>3 Rg 22:41 iosaphat filius
+							asa</title></bibl><num>LXIIII</num></ref>
+					<title>Regnum iosaphat qui cum deo ambulauit cui ioram filius eius
+						successit</title></item>
+				<item n="65">
+					<ref type="parallelPassage"><bibl><title>3 Rg 22:52 ohozias autem filius
+								ahab</title></bibl><num>LXV</num></ref>
+					<title>Regnum ochoziȩ prauum qui baal adorauit et dominum deum israhel
+						irritauit</title></item>
+			</list>
+
+			<trailer>
+				<app>
+					<lem rendition="#CU #red">EXPLICIUNT CAPITULA</lem>
+				</app>
+			</trailer>
+		</body>
+	</text>
+</TEI>

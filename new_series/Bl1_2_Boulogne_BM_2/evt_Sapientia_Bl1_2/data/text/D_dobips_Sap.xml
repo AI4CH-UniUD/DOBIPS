@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Capitula Sapientiae in Boulogne, BM, MS 2 (2)</title>
+				<respStmt>
+					<resp>Critical Edition by</resp>
+					<name>Silverio Franzoni</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<p>Digital editions of summaries in Medieval Bibles</p>
+			</publicationStmt>
+			<sourceDesc>
+				<listBibl>
+					<head>bibliographical abbreviations</head>
+					<bibl xml:id="de_Bruyne">
+						<author>Donatien de Bruyne</author>
+						<title>Sommaires, divisions et rubriques de la Bible latine</title>
+						<pubPlace>Namur</pubPlace>
+						<date>1914</date></bibl>
+					<bibl xml:id="Ben">
+						<editor>Monachi abbatiae pontificiae Sancti Hieronymi in Urbe</editor>
+						<title>Biblia Sacra iuxta Latinam vulgatam versionem ad codicum fidem...
+							Sapientia Salomonis, Liber Hiesu filii Sirach cum praefationibus et
+							variis capitulorum seriebus</title>
+						<pubPlace>Romae</pubPlace>
+						<date>1964</date>
+					</bibl>
+				</listBibl>
+				<listWit>
+					<witness xml:id="Bl1_2">
+						<msDesc>
+							<msIdentifier>
+								<settlement>Boulogne-sur-Mer</settlement>
+								<repository>Bibliothèque des Annonciades</repository>
+								<idno>MS 2 (2)</idno>
+							</msIdentifier>
+							<head>Bible of Saint-André-au-Bois (second volume)</head>
+							<msContents>
+								<msItem>
+									<locus>ff. 22vb-23ra</locus>
+									<title>capitula Sapientiae</title>
+								</msItem>
+							</msContents>
+							<physDesc>
+								<objectDesc form="codex">
+									<supportDesc material="parch">
+										<extent>II + 299 + III folios <lb/><dimensions type="leaf"
+												unit="mm">
+												<height quantity="512">height 512 mm</height>
+												<width quantity="350">width 350 mm</width>
+											</dimensions></extent>
+									</supportDesc>
+									<layoutDesc>
+										<layout columns="2"><lb/>2 cols.</layout>
+									</layoutDesc>
+								</objectDesc>
+								<handDesc>
+									<handNote script="preGothicMinuscule">pre-gothic
+										minuscule</handNote>
+								</handDesc>
+							</physDesc>
+							<history>
+								<origin>
+									<origDate from-custom="1170" to-custom="1180"
+										>1170-1180</origDate>
+									<origPlace>Northern France</origPlace>
+								</origin>
+							</history>
+							<additional>
+								<surrogates>
+									<p>
+										<bibl type="digital_facsimile" subtype="full"><hi
+												rend="bold"><ref
+												target="https://arca.irht.cnrs.fr/ark:/63955/md79h415rq1k"
+												>digital facsimile</ref></hi>
+										</bibl>
+										<lb/>
+										<bibl type="description"><hi rend="bold"><ref
+												target="https://ccfr.bnf.fr/portailccfr/jsp/index_view_direct_anonymous.jsp?record=eadcgm:EADC:D04030002"
+												>description</ref></hi><ref/></bibl>
+										<lb/>
+										<bibl type="IIIF_Manifest_URL"><hi rend="bold"><ref
+												target="https://api.irht.cnrs.fr/ark:/63955/fpmf181q1yvi/manifest.json"
+												>IIIF Manifest</ref></hi>
+										</bibl>
+									</p></surrogates>
+							</additional>
+						</msDesc></witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<tagsDecl>
+				<rendition xml:id="CU">mixed capital and uncial letters</rendition>
+				<rendition xml:id="U">uncial letters</rendition>
+				<rendition xml:id="Ca">capital letters</rendition>
+				<rendition xml:id="red">red color letter(s)</rendition>
+				<rendition xml:id="blue">blue color letter(s)</rendition>
+				<rendition xml:id="textink"/>
+				<rendition xml:id="bw">the digital reproduction is b/w, impossible to determine
+					color</rendition>
+				<rendition xml:id="gold">golden letter(s)</rendition>
+			</tagsDecl>
+		</encodingDesc>
+		<profileDesc>
+			<handNotes>
+				<handNote xml:id="m">main scribe</handNote>
+				<handNote xml:id="l">later hand</handNote>
+				<handNote xml:id="u">unknown, impossible to determine</handNote>
+			</handNotes>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<p>The series of <hi rend="italic">capitula</hi> published here is unknown both to <ref
+					target="#de_Bruyne">de Bruyne</ref> and to the <ref target="#Ben">Benedictine
+					edition</ref> of the Vulgate, and bears no resemblance to any of the other
+				attested series; picking up and continuing the system of sigla adopted in the
+				Benedictine edition, we label it <hi rend="bold">C_dobips</hi>. Among the
+				manuscripts recorded in the DOBiPS database, it appears only in <hi rend="bold"
+					>Bl1_2</hi> (Boulogne, BM, MS 2 [2]), that is, the second volume of the
+				so-called "Bible of Saint-André-au-Bois" (late 12th cent., Northern France).
+				<lb/>Although in the manuscript the number is usually given at the end of each <hi
+					rend="italic">capitulum</hi>, here, for the sake of consistency with the other
+				editions of the project, the number has been placed before the text. Occasionally, a
+					<hi rend="italic">capitulum</hi> is numbered twice, for example when its text
+				extends over two lines, each concluding with a number. In these cases, both numbers
+				have also been given before the <hi rend="italic">capitulum</hi>. <lb/><lb/>The
+				point in the text of Sapientia where Bl1_2 places the chapter number corresponding
+				to each <hi rend="italic">capitulum</hi> can be accessed either by clicking on the
+				two-page icon next to each <hi rend="italic">capitulum</hi> number, or by clicking
+				on the "Passi paralleli" thumbnail (in the right-hand panel of the "Testo di
+				lettura" screen). <lb/><lb/>Since the marginal chapter numbering in the text (38
+				chapters) does not match the table of <hi rend="italic">capitula</hi> (57 titles),
+				it is impossible to provide the correspondences within the edited text; the list of
+				Bl1_2's chapters is therefore given below. As a comparison with de Bruyne's data
+					(<ref target="https://gallica.bnf.fr/ark:/12148/bpt6k8537228/f494">p.
+					480-481</ref>) shows, they generally match the chapter numbering of series A
+				(ibid., <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k8537228/f186">p.
+					172-174</ref>) and Antipel (<ref
+					target="https://gallica.bnf.fr/ark:/12148/bpt6k8537228/f186">ibid.</ref>).<list>
+					<item>1 1:1 diligite iustitiam</item>
+					<item>2 1:5 sanctus enim spiritus</item>
+					<item>3 1:11 custodite ergo vos</item>
+					<item>4 2:1 dixerunt enim apud se</item>
+					<item>5 3:1 iustorum autem animae</item>
+					<item>6 3:10 impii autem secundum quae cogitaverunt</item>
+					<item>7 3:16 filii autem adulterorum</item>
+					<item>8 4:7 iustus autem si morte praeoccupatus</item>
+					<item>9 5:1 tunc stabunt iusti</item>
+					<item>10 5:16 iusti autem in perpetuum vivent</item>
+					<item>11 6:2 audite ergo reges</item>
+					<item>12 6:12 concupiscite ergo sermones meos</item>
+					<item>13 6:20 incorruptio autem facit</item>
+					<item>14 7:1 sum quidem et ego</item>
+					<item>15 7:7 propter hoc optavi</item>
+					<item>16 7:16 in manu enim [<hi rend="italic">om. Bl1_2</hi>] illius</item>
+					<item>17 7:24 adtingit autem ubique</item>
+					<item>18 7:30 sapientiam [-a <hi rend="italic">Bl1_2</hi>] autem</item>
+					<item>19 8:20 et cum essem magis [magister <hi rend="italic">Bl1_2</hi>]
+						bonus</item>
+					<item>20 9:19 et [nam <hi rend="italic">Bl1_2</hi>] per sapientiam</item>
+					<item>21 10:10 haec [iustum autem <hi rend="italic">Bl1_2</hi>] profugum irae
+						fratris</item>
+					<item>22 10:15 haec populum iustum</item>
+					<item>23 11:16 quod quidam errantes colebant</item>
+					<item>24 11:23 quoniam tamquam momentum</item>
+					<item>25 12:1 bonus enim spiritus tuus [o quam bonus et suauis est domine
+						spiritus tuus <hi rend="italic">Bl1_2</hi>]</item>
+					<item>26 13:1 vani sunt autem omnes homines</item>
+					<item>27 13:10 infelices autem sunt</item>
+					<item>28 15:1 tu autem deus [domine deus <hi rend="italic">Bl1_2</hi>]
+						noster</item>
+					<item>29 15:15 quoniam omnia idola</item>
+					<item>30 16:13 tu enim vitae et mortis</item>
+					<item>31 16:16 negantes enim nosse</item>
+					<item>32 16:20 pro quibus angelorum esca</item>
+					<item>33 16:24 creatura enim tibi [tua tibi <hi rend="italic">Bl1_2</hi>]
+						factori</item>
+					<item>34 17:1 magna enim sunt iudicia tua</item>
+					<item>35 17:6 apparebat autem illis</item>
+					<item>36 18:21 properans enim homo</item>
+					<item>37 18:23 cum enim iam acervatim</item>
+					<item>38 19:12 in adlocutione [allocutionem <hi rend="italic">Bl1_2</hi>] enim
+						desiderii</item>
+				</list></p>
+		</front>
+		<body>
+			<head>
+				<pb facs="data/images/single/Bl1_2_22v.jpeg" n="Bl1_2_22v"/>
+				<lb n="[Bl1_2_22v]"/>
+				<lb/>
+				<app>
+					<lem rendition="#CU #red #blue">INCIPIUNT CAPITULA IN LIBRO SAPIENTIE</lem>
+				</app>
+			</head>
+			<list>
+				<item n="1">
+					<num>I</num>
+					<title>De diligenda iusticia et cordis castitate</title></item>
+				<item n="2">
+					<num>II</num>
+					<title>De spiritu sancto et uero qui refugit simulantes</title></item>
+				<item n="3">
+					<num>III</num>
+					<title>De refugienda detractatione</title></item>
+				<item n="4">
+					<num>IIII</num>
+					<title>De maligna cogitatione impiorum</title></item>
+				<item n="5">
+					<num>V</num>
+					<title>De dictis impiorum quibus iustum impetunt</title></item>
+				<item n="6">
+					<num>VI</num>
+					<title>De glorificatione iustorum post persecutionem</title></item>
+				<item n="7">
+					<num>VII</num>
+					<title>De sancta uirginitate per quam salus uenit</title></item>
+				<item n="8">
+					<num>VIII</num>
+					<title>De nequam stirpe adulterorum</title></item>
+				<item n="9">
+					<num>IX</num>
+					<title>De gloriosa generatione beatorum</title></item>
+				<item n="10">
+					<num>X</num>
+					<title>De beatitudine quȩ iustum post mortem sequitur</title></item>
+				<item n="11">
+					<num>XI</num> - <num>XII</num>
+					<title>De <app>
+							<lem wit="#Bl1_2" varSeq="2" type="lem" cause="correction" hand="#u"
+								>inani</lem>
+							<rdg wit="#Bl1_2" varSeq="1" type="minor" cause="slip" cert="low"
+								rend="erasure">manu</rdg>
+						</app> iniquorum reprehensione <app>
+							<lem wit="#Bl1_2" varSeq="2" type="lem" cause="correction"
+								rend="overstrike" hand="#l">qua</lem>
+							<rdg wit="#Bl1_2" varSeq="1" type="minor" cause="slip" cert="low"
+								rend="erasure">qu?</rdg>
+						</app> se in iudicio coarguunt</title></item>
+				<item n="12">
+					<num>XIII</num>
+					<title>De eterna uita iustorum et qualitate iudicii</title></item>
+				<item n="13">
+					<num>XIIII</num>
+					<title>Reprehensio super reges et principes</title></item>
+				<item n="14">
+					<num>XV</num>
+					<title>De studio sapientiȩ sectande</title></item>
+				<item n="15">
+					<num>XVI</num>
+					<title>De origine glorie mundi</title></item>
+				<item n="16">
+					<num>XVII</num>
+					<title>Expositio humanȩ natiuitatis</title></item>
+				<item n="17">
+					<num>XVIII</num>
+					<title>Quam ardenter sapientia optari debeat</title></item>
+				<item n="18">
+					<num>XIX</num>
+					<title>Enumeratio gratiarum uiuifici spiritus</title></item>
+				<item n="19">
+					<num>XX</num>
+					<title>De claritate sapientiȩ</title></item>
+				<item n="20">
+					<num>XXI</num>
+					<title>De potentia sapientiȩ</title></item>
+				<item n="21">
+					<num>XXII</num>
+					<title>De honorificentia sapientis et cultu</title></item>
+				<item n="22">
+					<num>XXIII</num>
+					<title>Qualiter a domino sapientiam postulauerit</title></item>
+				<item n="23">
+					<num>XXIIII</num>
+					<title>Laus sapientie in eruditione iustorum</title></item>
+				<item n="24">
+					<num>XXV</num>
+					<title>Qualiter agente sapientia iacob euaserit iram fratris</title></item>
+				<item n="25">
+					<app>
+						<lem><num>XX<hi rend="italic">VI</hi></num></lem>
+						<note>The final part of the number (VI) is not visible in the digitisation
+							due to the tight binding of the manuscript and should therefore be
+							understood only as a plausible integration.</note>
+					</app>
+					<title>Qualiter per eandem sapientiam gens iustorum sit saluata</title></item>
+				<item n="26">
+					<app>
+						<lem><num>XXVI<hi rend="italic">I</hi></num></lem>
+						<note>The final part of the number (I) is not visible in the digitisation
+							due to the tight binding of the manuscript and should therefore be
+							understood only as a plausible integration.</note>
+					</app>
+					<title>Qualiter per sapientiam ioseph exemptus sit</title></item>
+				<pb facs="data/images/single/Bl1_2_23r.jpeg" n="Bl1_2_23r"/>
+				<lb n="[Bl1_2_23r]"/>
+				<item n="27">
+					<num>XXVIII</num>
+					<title>Qualiter per sapientiam hostes superati sint</title></item>
+				<item n="28">
+					<num>XXIX</num>
+					<title>Quod per quȩ peccat quis per hȩc et torqueatur</title></item>
+				<item n="29">
+					<num>XXX</num>
+					<title>Quod non odiendo iram infert deus sed corripiendo</title></item>
+				<item n="30">
+					<num>XXXI</num>
+					<title>Qualiter gens iniquorum sit flagellata</title></item>
+				<item n="31">
+					<num>XXXII</num>
+					<title><app>
+							<lem><hi rend="italic">M</hi>oderatio</lem>
+							<note>The rubricated initial was not executed.</note>
+						</app> iudiciorum dei</title></item>
+				<item n="32">
+					<num>XXXIII</num>
+					<title>Qualiter iniquis in suis studiis penas attribuit</title></item>
+				<item n="33">
+					<num>XXXIIII</num>
+					<title>De irrationabilitate hominum incredulorum</title></item>
+				<item n="34">
+					<num>XXXV</num>
+					<title>Conuincit eos potuisse deum scire per ea quȩ facta sunt</title></item>
+				<item n="35">
+					<num>XXXVI</num>
+					<title>Coarguit stulticiam gentilium</title></item>
+				<item n="36">
+					<num>XXXVII</num>
+					<title>De industria humani artificii</title></item>
+				<item n="37">
+					<num>XXXVIII</num>
+					<title>De institutione idolorum</title></item>
+				<item n="38">
+					<num>XXXIIII</num>
+					<title>Quȩ causa idola instituerit</title></item>
+				<item n="39">
+					<num>XXXV</num>
+					<title>De infinita dei patientia</title></item>
+				<item n="40">
+					<num>XXXVI</num>
+					<title>Quȩ res homines in errorem induxit</title></item>
+				<item n="41">
+					<num>XXXVII</num>
+					<title>De ratiocinio idolorum</title></item>
+				<item n="42">
+					<num>XXXVIII</num>
+					<title>Quod in ira deus misericordiȩ recordetur</title></item>
+				<item n="43">
+					<num>XXXIX</num> - <num>XL</num>
+					<title>Quod non herbis aut humanis medicaminibus sed solo dei uerbo curati sunt
+						qui saluabantur</title></item>
+				<item n="44">
+					<num>XLI</num>
+					<title>Qualiter iudicium dei hominum condempnet malitiam</title></item>
+				<item n="45">
+					<num>XLII</num>
+					<title>De genere flagellorum dei</title></item>
+				<item n="46">
+					<num>XLIII</num>
+					<title>De cibo celitus prestito</title></item>
+				<item n="47">
+					<num>XLIIII</num>
+					<title>Creaturam dei exardescere contra impios</title></item>
+				<item n="48">
+					<num>XLV</num>
+					<title>De omnipotentia uerbi diuini</title></item>
+				<item n="49">
+					<num>XLVI</num>
+					<title>De magnificentia iudiciorum dei</title></item>
+				<item n="50">
+					<num>XLVII</num>
+					<title>De terribilibus portentis quibus territi sunt increduli</title></item>
+				<item n="51">
+					<num>XLVIII</num>
+					<title>De salute iustorum et nece impiorum</title></item>
+				<item n="52">
+					<num>XLIX</num>
+					<title>De luctu egyptiorum</title></item>
+				<item n="53">
+					<num>L</num>
+					<title>De uirtute sacrificii qua ira dei compressa est</title></item>
+				<item n="54">
+					<num>LI</num>
+					<title>De primogenitorum plaga</title></item>
+				<item n="55">
+					<num>LII</num>
+					<title>De mirabili transitu israelitici populi</title></item>
+				<item n="56">
+					<num>LIII</num>
+					<title>De coturnicibus celitus missis</title></item>
+				<item n="57">
+					<num>LIIII</num>
+					<title>De mirabilitate operum dei</title></item>
+			</list>
+			<trailer>
+				<app>
+					<lem rendition="#CU #red">EXPLICIUNT CAPITULA</lem>
+				</app>
+			</trailer>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Capitula Proverbiorum in Paris, Bibliothèque Mazarine, MS 4</title>
+				<respStmt>
+					<resp>Critical Edition by</resp>
+					<name>Silverio Franzoni</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<p>Digital editions of summaries in Medieval Bibles</p>
+			</publicationStmt>
+			<sourceDesc>
+				<listBibl>
+					<head>bibliographical abbreviations</head>
+					<bibl xml:id="de_Bruyne">
+						<author>Donatien de Bruyne</author>
+						<title>Sommaires, divisions et rubriques de la Bible latine</title>
+						<pubPlace>Namur</pubPlace>
+						<date>1914</date></bibl>
+					<bibl xml:id="Ben">
+						<editor>Monachi abbatiae pontificiae Sancti Hieronymi in Urbe</editor>
+						<title>Biblia Sacra iuxta Latinam vulgatam versionem ad codicum fidem...
+							Libri Salomonis id est Proverbia Ecclesiastes Canticum Canticorum ex
+							interpretatione sancti Hieronymi cum praefationibus et variis
+							capitulorum seriebus</title>
+						<pubPlace>Romae</pubPlace>
+						<date>1957</date>
+					</bibl>
+				</listBibl>
+				<listWit>
+					<witness xml:id="P36_2">
+						<msDesc>
+							<msIdentifier>
+								<settlement>Paris</settlement>
+								<repository>Bibliothèque Mazarine</repository>
+								<idno>MS 4</idno>
+							</msIdentifier>
+							<head>Complete Bible (second volume)</head>
+							<msContents>
+								<msItem>
+									<locus>ff. 116vb-117ra</locus>
+									<title>capitula Proverbiorum</title>
+								</msItem>
+							</msContents>
+							<physDesc>
+								<objectDesc form="codex">
+									<supportDesc material="parch">
+										<extent> 327 folios <lb/><dimensions type="leaf" unit="mm">
+												<height quantity="503">height 503 mm</height>
+												<width quantity="368">width 368 mm</width>
+											</dimensions></extent>
+									</supportDesc>
+									<layoutDesc>
+										<layout columns="2"><lb/>2 cols.</layout>
+									</layoutDesc>
+								</objectDesc>
+								<handDesc>
+									<handNote script="preGothicMinuscule">pre-gothic
+										minuscule</handNote>
+								</handDesc>
+							</physDesc>
+							<history>
+								<origin>
+									<origDate from-custom="1080" to-custom="1120">late 11th - early
+										12th century</origDate>
+									<origPlace>France</origPlace>
+								</origin>
+							</history>
+							<additional>
+								<surrogates>
+									<p>
+										<bibl type="digital_facsimile" subtype="full"><hi
+												rend="bold"><ref
+												target="https://bibnum.institutdefrance.fr/ark:/61562/mz1810"
+												>digital facsimile</ref></hi>
+										</bibl>
+										<lb/>
+										<bibl type="description"><hi rend="bold"><ref
+												target="https://calames.abes.fr/pub/ms/MAZA10004"
+												>description</ref></hi><ref/></bibl>
+										<lb/>
+										<bibl type="IIIF_Manifest_URL"><hi rend="bold"><ref
+												target="https://bibnum.institutdefrance.fr/iiif/1810/manifest"
+												>IIIF Manifest</ref></hi>
+										</bibl>
+									</p></surrogates>
+							</additional>
+						</msDesc></witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<tagsDecl>
+				<rendition xml:id="CU">mixed capital and uncial letters</rendition>
+				<rendition xml:id="U">uncial letters</rendition>
+				<rendition xml:id="Ca">capital letters</rendition>
+				<rendition xml:id="red">red color letter(s)</rendition>
+				<rendition xml:id="blue">blue color letter(s)</rendition>
+				<rendition xml:id="textink"/>
+				<rendition xml:id="bw">the digital reproduction is b/w, impossible to determine
+					color</rendition>
+				<rendition xml:id="gold">golden letter(s)</rendition>
+			</tagsDecl>
+		</encodingDesc>
+		<profileDesc>
+			<handNotes>
+				<handNote xml:id="m">main scribe</handNote>
+				<handNote xml:id="l">later hand</handNote>
+				<handNote xml:id="u">unknown, impossible to determine</handNote>
+			</handNotes>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<p>The series of <hi rend="italic">capitula</hi> published here is unknown to both <ref
+					target="#de_Bruyne">de Bruyne</ref> and the <ref target="#Ben">Benedictine
+					edition</ref> of the Vulgate. Since it can be argued to derive (see below) from
+				the series called A in the Benedictine edition, we label it <hi rend="bold"
+					>A(c)_dobips</hi>. Among the manuscripts recorded in the DOBiPS database, it
+				appears only in <hi rend="bold">P36_2</hi> (Paris, Bibliothèque Mazarine, MS 4), the
+				second volume of a complete Bible of French origin dating from the late 11th or
+				early 12th century.<lb/><lb/>Some features of this series suggest that it may derive
+				from a corrupted form of the series edited by the <ref target="#Ben"
+					>Benedictines</ref> under the siglum A, which comprises two slightly different
+				versions (A(a) and A(b), corresponding to series <ref
+					target="https://gallica.bnf.fr/ark:/12148/bpt6k8537228/f179">A</ref> and <ref
+					target="https://gallica.bnf.fr/ark:/12148/bpt6k8537228/f178">Antipel</ref> in
+					<ref target="#de_Bruyne">de Bruyne</ref>'s classification). <lb/>First of all,
+				the first three chapters are very similar, if not identical, to those in A(a) or
+				A(b): <list>
+					<item>1 <hi rend="italic">de parabolis Salomonis</hi> A(a), A(b) : <hi
+							rend="italic">parabole salomonis</hi> A(c) (see also below)</item>
+					<item>2 <hi rend="italic">affectu patris adloquitur in uno omnes et in omnibus
+							unum filium blanditiis peccatorum et hereticorum non adquiescere</hi>
+						A(a) : <hi rend="italic">affectu patris alloquitur filium blanditiis
+							peccatorum non <lb/>adquiescere</hi> A(b) : <hi rend="italic">affectu
+							patris aloquitur blandiens filium</hi> A(c)</item>
+					<item>3 <hi rend="italic">admonet affectu quo supra ne ambules cum impiis vel
+							hereticis</hi> A(a) : <hi rend="italic">non ambulandum cum <lb/>
+							impiis</hi> A(b), A(c)</item>
+				</list> Secondly, all the other chapters (4-58) correspond to the beginning of a
+				given passage within the text of Proverbia; and almost all of these passages, in
+				turn, coincide with the beginning of a chapter in manuscripts following the series A
+				or (less often) Antipel, according to the data reported by de Bruyne from individual
+				manuscripts representative of the various series (<ref
+					target="https://gallica.bnf.fr/ark:/12148/bpt6k8537228/f492">p. 478</ref>). See,
+				e.g. (further details are given throughout the edited text):<list>
+					<item>4 <hi rend="italic">sapientia foris prȩdicat</hi> A(c) = Prv 1.20 = ch. 4
+						in A</item>
+					<item>14 <hi rend="italic">fili mi ausculta</hi> A(c) = Prv 4.20 = ch. 14 in
+						A</item>
+					<item>28 <hi rend="italic">ruina proximat malum</hi> A(c) = Prv 12.13 (<hi
+							rend="italic">propter peccata labiorum ruina proximat malo</hi>) = ch.
+						28 <lb/>in A</item>
+					<item>38 <hi rend="italic">qui inuenit mulierem</hi> A(c) = Prv 18.22 = ch. 38
+						in A</item>
+				</list>It must be said, however, that the correspondence is not always perfect. For
+				example, cap. 36 in A(c) reproduces the opening of Prv 17.17, while the A series
+				places its chapter 36 at Prv 17.15; cap. 50 in A(c) coincides with Prv 26.4, while
+				chap. 50 in A coincides with Prv 26.5. The end of the series presents the most
+				problematic situation: cap. 57 in A(c) reproduces Prv 30.18, which corresponds to
+				chap. 58 in A, thus leaving chap. 57 without a match; similarly, cap. 58 in A(c)
+				reproduces Prv 31.10, that is chap. 59 in A, while chap. 60 is left without any
+				correspondence. On the other hand, de Bruyne relied on a single witness that may
+				have contained its own errors, and his data do not always match those of the
+				Benedictine edition. For instance, according to the Benedictines, chap. 36
+				corresponds to Prv 17.17 as in A(c). <lb/><lb/>On the basis of these remarks, it can
+				be suggested that behind A(c) lay a manuscript that followed series A(a) or A(b),
+				but that, for some reason, no longer presented the complete table of chapters, but
+				only the first three capitula, which in A(c) are almost identical to the "standard"
+				ones. The remaining capitula, by contrast, had to be inferred from the chapter
+				numbers found throughout the text of Proverbia; on this basis, the most
+				straightforward option was adopted, namely the reproduction of each chapter's
+				opening. This may also have led to the modification of the first three <hi
+					rend="italic">capitula</hi> – or only of the first two, if A(c) derives from
+				A(b)/Antipel, whose third <hi rend="italic">capitulum</hi> already coincides with
+				that of A(c) (see above). Note that the first <hi rend="italic">capitulum</hi> of
+				A(c) also coincides with the opening of Prv 1.1. <lb/><lb/>The point in the text of
+				Proverbia where P36_2 places the chapter number corresponding to each <hi
+					rend="italic">capitulum</hi> can be accessed either by clicking on the two-page
+				icon next to each <hi rend="italic">capitulum</hi> number, or by clicking on the
+				"Passi paralleli" thumbnail (in the right-hand panel of the "Testo di lettura"
+				screen).</p>
+		</front>
+		<body>
+			<head>
+				<pb facs="data/images/single/P36_2_116v.jpeg" n="P36_2_116v"/>
+				<lb n="[P36_2_116v]"/>
+				<lb/>
+				<app>
+					<lem rendition="#CU #red">INCIPIUNT CAPITULA</lem>
+				</app>
+			</head>
+
+			<list>
+				<item n="1">
+					<ref type="parallelPassage"><bibl><title>Proverbia 1:1 parabole
+								salomonis</title></bibl><num>I</num></ref>
+					<title>Parabole Salomonis</title></item>
+				<item n="2">
+					<ref type="parallelPassage"><bibl><title>Proverbia 1:7 timor
+							domini</title></bibl><num>II</num></ref>
+					<title>Affectu patris aloquitur blandiens filium</title></item>
+				<item n="3">
+					<ref type="parallelPassage"><bibl><title>Proverbia 1:10 fili mi si te
+								lactauerint</title></bibl><num>III</num></ref>
+					<title>Non ambulandum cum impiis</title></item>
+				<item n="4">
+					<ref type="parallelPassage"><bibl><title>Proverbia 1:20 sapientia foris
+								praedicat </title></bibl><num>IIII</num></ref>
+					<title>Sapientia foris prȩdicat</title></item>
+				<item n="5">
+					<ref type="parallelPassage"><bibl><title>Proverbia 1:23 convertimini ad
+								correptionem meam</title></bibl><num>V</num></ref>
+					<title>Conuertimini ad correptionem meam</title></item>
+				<item n="6">
+					<ref type="parallelPassage"><bibl><title>Proverbia 1:26 ego quoque in interitu
+								vestro ridebo</title></bibl><num>VI</num></ref>
+					<title>Ego quoque in interitu uestro ridebo</title></item>
+				<item n="7">
+					<ref type="parallelPassage"><bibl><title>Proverbia 2:1 fili mi si susceperis
+								sermones meos</title></bibl><num>VII</num></ref>
+					<title>Fili mi si susceperis sermones</title></item>
+				<item n="8">
+					<ref type="parallelPassage"><bibl><title>Proverbia 3:1 fili mi ne obliviscaris
+								legis meae</title></bibl><num>VIII</num></ref>
+					<title>Fili mi ne obliuiscaris</title></item>
+				<item n="9">
+					<ref type="parallelPassage"><bibl><title>Proverbia 3:5 habe fiduciam in
+								domino</title></bibl><num>VIIII</num></ref>
+					<title>Habe fiduciam in domino</title></item>
+				<item n="10">
+					<ref type="parallelPassage"><bibl><title>Proverbia 3:11 disciplinam domini fili
+								mi</title></bibl><num>X</num></ref>
+					<title>Disciplinam fili mi</title></item>
+				<item n="11">
+					<ref type="parallelPassage"><bibl><title>Proverbia 3:21 fili mi ne effluant haec
+								ab oculis tuis</title></bibl><num>XI</num></ref>
+					<title>Fili mi ne effluant</title></item>
+				<item n="12">
+					<ref type="parallelPassage"><bibl><title>Proverbia 4:1 Audite filii disciplinam
+								patris</title></bibl><num>XII</num></ref>
+					<title>Audi fili mi disciplinam</title></item>
+				<item n="13">
+					<ref type="parallelPassage"><bibl><title>Proverbia 4:10 audi fili mi et suscipe
+								verba mea</title></bibl><num>XIII</num></ref>
+					<title>Audi fili mi et suscipe</title></item>
+				<item n="14">
+					<ref type="parallelPassage"><bibl><title>Proverbia 4:20 fili mi ausculta
+								sermones meos</title></bibl><num>XIIII</num></ref>
+					<title>Fili mi ausculta</title></item>
+				<item n="15">
+					<ref type="parallelPassage"><bibl><title>Proverbia 5:1 fili mi adtende
+								sapientiam meam</title></bibl><num>XV</num></ref>
+					<title>Fili mi attende</title></item>
+				<item n="16">
+					<ref type="parallelPassage"><bibl><title>Proverbia 6:1 fili mi si
+								spoponderis</title></bibl><num>XVI</num></ref>
+					<title>Fili mi si poponderis</title></item>
+				<item n="17">
+					<ref type="parallelPassage"><bibl><title>Proverbia 6:16 sex sunt quae odit
+								Dominus</title></bibl><num>XVII</num></ref>
+					<title>Sex sunt quæ odit dominus</title></item>
+				<pb facs="data/images/single/P36_2_117r.jpeg" n="P36_2_117r"/>
+				<lb n="[P36_2_117r]"/>
+				<item n="18">
+					<ref type="parallelPassage"><bibl><title>Proverbia 6:20 conserua fili
+							mi</title></bibl><num>XVIII</num></ref>
+					<title>Fili mi conserua</title></item>
+				<item n="19">
+					<ref type="parallelPassage"><bibl><title>Proverbia 6:27 numquid abscondere
+								potest homo</title></bibl><num>XVIIII</num></ref>
+					<title>Vt custodias te a muliere</title></item>
+				<item n="20">
+					<ref type="parallelPassage"><bibl><title>Proverbia 7:1 fili mi custodi sermones
+								meos</title></bibl><num>XX</num></ref>
+					<title>Fili mi custodi sermones meos</title></item>
+				<item n="21">
+					<ref type="parallelPassage"><bibl><title>Proverbia 8:10 accipite disciplinam
+								meam</title></bibl><num>XXI</num></ref>
+					<title>Accipite disciplinam</title></item>
+				<item n="22">
+					<ref type="parallelPassage"><bibl><title>Proverbia 8:22 dominus possedit me
+								initium viarum</title></bibl><num>XXII</num></ref>
+					<title>Dominus possedit me</title></item>
+				<item n="23">
+					<ref type="parallelPassage"><bibl><title>Proverbia 9:1 sapientia aedificavit
+								sibi domum</title></bibl><num>XXIII</num></ref>
+					<title>Sapientia ȩdificauit sibi domum</title></item>
+				<item n="24">
+					<ref type="parallelPassage"><bibl><title>Proverbia 9:10 principium sapientiae
+								timor domini</title></bibl><num>XXIIII</num></ref>
+					<title>Principium sapientiæ</title></item>
+				<item n="25">
+					<ref type="parallelPassage"><bibl><title>Proverbia 10:1 filius sapiens
+								laetificat patrem</title></bibl><num>XXV</num></ref>
+					<title>Filius sapiens</title></item>
+				<item n="26">
+					<ref type="parallelPassage"><bibl><title>Proverbia 11:1 statera dolosa
+								abominatio apud dominum</title></bibl><num>XXVI</num></ref>
+					<title>Statera dolosa</title></item>
+				<item n="27">
+					<ref type="parallelPassage"><bibl><title>Proverbia 11:24 alii dividunt propria
+								et ditiores fiunt</title></bibl><num>XXVII</num></ref>
+					<title>Alii diuidunt propria</title></item>
+				<item n="28">
+					<ref type="parallelPassage"><bibl><title>Proverbia 12:13 propter peccata
+								labiorum ruina proximat malo</title></bibl><num>XXVIII</num></ref>
+					<title>Ruina proximat malum</title></item>
+				<item n="29">
+					<ref type="parallelPassage"><bibl><title>Proverbia 13:3 qui custodit os suum
+								custodit animam suam</title></bibl><num>XXVIIII</num></ref>
+					<title>Qui custodit os suum</title></item>
+				<item n="30">
+					<ref type="parallelPassage"><bibl><title>Proverbia 14:1 sapiens mulier
+								aedificavit domum suam</title></bibl><num>XXX</num></ref>
+					<title>Sapiens mulier ȩdificat</title></item>
+				<item n="31">
+					<ref type="parallelPassage"><bibl><title>Proverbia 14:12 est via quae videtur
+								homini iusta</title></bibl><num>XXXI</num></ref>
+					<title>Est uia quȩ uidetur homini iusta</title></item>
+				<item n="32">
+					<ref type="parallelPassage"><bibl><title>Proverbia 14:34 iustitia elevat
+								gentem</title></bibl><num>XXXII</num></ref>
+					<title>Iusticia eleuat gentem</title></item>
+				<item n="33">
+					<ref type="parallelPassage"><bibl><title>Proverbia 15:17 melius est vocare ad
+								holera</title></bibl><num>XXXIII</num></ref>
+					<title>Melius est uocare</title></item>
+				<item n="34">
+					<ref type="parallelPassage"><bibl><title>Proverbia 15:26 abominatio domini
+								cogitationes malae</title></bibl><num>XXXIIII</num></ref>
+					<title>Abhominatio domini</title></item>
+				<item n="35">
+					<ref type="parallelPassage"><bibl><title>Proverbia 16:28 homo perversus suscitat
+								lites</title></bibl><num>XXXV</num></ref>
+					<title>Homo peruersus suscitat</title></item>
+				<item n="36">
+					<ref type="parallelPassage"><bibl><title>Proverbia 17:17 omni tempore diligit
+								qui amicus est</title></bibl><num>XXXVI</num></ref>
+					<title>Omni tempore diligit</title></item>
+				<item n="37">
+					<ref type="parallelPassage"><bibl><title>Proverbia 18:3 impius cum in profundum
+								venerit</title></bibl><num>XXXVII</num></ref>
+					<title>Impius cum in profundum</title></item>
+				<item n="38">
+					<ref type="parallelPassage"><bibl><title>Proverbia 18:22 qui invenit mulierem
+								invenit bonum</title></bibl><num>XXXVIII</num></ref>
+					<title>Qui inuenit mulierem</title></item>
+				<item n="39">
+					<ref type="parallelPassage"><bibl><title>Proverbia 19:17 feneratur domino qui
+								miseretur pauperis</title></bibl><num>XXXVIIII</num></ref>
+					<title>Feneratur domino</title></item>
+				<item n="40">
+					<ref type="parallelPassage"><bibl><title>Proverbia 20:9 quis potest dicere
+								mundum est cor meum</title></bibl><num>XL</num></ref>
+					<title>Quis potest dicere mundum est</title></item>
+				<item n="41">
+					<ref type="parallelPassage"><bibl><title>Proverbia 20:23 abominatio est apud
+								deum pondus</title></bibl><num>XLI</num></ref>
+					<title>Abhominatio est</title></item>
+				<item n="42">
+					<ref type="parallelPassage"><bibl><title>Proverbia 21:3 facere misericordiam et
+								iudicium</title></bibl><num>XLII</num></ref>
+					<title>Facere misericordiam</title></item>
+				<item n="43">
+					<ref type="parallelPassage"><bibl><title>Proverbia 21:24 superbus et arrogans
+								vocatur indoctus</title></bibl><num>XLIII</num></ref>
+					<title>Superbus et arrogans</title></item>
+				<item n="44">
+					<ref type="parallelPassage"><bibl><title>Proverbia 22:24 noli esse amicus homini
+								iracundo</title></bibl><num>XLIIII</num></ref>
+					<title>Noli esse</title></item>
+				<item n="45">
+					<ref type="parallelPassage"><bibl><title>Proverbia 23:15 fili mi si sapiens
+								fuerit animus tuus</title></bibl><num>XLV</num></ref>
+					<title>Fili mi si sapiens</title></item>
+				<item n="46">
+					<ref type="parallelPassage"><bibl><title>Proverbia 24:11 erue eos qui ducuntur
+								ad mortem</title></bibl><num>XLVI</num></ref>
+					<title>Erue eos qui ducuntur</title></item>
+				<item n="47">
+					<ref type="parallelPassage"><bibl><title>Proverbia 24:16 septies enim cadet
+								iustus et resurget</title></bibl><num>XLVII</num></ref>
+					<title>Septies cadet iustus</title></item>
+				<item n="48">
+					<ref type="parallelPassage"><bibl><title>Proverbia 24:30 per agrum hominis pigri
+								transivi</title></bibl><num>XLVIII</num></ref>
+					<title>Per agrum hominis pigri</title></item>
+				<item n="49">
+					<ref type="parallelPassage"><bibl><title>Proverbia 25:17 subtrahe pedem tuum de
+								domo proximi tui</title></bibl><num>XLVIIII</num></ref>
+					<title>Subtrahe pedem</title></item>
+				<item n="50">
+					<ref type="parallelPassage"><bibl><title>Proverbia 26:4 ne respondeas stulto
+								iuxta stultitiam suam</title></bibl><num>L</num></ref>
+					<title>Ne respondeas</title></item>
+				<item n="51">
+					<ref type="parallelPassage"><bibl><title>Proverbia 26:24 labiis suis
+								intellegitur inimicus</title></bibl><num>LI</num></ref>
+					<title>Labiis suis</title></item>
+				<item n="52">
+					<ref type="parallelPassage"><bibl><title>Proverbia 27:5 melior est manifesta
+								correptio</title></bibl><num>LII</num></ref>
+					<title>Melior est manifesta</title></item>
+				<item n="53">
+					<ref type="parallelPassage"><bibl><title>Proverbia 27:25 aperta sunt
+								prata</title></bibl><num>LIII</num></ref>
+					<title>Aperta sunt parata <note>prata in Prv 27:25</note></title></item>
+				<item n="54">
+					<ref type="parallelPassage"><bibl><title>Proverbia 28:10 qui decipit iustos in
+								via mala</title></bibl><num>LIIII</num></ref>
+					<title>Qui decipit iustos</title></item>
+				<item n="55">
+					<ref type="parallelPassage"><bibl><title>Proverbia 29:11 totum spiritum suum
+								profert stultus</title></bibl><num>LV</num></ref>
+					<title>Totum spiritum</title></item>
+				<item n="56">
+					<ref type="parallelPassage"><bibl><title>Proverbia 29:27 abominantur iusti virum
+								impium</title></bibl><num>LVI</num></ref>
+					<title>Abhominantur iusti</title></item>
+				<item n="57">
+					<ref type="parallelPassage"><bibl><title>Proverbia 30:18 tria sunt difficilia
+								mihi</title></bibl><num>LVII</num></ref>
+					<title>Tria sunt difficilia</title></item>
+				<item n="58">
+					<ref type="parallelPassage"><bibl><title>Proverbia 31:10 mulierem fortem quis
+								inveniet</title></bibl><num>LVIII</num></ref>
+					<title>Mulierem fortem</title></item>
+			</list>
+
+			<trailer>
+				<app>
+					<lem rendition="#CU #red">EXPLICIUNT CAPITULa</lem>
+				</app>
+			</trailer>
+		</body>
+	</text>
+</TEI>

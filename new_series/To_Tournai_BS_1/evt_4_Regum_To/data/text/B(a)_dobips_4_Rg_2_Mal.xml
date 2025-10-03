@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Capitula 4 Regum / 2 Malachim in Tournai, Bibliothèque du Séminaire, MS
+					1</title>
+				<respStmt>
+					<resp>Critical Edition by</resp>
+					<name>Silverio Franzoni</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<p>Digital editions of summaries in Medieval Bibles</p>
+			</publicationStmt>
+			<sourceDesc>
+				<listBibl>
+					<head>bibliographical abbreviations</head>
+					<bibl xml:id="de_Bruyne">
+						<author>Donatien de Bruyne</author>
+						<title>Sommaires, divisions et rubriques de la Bible latine</title>
+						<pubPlace>Namur</pubPlace>
+						<date>1914</date></bibl>
+					<bibl xml:id="Ben">
+						<editor>Monachi abbatiae pontificiae Sancti Hieronymi in Urbe</editor>
+						<title>Biblia Sacra iuxta Latinam vulgatam versionem ad codicum fidem...
+							Liber Malachim ex interpretatione sancti Hieronymi cum variis
+							capitulorum seriebus</title>
+						<pubPlace>Romae</pubPlace>
+						<date>1945</date>
+					</bibl>
+					<bibl xml:id="descrBog">
+						<author>P.-M. Bogaert, A. De Coster, J.-B. Lebigue et alii</author>
+						<title>LM 1. Biblia sacra, dite « Bible de Lobbes »</title>, in
+							<title>Séminaire de Tournai : histoire, bâtiments, collections</title>
+						<editor>M. Maillard-Luypaert</editor>
+						<pubPlace>Leuven</pubPlace>
+						<date>2008</date>
+						<biblScope>pp. 77-101</biblScope>
+					</bibl>
+				</listBibl>
+				<listWit>
+					<witness xml:id="To">
+						<msDesc>
+							<msIdentifier>
+								<settlement>Tournai</settlement>
+								<repository>Bibliothèque du Séminaire</repository>
+								<idno>MS 1</idno>
+							</msIdentifier>
+							<head>Bible of Lobbes (first volume)</head>
+							<msContents>
+								<msItem>
+									<locus>ff. 158vb-159rb</locus>
+									<title>capitula 4 Regum / 2 Malachim</title>
+								</msItem>
+							</msContents>
+							<physDesc>
+								<objectDesc form="codex">
+									<supportDesc material="parch">
+										<extent> 276 folios <lb/><dimensions type="leaf" unit="mm">
+												<height quantity="495">height 495 mm</height>
+												<width quantity="325">width 325 mm</width>
+											</dimensions></extent>
+									</supportDesc>
+									<layoutDesc>
+										<layout columns="2"><lb/>2 cols.</layout>
+									</layoutDesc>
+								</objectDesc>
+								<handDesc>
+									<handNote script="preGothicMinuscule">pre-gothic
+										minuscule</handNote>
+								</handDesc>
+							</physDesc>
+							<history>
+								<origin>
+									<origDate from-custom="1084" to-custom="1084">1084</origDate>
+									<origPlace>Lobbes, Abbey of St Peter</origPlace>
+								</origin>
+							</history>
+							<additional>
+								<surrogates>
+									<p>
+										<bibl type="digital_facsimile" subtype="full"><hi
+												rend="bold"><ref
+												target="https://arca.irht.cnrs.fr/ark:/63955/md859c680g25"
+												>digital facsimile</ref></hi>
+										</bibl>
+										<lb/>
+										<bibl type="description"><hi rend="bold"><ref
+												target="http://www.cicweb.be/fr/manuscrit.php?id=70=48"
+												>description</ref></hi><ref/></bibl>
+										<lb/>
+										<bibl type="IIIF_Manifest_URL"><hi rend="bold"><ref
+												target="https://api.irht.cnrs.fr/ark:/63955/fpfg6g1sg75j/manifest.json"
+												>IIIF Manifest</ref></hi>
+										</bibl>
+									</p></surrogates>
+							</additional>
+						</msDesc></witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<tagsDecl>
+				<rendition xml:id="CU">mixed capital and uncial letters</rendition>
+				<rendition xml:id="U">uncial letters</rendition>
+				<rendition xml:id="Ca">capital letters</rendition>
+				<rendition xml:id="red">red color letter(s)</rendition>
+				<rendition xml:id="blue">blue color letter(s)</rendition>
+				<rendition xml:id="textink"/>
+				<rendition xml:id="bw">the digital reproduction is b/w, impossible to determine
+					color</rendition>
+				<rendition xml:id="gold">golden letter(s)</rendition>
+			</tagsDecl>
+		</encodingDesc>
+		<profileDesc>
+			<handNotes>
+				<handNote xml:id="m">main scribe</handNote>
+				<handNote xml:id="l">later hand</handNote>
+				<handNote xml:id="u">unknown, impossible to determine</handNote>
+			</handNotes>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<p>The series of <hi rend="italic">capitula</hi> published here is unknown to both <ref
+					target="#de_Bruyne">de Bruyne</ref> and the <ref target="#Ben">Benedictine
+					edition</ref> of the Vulgate. Since it is mainly based on de Bruyne's <ref
+					target="https://gallica.bnf.fr/ark:/12148/bpt6k8537228/f131">B series</ref> (as
+				observed by P.-M. Bogaert in <ref target="#descrBog">Bogaert et alii</ref>, pp. 81-82;
+				see also below), we label it <hi rend="bold">B(a)_dobips</hi>. Among the manuscripts
+				recorded in the DOBiPS database, it occurs only in <hi rend="bold">To</hi> (Tournai,
+				Bibliothèque du Séminaire, MS 1), the first volume (the second being lost) of the
+				so-called Bible of Lobbes, produced at the eponymous Belgian abbey in the late 11th
+				century. <lb/><lb/>As in the case of 2 Regum (here) and 3 Regum (here), B(a) draws
+				mainly on de Bruyne's <ref
+					target="https://gallica.bnf.fr/ark:/12148/bpt6k8537228/f131">B series</ref>,
+				dividing its <hi rend="italic">capitula</hi> into two or more titles and adding
+				further details, often taken from the <ref
+					target="https://gallica.bnf.fr/ark:/12148/bpt6k8537228/f130">A series</ref>.
+				<lb/>For example, B's <hi rend="italic">cap.</hi> 2 gives rise to B(a)'s <hi
+					rend="italic">cap.</hi> 68-70, 73, and 75; <hi rend="italic">cap.</hi> 71-72 and
+				74 are probably inspired by A's <hi rend="italic">cap.</hi> 60-62, though with only
+				slight lexical overlap. The text of these <hi rend="italic">capitula</hi> is as
+				follows: <list>
+					<item>B <list>
+							<item>2 De ioram fratre ochoziae et de helia ubi iordanem diuidit et in
+								caelum rapitur et de helisaei <lb/> reditu et diuisione iordanis et
+								de ioram et iosaphat et rege edom ubi dimicauerunt contra moab
+								<lb/>ubi aquae terram sine pluuia repleuerunt</item>
+						</list></item>
+					<item>B(a)<list>
+							<item>68 De morte ochoziȩ et de ioram fratre eius</item>
+							<item>69 De helia ubi iordanen diuidit et in cȩlum rapitur</item>
+							<item>70 De helisei reditu et diuisione iordanis et heliȩ quȩsitu</item>
+							<item>71 De aquis amarissimis ad uerbum helisei in dulcorem
+								conuersis</item>
+							<item>72 Puerorum contumelia quos heliseus maledixit</item>
+							<item>73 De ioram et iosaphat et rege edom ubi dimicare ierunt contra
+								moab</item>
+							<item>74 Tres reges cum exercitu siti laborantes ad heliseum
+								descendunt</item>
+							<item>75 Vbi aquȩ terram sine pluuia repleuerunt</item>
+						</list></item>
+					<item>A<list>
+							<item>60 Miraculum helisei in hierico ubi inuocauit dominum et conuertit
+								aquas in dulcedinem</item>
+							<item>61 Pueri contumeliam fecerunt heliseo qui maledixit eis et
+								exierunt duo ursi de saltu et lacerati <lb/> sunt figura est
+								adueniens quod fuit uespasianus et titus</item>
+							<item>62 Bellum regum in quo laborabant siti unde quaesitus est heliseus
+								et orauit et data est aqua <lb/>sed unus regum filium suum
+								primogenitum super murum obtulit holocaustum et recessit ab eo
+								<lb/>israhel pro hoc malo</item>
+						</list></item>
+				</list> The numbering (66-139) continues that of book 3.<lb/><lb/>The point in the
+				text of 4 Regum where To places the chapter number corresponding to each <hi
+					rend="italic">capitulum</hi> can be accessed either by clicking on the two-page
+				icon next to each <hi rend="italic">capitulum</hi> number, or by clicking on the
+				"Passi paralleli" thumbnail (in the right-hand panel of the "Testo di lettura"
+				screen).</p>
+		</front>
+		<body>
+			<head>
+				<pb facs="data/images/single/To_158v.jpeg" n="To_158v"/>
+				<lb n="[To_158v]"/>
+				<lb/>
+				<app>
+					<lem rendition="#CU #red">INCIPIUNT CAPITULA LIBRI QUARTI</lem>
+				</app>
+			</head>
+
+			<list>
+				<item n="1">
+					<ref type="parallelPassage"><bibl><title>4 Rg 1:1 praevaricatus est
+								autem</title></bibl><num>LXVI</num></ref>
+					<title>De allocutione angeli ad heliam super ochozia</title></item>
+				<item n="2">
+					<ref type="parallelPassage"><bibl><title>4 Rg 1:9 misitque ad
+							eum</title></bibl><num>LXVII</num></ref>
+					<title>De quinquagenis ad uerbum heliȩ igne consumptis</title></item>
+				<item n="3">
+					<ref type="parallelPassage"><bibl><title>4 Rg 1:17 mortuus est
+							ergo</title></bibl><num>LXVIII</num></ref>
+					<title>De morte ochoziȩ et de ioram fratre eius</title></item>
+				<item n="4">
+					<ref type="parallelPassage"><bibl><title>4 Rg 2:1 factum est
+							autem</title></bibl><num>LXVIIII</num></ref>
+					<title>De helia ubi iordanen diuidit et in cȩlum rapitur</title></item>
+				<item n="5">
+					<ref type="parallelPassage"><bibl><title>4 Rg 2:13 et levavit
+							pallium</title></bibl><num>LXX</num></ref>
+					<title>De helisei reditu et diuisione iordanis et heliȩ quȩsitu</title></item>
+				<item n="6">
+					<ref type="parallelPassage"><bibl><title>4 Rg 2:19 dixerunt quoque
+							viri</title></bibl><num>LXXI</num></ref>
+					<title>De aquis amarissimis ad uerbum helisei in dulcorem
+					conuersis</title></item>
+				<item n="7">
+					<ref type="parallelPassage"><bibl><title>4 Rg 2:23 ascendit autem
+							inde</title></bibl><num>LXXII</num></ref>
+					<title>Puerorum contumelia quos heliseus maledixit</title></item>
+				<item n="8">
+					<ref type="parallelPassage"><bibl><title>4 Rg 3:1 ioram vero filius
+							ahab</title></bibl><num>LXXIII</num></ref>
+					<title>De ioram et iosaphat et rege edom ubi dimicare ierunt contra
+					moab</title></item>
+				<item n="9">
+					<ref type="parallelPassage"><bibl><title>4 Rg 3:9 perrexerunt igitur
+							rex</title></bibl><num>LXXIIII</num></ref>
+					<title>Tres reges cum exercitu siti laborantes ad heliseum
+					descendunt</title></item>
+				<item n="10">
+					<ref type="parallelPassage"><bibl><title>4 Rg 3:15 cumque caneret
+								psaltes</title></bibl><num>LXXV</num></ref>
+					<title>Vbi aquȩ terram sine pluuia repleuerunt</title></item>
+				<item n="11">
+					<ref type="parallelPassage"><bibl><title>4 Rg 4:1 mulier autem
+							quaedam</title></bibl><num>LXXVI</num></ref>
+					<title>De muliere cuius uasa oleo impleta sunt ad helisei uerbum</title></item>
+				<item n="12">
+					<ref type="parallelPassage"><bibl><title>4 Rg 4:8 facta est autem quaedam
+								dies</title></bibl><num>LXXVII</num></ref>
+					<title>De muliere ad quam heliseus diuertit cui et filium
+					repromisit</title></item>
+				<item n="13">
+					<ref type="parallelPassage"><bibl><title>4 Rg 4:25 profecta est
+							igitur</title></bibl><num>LXXVIII</num></ref>
+					<title>Miseratio helisei super sunamiten cuius filium suscitauit</title></item>
+				<item n="14">
+					<ref type="parallelPassage"><bibl><title>4 Rg 4:38 erat autem
+							fames</title></bibl><num>LXXVIIII</num></ref>
+					<title>De pulmento colochintidarum immissa farina dulcorato</title></item>
+				<item n="15">
+					<ref type="parallelPassage"><bibl><title>4 Rg 4:42 vir autem
+							quidam</title></bibl><num>LXXX</num></ref>
+					<title>Vbi heliseus de decem panibus populum satiauit et
+					superfuit</title></item>
+				<item n="16">
+					<ref type="parallelPassage"><bibl><title>4 Rg 5:1 Naaman [autem add. To]
+								princeps militiae</title></bibl><num>LXXXI</num></ref>
+					<title>De naaman syro leproso per heliseum curato</title></item>
+				<item n="17">
+					<ref type="parallelPassage"><bibl><title>4 Rg 5:20 dixitque giezi
+							puer</title></bibl><num>LXXXII</num></ref>
+					<title>De giezi puero helisei ob culpam lepra percusso</title></item>
+				<item n="18">
+					<ref type="parallelPassage"><bibl><title>4 Rg 6:1 dixerunt autem
+							filii</title></bibl><num>LXXXIII</num></ref>
+					<title>Vbi heliseus securim a fundo aquȩ natare fecit</title></item>
+				<pb facs="data/images/single/To_159r.jpeg" n="To_159r"/>
+				<lb n="[To_159r]"/>
+				<item n="19">
+					<ref type="parallelPassage"><bibl><title>4 Rg 6:8 rex autem syriae
+							</title></bibl><num>LXXXIIII</num></ref>
+					<title>De rege syriȩ qui misit ut comprehenderent heliseum</title></item>
+				<item n="20">
+					<ref type="parallelPassage"><bibl><title>4 Rg 6:18 porro heliseus
+							oravit</title></bibl><num>LXXXV</num></ref>
+					<title>Vbi heliseus orans hostes cȩcitate percussit</title></item>
+				<item n="21">
+					<ref type="parallelPassage"><bibl><title>4 Rg 6:24 factum est
+							autem</title></bibl><num>LXXXVI</num></ref>
+					<title>De obsidione et fame ubi duȩ mulieres comederunt infantem</title></item>
+				<item n="22">
+					<ref type="parallelPassage"><bibl><title>4 Rg 7:1 dixit autem
+							heliseus</title></bibl><num>LXXXVII</num></ref>
+					<title>De fuga syrorum et copia hordei et similȩ in porta samariȩ</title></item>
+				<item n="23">
+					<ref type="parallelPassage"><bibl><title>4 Rg 8:1 heliseus autem locutus
+								est</title></bibl><num>LXXXVIII</num></ref>
+					<title>De fame annorum septem et de sunamite quȩ peregrinata est</title></item>
+				<item n="24">
+					<ref type="parallelPassage"><bibl><title>4 Rg 8:7 venit quoque
+							heliseus</title></bibl><num>LXXXVIIII</num></ref>
+					<title>De benadab et azahel regibus syriȩ</title></item>
+				<item n="25">
+					<ref type="parallelPassage"><bibl><title>4 Rg 8:16 regnavit ioram filius
+								iosaphat</title></bibl><num>XC</num></ref>
+					<title>Regnum ioram filii iosaphat</title></item>
+				<item n="26">
+					<ref type="parallelPassage"><bibl><title>4 Rg 8:25 anno duodecimo
+							ioram</title></bibl><num>XCI</num></ref>
+					<title>Regnum ahaziȩ filii ioram et de ioram filio ahab</title></item>
+				<item n="27">
+					<ref type="parallelPassage"><bibl><title>4 Rg 9:1 heliseus autem
+								prophetes</title></bibl><num>XCII</num></ref>
+					<title>De hieu iussu diuino in regem uncto</title></item>
+				<item n="28">
+					<ref type="parallelPassage"><bibl><title>4 Rg 9:24 porro hieu tetendit
+								arcum</title></bibl><num>XCIII</num></ref>
+					<title>Hieu occidit ioram regem israhel et ahaziam regem iuda</title></item>
+				<item n="29">
+					<ref type="parallelPassage"><bibl><title>4 Rg 9:29 anno undecimo
+							ioram</title></bibl><num>XCIIII</num></ref>
+					<title>Mors iezabel pessima sicut helias prȩdixerat</title></item>
+				<item n="30">
+					<ref type="parallelPassage"><bibl><title>4 Rg 10:1 erant autem
+							ahab</title></bibl><num>XCV</num></ref>
+					<title>Hieu septuaginta filios ahab interfici iubet</title></item>
+				<item n="31">
+					<ref type="parallelPassage"><bibl><title>4 Rg 10:11 percussit igitur
+								hieu</title></bibl><num>XCVI</num></ref>
+					<title>De fratribus ahaziȩ regis iuda a hieu interfectis</title></item>
+				<item n="32">
+					<ref type="parallelPassage"><bibl><title>4 Rg 10:18 congregavit ergo
+								hieu</title></bibl><num>XCVII</num></ref>
+					<title>Cultores baal occidit hieu et idolum comminuit</title></item>
+				<item n="33">
+					<ref type="parallelPassage"><bibl><title>4 Rg 10:31 porro hieu non
+								custodivit</title></bibl><num>XCVIII</num></ref>
+					<title>De azahel quomodo euertit galaad et de ioaz filio hieu</title></item>
+				<item n="34">
+					<ref type="parallelPassage"><bibl><title>4 Rg 11:1 athalia vero
+							mater</title></bibl><num>XCVIIII</num></ref>
+					<title>De athalia regina et de ioas occultato</title></item>
+				<item n="35">
+					<ref type="parallelPassage"><bibl><title>4 Rg 11:4 anno autem
+							septimo</title></bibl><num>C</num></ref>
+					<title>De ioiada sacerdote et inter deum et populum inito foedere</title></item>
+				<item n="36">
+					<ref type="parallelPassage"><bibl><title>4 Rg 12:4 dixitque
+							ioas</title></bibl><num>CI</num></ref>
+					<title>De restauratione utensilium templi</title></item>
+				<item n="37">
+					<ref type="parallelPassage"><bibl><title>4 Rg 12:17 tunc ascendit
+							azahel</title></bibl><num>CII</num></ref>
+					<title>De azahel rege syriȩ quomodo asportauit de hierusalem thesauros et de
+						amasia <app>
+							<lem wit="#To" varSeq="2" type="lem" cause="correction">filio</lem>
+							<rdg wit="#To" varSeq="1" type="minor" cause="grammatical"
+								rend="erasure" hand="#u" cert="low">filios</rdg>
+						</app> ioas</title></item>
+				<item n="38">
+					<ref type="parallelPassage"><bibl><title>4 Rg 13:1 anno vicesimo
+							tertio</title></bibl><num>CIII</num></ref>
+					<title>De ioaz filio hieu et de ioas filio eius</title></item>
+				<item n="39">
+					<ref type="parallelPassage"><bibl><title>4 Rg 13:14 heliseus autem
+								aegrotabat</title></bibl><num>CIIII</num></ref>
+					<title>Infirmitas helisei in qua sagittam salutis domini contra syriam
+						dixit</title></item>
+				<item n="40">
+					<ref type="parallelPassage"><bibl><title>4 Rg 13:20 mortuus est ergo
+								heliseus</title></bibl><num>CV</num></ref>
+					<title>De morte helisei et de eo qui suscitatus est et de morte
+					azahel</title></item>
+				<item n="41">
+					<ref type="parallelPassage"><bibl><title>4 Rg 14:1 anno secundo
+							ioas</title></bibl><num>CVI</num></ref>
+					<title>De amasia rege iuda et de bello quod ei intulit ioas</title></item>
+				<item n="42">
+					<ref type="parallelPassage"><bibl><title>4 Rg 14:21 tulit autem universus
+								populus</title></bibl><num>CVII</num></ref>
+					<title>De azaria filio amasiȩ et de hieroboam filio ioas</title></item>
+				<item n="43">
+					<ref type="parallelPassage"><bibl><title>4 Rg 15:1 anno vicesimo
+							septimo</title></bibl><num>CVIII</num></ref>
+					<title>De ioatham filio azariȩ et de zacharia filio hieroboam</title></item>
+				<item n="44">
+					<ref type="parallelPassage"><bibl><title>4 Rg 15:13 sellum filius
+							iabes</title></bibl><num>CVIIII</num></ref>
+					<title>Sellum regnauit post zachariam et post sellum manaem</title></item>
+				<item n="45">
+					<ref type="parallelPassage"><bibl><title>4 Rg 15:18 cunctis diebus
+							eius</title></bibl><num>CX</num></ref>
+					<title>De phul rege assyriorum</title></item>
+				<item n="46">
+					<ref type="parallelPassage"><bibl><title>4 Rg 15:23 anno quinquagesimo
+								azariae</title></bibl><num>CXI</num></ref>
+					<title>De faceia post quem regnauit phacee filius romeliȩ</title></item>
+				<item n="47">
+					<ref type="parallelPassage"><bibl><title>4 Rg 15:29 in diebus phacee
+								regis</title></bibl><num>CXII</num></ref>
+					<title>Theglath rex assur galileam et galaad demolitus est</title></item>
+				<item n="48">
+					<ref type="parallelPassage"><bibl><title>4 Rg 15:30 coniuravit
+							autem</title></bibl><num>CXIII</num></ref>
+					<title>De osee qui regnauit post phacee</title></item>
+				<item n="49">
+					<ref type="parallelPassage"><bibl><title>4 Rg 15:32 anno secundo
+							phacee</title></bibl><num>CXIIII</num></ref>
+					<title>Regnum ioatham filii oziȩ regis iuda</title></item>
+				<item n="50">
+					<ref type="parallelPassage"><bibl><title>4 Rg 16:1 anno septimodecimo
+								phacee</title></bibl><num>CXV</num></ref>
+					<title>De achaz filio ioatham et quȩ de rasin et phacee
+					referuntur</title></item>
+				<item n="51">
+					<ref type="parallelPassage"><bibl><title>4 Rg 16:11 extruxitque urias
+								sacerdos</title></bibl><num>CXVI</num></ref>
+					<title>Iussu regis achaz urias sacerdos altare extruxit</title></item>
+				<item n="52">
+					<ref type="parallelPassage"><bibl><title>4 Rg 16:19 reliqua autem
+								verborum</title></bibl><num>CXVII</num></ref>
+					<title>De ezechia filio achaz et de osee rege israhel et de salmanassar et
+						samaria capta</title></item>
+				<item n="53">
+					<ref type="parallelPassage"><bibl><title>4 Rg 17:7 factum est enim [autem
+								To]</title></bibl><num>CXVIII</num></ref>
+					<title>Propter peccata translatus est israhel de terra sua</title></item>
+				<item n="54">
+					<ref type="parallelPassage"><bibl><title>4 Rg 17:24 adduxit autem
+							rex</title></bibl><num>CXVIIII</num></ref>
+					<title>De alienigenis quos in samaria leones comederunt</title></item>
+				<item n="55">
+					<ref type="parallelPassage"><bibl><title>4 Rg 18:1 anno tertio
+							osee</title></bibl><num>CXX</num></ref>
+					<title>Quomodo ezechias serpentem ȩreum confregit</title></item>
+				<item n="56">
+					<ref type="parallelPassage"><bibl><title>4 Rg 18:13 anno quartodecimo
+								regis</title></bibl><num>CXXI</num></ref>
+					<title>De sennacherib et de iactantia rabsacis</title></item>
+				<item n="57">
+					<ref type="parallelPassage"><bibl><title>4 Rg 18:37 venitque
+							eliachim</title></bibl><num>CXXII</num></ref>
+					<title>Per isaiam prophetam requirit ezechias dominum</title></item>
+				<item n="58">
+					<ref type="parallelPassage"><bibl><title>4 Rg 19:8 reversus est
+							igitur</title></bibl><num>CXXIII</num></ref>
+					<title>Acceptas blasphemiȩ litteras expandit ezechias ante
+					dominum</title></item>
+				<item n="59">
+					<ref type="parallelPassage"><bibl><title>4 Rg 19:20 misit autem
+							esaias</title></bibl><num>CXXIIII</num></ref>
+					<title>Sermo domini in manu isaiȩ ad ezechiam de rege assyriorum</title></item>
+				<item n="60">
+					<ref type="parallelPassage"><bibl><title>4 Rg 19:35 factum est
+							igitur</title></bibl><num>CXXV</num></ref>
+					<title>Quomodo angelus centum octoginta<app>
+							<lem wit="#To" varSeq="1" type="lem"/>
+							<rdg wit="#To" varSeq="2" type="addition" cause="falseEmendation"
+								hand="#l" rend="above">et quinque milia</rdg>
+						</app> de assyriis interfecit</title></item>
+				<item n="61">
+					<ref type="parallelPassage"><bibl><title>4 Rg 20:1 in diebus illis
+								aegrotavit</title></bibl><num>CXXVI</num></ref>
+					<title>De ȩgritudine ezechiȩ et signo in sole</title></item>
+				<item n="62">
+					<ref type="parallelPassage"><bibl><title>4 Rg 20:12 in tempere
+							illo</title></bibl><num>CXXVII</num></ref>
+					<title>De pueris et litteris merodach regis babylonis</title></item>
+				<item n="63">
+					<ref type="parallelPassage"><bibl><title>4 Rg 21:1 duodecim annorum
+							erat</title></bibl><num>CXXVIII</num></ref>
+					<title>De manasse rege et iniquitatibus eius</title></item>
+				<item n="64">
+					<ref type="parallelPassage"><bibl><title>4 Rg 21:19 viginti et duo [duorum To]
+								annorum</title></bibl><num>CXXVIIII</num></ref>
+					<title>De ammon rege filio manasse</title></item>
+				<item n="65">
+					<ref type="parallelPassage"><bibl><title>4 Rg 22:1 octo annorum erat
+								iosias</title></bibl><num>CXXX</num></ref>
+					<title>De iosia filio ammon et de libro in templo reperto</title></item>
+				<item n="66">
+					<ref type="parallelPassage"><bibl><title>4 Rg 22:14 ierunt itaque
+								helcias</title></bibl><num>CXXXI</num></ref>
+					<title>Per holdan propheten sermo domini factus est ad iosiam</title></item>
+				<item n="67">
+					<ref type="parallelPassage"><bibl><title>4 Rg 23:2 ascenditque rex
+								templum</title></bibl><num>CXXXII</num></ref>
+					<title>De idolis de iuda et samaria per iosiam expurgatis</title></item>
+				<item n="68">
+					<ref type="parallelPassage"><bibl><title>4 Rg 23:21 et praecepit omni
+								populo</title></bibl><num>CXXXIII</num></ref>
+					<title>De pascha quod celebrauit iosias</title></item>
+				<item n="69">
+					<ref type="parallelPassage"><bibl><title>4 Rg 23:30 tulitque populus
+								terrae</title></bibl><num>CXXXIIII</num></ref>
+					<title>De ioachaz filio iosiȩ et de nechao rege ȩgypti quomodo ioacim regem loco
+						ioachaz fecerit</title></item>
+				<item n="70">
+					<ref type="parallelPassage"><bibl><title>4 Rg 24:1 in diebus eius
+								ascendit</title></bibl><num>CXXXV</num></ref>
+					<title>De nabuchodonosor et de ioachin filio ioacim</title></item>
+				<item n="71">
+					<ref type="parallelPassage"><bibl><title>4 Rg 24:10 in tempore illo
+								ascenderunt</title></bibl><num>CXXXVI</num></ref>
+					<title>De captiuitate secundo abducta cum rege ioachin et de
+					sedechia</title></item>
+				<item n="72">
+					<ref type="parallelPassage"><bibl><title>4 Rg 25:1 factum est
+							autem</title></bibl><num>CXXXVII</num></ref>
+					<title>De tertia captiuitate in chaldeam cum sedechia rege capto et uniuersis
+						templi uasis transductis</title></item>
+				<item n="73">
+					<ref type="parallelPassage"><bibl><title>4 Rg 25:22 populo autem qui
+								relictus</title></bibl><num>CXXXVIII</num></ref>
+					<title>De godolia quomodo prepositus sit uel occisus</title></item>
+				<item n="74">
+					<ref type="parallelPassage"><bibl><title>4 Rg 25:27 factum est
+							vero</title></bibl><num>CXXXVIIII</num></ref>
+					<title>De ioachin in babylonem educto de carcere</title></item>
+			</list>
+
+			<trailer>
+				<app>
+					<lem rendition="#CU #red">EXPLICIUNT CAPITULA</lem>
+				</app>
+			</trailer>
+		</body>
+	</text>
+</TEI>
