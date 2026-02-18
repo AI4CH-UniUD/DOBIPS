@@ -5,6 +5,10 @@
     font-family: "Poppins";
 }
 
+body {
+    font-family: "Poppins";
+}
+
 #project-container {
     display: flex;
     margin-bottom: -20px;
