@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOBiPS</title>
+    <link rel="icon" href="images/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="logo" id="logo">
+    </header>
+    <main>
+        <div class="container">
+            <section>
+                <h1 id="title">DOBiPS - Data Oriented Biblical Paratexts Studies</h1>
+                <p>The project DOBiPS - Data Oriented Biblical Paratexts Studies was awarded for the 2023-2025 biennium to the research units of the <a href="https://www.uniud.it/it" target="_blank">University of Udine</a> and the <a href="https://www.unicas.it/" target="_blank">University of Cassino and Lazio Meridionale</a> under the competitive PRIN PNRR call - National Recovery and Resilience Plan, Mission 4 “Education and Research”, funded by the European Union - NextGenerationEU (protocol no. P2022ZW4AW).</p>
+                <p>The project was developed in partnership with the Interdepartmental Centre <a href="https://ai4ch.uniud.it/" target="_blank">AI4CH - Artificial Intelligence for Cultural Heritage</a> of the University of Udine and the <a href="https://www.unicas.it/liber/" target="_blank">Laboratorio L.I.Be.R. - Libro e Ricerca</a> of the University of Cassino and Lazio Meridionale.</p>
+            </section>
+            <section>
+                <p class="title">Project Overview</p>
+                <div id="project-container">
+                    <p>DOBiPS investigated the transmission and reception of Latin biblical paratexts, with particular focus on the capitula (chapter headings) of the Octateuch in the Tours, Atlantic, and Beneventan Bibles. The project combined traditional codicological, palaeographical, and philological methods with digital modelling of research objects and data, in dialogue with database design, artificial intelligence, and document analysis.</p>
+                    <img src="images/non_seg.jpg" alt="immagine non segmentata" id="img-non-seg">
+                    <img src="images/segmentata.png" alt="immagine segmentata" id="img-seg">
+                </div>
+                <p>The primary object of investigation was the paratexts of medieval biblical manuscripts. While theoretical reflection on paratexts has been shaped by modern literary theory, the study of manuscript traditions requires a recontextualisation of these models. In medieval biblical codices, textual authority and material transmission operate within a framework marked by the uniqueness of each manuscript witness and by the historical mobility of textual organisation.</p>
+                <p>Paratextual elements - such as capitula, tituli, rubrics, marginal annotations, script and decoration hierarchies - functioned as mediators between the biblical text and its readers across different historical contexts. Their analysis makes it possible to observe how the apparent stability of Scripture coexisted with continuous processes of material adaptation and functional transformation. The project addressed this dialectic through three interconnected research axes: digital editions, data modelling and database construction, and computational experimentation.</p>
+                <p>The research developed along three interconnected axes: <a href="#digital-editions" class="link-interni">digital editions</a>, <a href="#database" class="link-interni">database and data modelling</a>, and <a href="#ai-analysis" class="link-interni">AI-based layout analysis</a>.</p>
+            </section>
+            <section>
+                <p id="digital-editions" class="title">Digital Editions of the Capitula of the Octateuch</p>
+                <p>The first major outcome of the project was the production of open-access digital editions of the capitula transmitted in the Tours, Atlantic, and Beneventan Bibles.</p>
+                <p>The two research units jointly defined a shared analytical protocol specifying criteria for identifying and delimiting paratextual units, recording variants, aligning textual traditions, and documenting the relationship between paratext and biblical text. Two complementary encoding environments were adopted: </p>
+            </section>
+            <section>
+                <p class="title2">Tours Bibles (University of Udine)</p>
+                <p>The capitula were encoded in XML-TEI, allowing structured representation of hierarchical elements, explicit modelling of textual variants, and interoperability with digital philological tools. The editions were visualised using <a href="http://evt.labcd.unipi.it/" target="_blank">Edition Visualization Technology</a> (EVT), an open source tool specifically designed to create digital editions from TEI XML-encoded texts.</p>
+                <p>The criteria adopted for the XML-TEI editions were documented in a <a href="https://zenodo.org/records/16761174" target="_blank">working paper</a> deposited on Zenodo. <br> Access to the individual digital editions is provided below:</p>
+                <div class="link">
+                    <p><a href="https://ai4ch-uniud.github.io/DOBIPS/EVT_Genesis" target="_blank"><button class="button">Genesis</button></a></p>
+                    <p><a href="https://ai4ch-uniud.github.io/DOBIPS/evt_esodo" target="_blank"><button class="button">Exodus</button></a></p>
+                    <p><button class="button">Leviticus</button></p>
+                    <p><button class="button">Numeri</button></p>
+                    <p><a href="https://ai4ch-uniud.github.io/DOBIPS/evt_Deuteronomium" target="_blank"><button class="button">Deuteronomium</button></a></p>
+                    <p><a href="https://ai4ch-uniud.github.io/DOBIPS/evt_Iosue and the Tu series https://ai4ch-uniud.github.io/DOBIPS/evt_Iosue_Tu" target="_blank"><button class="button">Iosue</button></a></p>
+                    <p><button class="button">Iudices</button></p>
+                    <p><a href="https://ai4ch-uniud.github.io/DOBIPS/evt_Ruth" target="_blank"><button class="button">Ruth</button></a></p>
+                    <p class="text">+ digital edition of some <a href="https://ai4ch-uniud.github.io/DOBIPS/new_series" target="_blank"><strong>new series</strong> of <i>capitula</i></a></p>
+                </div>
+            </section>
+            <section>
+                <p class="title2" id="beneventan-bibles-title">Beneventan Bibles (University of Cassino)</p>
+                <p>The <i>capitula</i> were encoded in <a href="https://people.dm.unipi.it/maurolic/mtex/mtex.htm" target="_blank">MauroTex</a>. This system produced immediate HTML renderings and parallel PDF outputs, enabling direct browser-based consultation and controlled typographical presentation.</p>
+                <p>The MauroTex encoding guidelines are available in the project’s GitHub repository, where the PDF files generated from the encoding can also be downloaded. <br> Access to the individual digital editions is provided below:</p>
+                <div class="link">
+                    <p><a href="https://ai4ch-uniud.github.io/DOBIPS/Benev_Genesis_m2hv/" target="_blank"><button class="button">Genesis</button></a></p>
+                    <p><a href="https://ai4ch-uniud.github.io/DOBIPS/Benev_Exodus_m2hv/" target="_blank"><button class="button">Exodus</button></a></p>
+                    <p><a href="https://ai4ch-uniud.github.io/DOBIPS/Benev_Leviticus_m2hv/" target="_blank"><button class="button">Leviticus</button></a></p>
+                    <p><a href="https://ai4ch-uniud.github.io/DOBIPS/Benev_Numeri_m2hv/" target="_blank"><button class="button">Numeri</button></a></p>
+                    <p><a href="https://ai4ch-uniud.github.io/DOBIPS/Benev_Deuteronomium_m2hv/" target="_blank"><button class="button">Deuteronomium</button></a></p>
+                    <p><a href="https://ai4ch-uniud.github.io/DOBIPS/Benev_Iosue_m2hv/" target="_blank"><button class="button">Iosue</button></a></p>
+                    <p><a href="https://ai4ch-uniud.github.io/DOBIPS/Benev_Iudices_m2hv/" target="_blank"><button class="button">Iudices</button></a></p>
+                    <p><button class="button">Ruth</button></p>
+                </div>
+                <p class="text">The coexistence of XML-TEI and MauroTex allowed a methodological comparison of encoding strategies. XML-TEI provided high structural granularity and interoperability, particularly suited to complex variant modelling. MauroTex offered a streamlined editorial workflow oriented toward stable publication and readability. The comparison clarified the advantages and limitations of each approach in relation to manuscript paratexts.</p>
+                <p>Due to the internal heterogeneity of the Atlantic Bibles tradition, characterised by book-specific textual families, the project will produce a digital repository collating variants against the reference text of de Bruyne rather than producing a conventional critical edition.</p>
+                <p>All editions and source files were made available in Open Access through the project <a href="https://github.com/AI4CH-UniUD/DOBIPS" target="_blank">GitHub repository.</a></p>
+            </section>
+            <section>
+                <p id="database" class="title">Database and Data Modelling</p>
+                <p>The second research axis concerned the design and implementation of an open-access database of Latin biblical paratexts.</p>
+                <p>A formal ontology of paratextual elements was developed collaboratively and translated into an entity-relationship model. This work was carried out collaboratively by the two Operational Units, with the support of database and data-analysis specialists from the <a href="https://www.datasciencelabuniud.it/home" target="_blank">Data Science and Automatic Verification Laboratory</a> of the University of Udine.</p>
+                <p>The resulting dataset, comprising nearly 8,000 entries and covering almost all ninth-century biblical codices together with a substantial number of later witnesses (especially Atlantic and Beneventan Bibles), was organised according to explicit and reproducible criteria.</p>
+                <p>Open Access consultation has been implemented through <a href="https://docs.google.com/spreadsheets/d/1HE_5N_gPQpdfLqE0q2vamRSn0duRjP-b/edit?usp=drive_link&ouid=112466526441237418848&rtpof=true&sd=true" target="_blank">Google Sheets</a>, in accordance with a minimal-computing and sustainability-oriented approach.</p>
+                <p>A prototype SQL version was also implemented to enable structured queries and integration into computational workflows.</p>
+                <p>Further details are provided in <a href="https://ceur-ws.org/Vol-3937/paper12.pdf" target="_blank">this paper.</a></p>
+            </section>
+            <section>
+                <p id="ai-analysis" class="title">Artificial Intelligence and Computer Vision</p>
+                <p>The third axis of the project explored the application of Artificial Intelligence and Layout Document Analysis to biblical manuscripts.</p>
+                <p>In collaboration with the <a href="https://sites.google.com/view/avml-lab/home?authuser=0&pli=1" target="_blank">Artificial Vision and Machine Learning Laboratory</a> (University of Udine), the project prepared and released the <a href="https://sites.google.com/view/avml-lab-udiadsbib/home/" target="_blank">U-Diads Bib dataset</a>, segmented at pixel level and made available in Open Access.</p>
+                <p>Further details are provided in <a href="https://link.springer.com/article/10.1007/s00521-023-09356-5" target="_blank">this paper.</a></p>
+                <p>Few-shot learning approaches were tested in order to identify and classify paratextual categories - such as titles, capitula, glosses, and other non-main-text elements - on the basis of limited training data.</p>
+                <p>The AVML Lab also organised international competitions on manuscript segmentation and layout recognition (<a href="https://sites.google.com/view/avml-lab-sam-icdar2024/home" target="_blank">ICDAR 2024</a> and <a href="https://sites.google.com/view/avml-lab-fest-icdar2025/home?authuser=0" target="_blank">ICDAR 2025</a>), situating its work within broader research in document analysis.</p>
+            </section>
+            <section>
+                <p class="title">Dissemination and Training</p>
+                <p>Project results were presented at international conferences and workshops in manuscript studies, digital philology, document analysis, and artificial intelligence. A <a href="https://memo.unicas.it/storie/le-forme-del-manoscritto-biblico-un-seminario-che-apre-nuove-strade-alla-ricerca/" target="_blank">final three-day intensive workshop</a> on biblical manuscripts and digital tools was organised by the OU of Cassino and held at the University of Cassino and the Abbey of Montecassino, with accreditation for teacher training by the Italian Ministry of Education.</p>
+                <p>A complete list of publications related to the project is available <a href="publication-list.html" target="_blank">here</a>.</p>
+            </section>
+            <section>
+                <p class="title">Research Team</p>
+                <p class="title2">University of Udine</p>
+                <p><a href="https://dium.uniud.it/it/dium/persone/docenti-e-ricercatori/emanuela-colombi/" target="_blank">Emanuela Colombi</a>; <a href="https://dium.uniud.it/it/dium/persone/docenti-e-ricercatori/laura-casella/" target="_blank">Laura Casella</a>; <a href="https://dium.uniud.it/it/dium/persone/docenti-e-ricercatori/laura-pani/" target="_blank">Laura Pani</a>; <a href="https://people.uniud.it/page/gianluca.foresti" target="_blank">Gian Luca Foresti</a>; <a href="https://dium.uniud.it/it/dium/persone/giovani-studiosi/margherita-filippozzi/" target="_blank">Margherita Filippozzi</a>; <a href="https://dium.uniud.it/it/dium/persone/giovani-studiosi/silverio-franzoni/" target="_blank">Silverio Franzoni</a>.</p>
+                <p>Collaborators: <a href="https://dium.uniud.it/it/dium/persone/docenti-e-ricercatori/andrea-brunello/" target="_blank">Andrea Brunello</a>; <a href="https://sites.google.com/view/nicolasaccomanno/home-page/" target="_blank">Nicola Saccomanno</a>; <a href="https://people.uniud.it/page/claudio.piciarelli" target="_blank">Claudio Piciarelli</a>; <a href="https://dmif.uniud.it/it/didattica/dottorato/iai/dottorandi/silvia-zottin" target="_blank">Silvia Zottin</a>; <a href="https://www.aidlda.it/speaker/alex-de-nardin/" target="_blank">Axel De Nardin</a>; Matteo Raffin; Anna Chiarabba.</p>
+                <p class="title2">University of Cassino and Lazio Meridionale</p>
+                <p><a href="https://unicas-public.gomp.it/PublicData?mode=professor&name=Roberta&lastName=CASAVECCHIA&iso=ita" target="_blank">Roberta Casavecchia</a>; <a href="https://unicas-public.gomp.it/PublicData?mode=professor&name=Alessandra&lastName=PERI&iso=ita" target="_blank">Alessandra Peri</a>; <a href="https://unicas.academia.edu/GabriellaMacchiarelli" target="_blank">Gabriella Macchiarelli</a>; <a href="https://unicas.academia.edu/MaddalenaSparagna" target="_blank">Maddalena Sparagna</a>.</p>
+                <p>Collaborators: <a href="https://unicas-public.gomp.it/PublicData?mode=professor&name=Marilena&lastName=MANIACI&iso=ita" target="_blank">Marilena Maniaci</a>; <a href="https://studiumanistici.uniroma3.it/persone/VWNVUGFxbGJmcHY1SjgrOFhxTm5jR0JDLzdKTXVTRFcweEd4VVUrZ1AwQT0=/" target="_blank">Paolo D'Alessandro</a>; <a href="https://unich-it.academia.edu/AlessandroGelsumini" target="_blank">Alessandro Gelsumini</a>.</p>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026</p>
+    </footer>
+</body>
+</html>
