@@ -93,6 +93,10 @@ a {
     cursor: pointer;
 }
 
+.new-button {
+    background-color: rgb(135, 21, 21);
+}
+
 .link {
     max-width: 1200px;
     display: flex;
@@ -118,4 +122,53 @@ footer {
 
 #header-text {
     font-size: 23px;
+}
+
+#new-text {
+    margin-top: 50px;
+    margin-bottom: -10px;
+}
+
+.sigla-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1.5rem;
+    font-size: 0.95rem;
+    margin-left: 20px;
+}
+
+.sigla-table thead {
+    border-bottom: 2px solid #222;
+}
+
+.sigla-table th {
+    text-align: left;
+    padding: 0.6rem 0.4rem;
+    font-weight: 600;
+}
+
+.sigla-table td {
+    padding: 0.55rem 0.4rem;
+    vertical-align: top;
+}
+
+.sigla-table tbody tr {
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.sigla-table tbody tr:nth-child(even) {
+    background-color: #fafafa;
+}
+
+.sigla-table td:first-child {
+    width: 90px;
+    font-weight: 500;
+}
+
+.ul {
+    margin-bottom: -20px;
+}
+
+#link {
+    margin-bottom: 50px;
 }
